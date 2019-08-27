@@ -1,0 +1,10 @@
+{
+  "ofunk": {
+    "appgw_host": "appgw-client-a.ofunk.mr.tv3cloud.com",
+    "cert_url": "appgw-operatorstsssl-a.ofunk.mr.tv3cloud.com",
+    "channel_map_id": 2000019,
+    "launch_url": "http://reachclient.ofunk.mr.tv3cloud.com/",
+    "offer_id": 4000003,
+    "subscriber_cert_url": "appgw-stsssl-a.ofunk.mr.tv3cloud.com"
+  }
+}
