@@ -9,6 +9,8 @@
         "sourceType": "module"
     },
     "rules": {
+        "no-unused-vars": "warn",
+        "no-undef":"error",
         "getter-return": "error",
         "no-dupe-args":"error",
         "no-dupe-keys":"error",
@@ -19,6 +21,7 @@
         "no-dupe-class-members":"error",
         "no-const-assign":"error",
         "constructor-super":"error",
+        "no-async-promise-executor": "error",
         "indent": [
             2,
             4
@@ -43,6 +46,8 @@
         "import"
     ],
     "env": {
-        "jasmine": true
+        "node": true,
+        "jasmine": true,
+        "es6": true
     }
 }

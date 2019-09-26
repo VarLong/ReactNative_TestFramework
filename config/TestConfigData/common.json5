@@ -1,0 +1,1061 @@
+{
+    "rentPackage": {
+        "title": "TIP_MediaFirst_Automation_Test_Package",
+        "packageId": "48e89cc9-995c-4108-a46a-ed2dcedf9278",
+        "offerType": "Rent",
+        "titles": [
+            {
+                "title": "TIP_MediaFirst_Automation_Test_MultiOfferMovie",
+                "titleId": "Tv3Tip_TIP-1042"
+            },
+            {
+                "title": "TIP_MediaFirst_Automation_Test_MultiOfferTVShow",
+                "titleId": "Tv3Tip_TIP-1044"
+            },
+            {
+                "title": "TIP_MediaFirst_Automation_Test_PackageMovieOne",
+                "titleId": "Tv3Tip_TIP-1008"
+            },
+            {
+                "title": "TIP_MediaFirst_Automation_Test_PackageMovieTwo",
+                "titleId": "Tv3Tip_TIP-1009"
+            }
+        ]
+    },
+    "subscribeTVShow": {
+        "title": "TIP_MediaFirst_Automation_Test_OnlySubscribeTVShow",
+        "seiresId": "fake_1067_Tv3Tip",
+        "titleId": "Tv3Tip_TIP-1067"
+    },
+    "packageIncludes16Assets": {
+        "title": "TIP_MediaFirst_Automation_Test_PackageInclude16Assets",
+        "packageId": "80a855fc-f5b5-4ec2-93fc-233802d41749",
+        "offerType": "Rent",
+        "offerid": "59d8e0d6-3ea7-4630-acad-fbbc323658a8",
+        "titles": [
+            {
+                "title": "TIP_MediaFirst_Automation_Test_Movie1",
+                "titleId": "Tv3Tip_TIP-1018"
+            },
+            {
+                "title": "TIP_MediaFirst_Automation_Test_Movie2",
+                "titleId": "Tv3Tip_TIP-1019"
+            },
+            {
+                "title": "TIP_MediaFirst_Automation_Test_Movie3",
+                "titleId": "Tv3Tip_TIP-1020"
+            },
+            {
+                "title": "TIP_MediaFirst_Automation_Test_Movie4",
+                "titleId": "Tv3Tip_TIP-1021"
+            },
+            {
+                "title": "TIP_MediaFirst_Automation_Test_Movie5",
+                "titleId": "Tv3Tip_TIP-1022"
+            },
+            {
+                "title": "TIP_MediaFirst_Automation_Test_Movie6",
+                "titleId": "Tv3Tip_TIP-1023"
+            },
+            {
+                "title": "TIP_MediaFirst_Automation_Test_Movie7",
+                "titleId": "Tv3Tip_TIP-1024"
+            },
+            {
+                "title": "TIP_MediaFirst_Automation_Test_Movie8",
+                "titleId": "Tv3Tip_TIP-1025"
+            },
+            {
+                "title": "TIP_MediaFirst_Automation_Test_TVShow1",
+                "titleId": "Tv3Tip_TIP-1026"
+            },
+            {
+                "title": "TIP_MediaFirst_Automation_Test_TVShow2",
+                "titleId": "Tv3Tip_TIP-1027"
+            },
+            {
+                "title": "TIP_MediaFirst_Automation_Test_TVShow3",
+                "titleId": "Tv3Tip_TIP-1028"
+            },
+            {
+                "title": "TIP_MediaFirst_Automation_Test_TVShow4",
+                "titleId": "Tv3Tip_TIP-1029"
+            },
+            {
+                "title": "TIP_MediaFirst_Automation_Test_TVShow5",
+                "titleId": "Tv3Tip_TIP-1030"
+            },
+            {
+                "title": "TIP_MediaFirst_Automation_Test_TVShow6",
+                "titleId": "Tv3Tip_TIP-1031"
+            },
+            {
+                "title": "TIP_MediaFirst_Automation_Test_TVShow7",
+                "titleId": "Tv3Tip_TIP-1032"
+            },
+            {
+                "title": "TIP_MediaFirst_Automation_Test_TVShow8",
+                "titleId": "Tv3Tip_TIP-1033"
+            }
+        ]
+    },
+    "packageIncludes15Assets": {
+        "title": "TIP_MediaFirst_Automation_Test_PackageInclude15Assets",
+        "packageId": "dd9093b0-4a9a-4578-818e-f8ee747452a9",
+        "offerType": "Purchase",
+        "titles": [
+            {
+                "titleId": "Tv3Tip_TIP-1018",
+                "title": "TIP_MediaFirst_Automation_Test_Movie1"
+            },
+            {
+                "title": "TIP_MediaFirst_Automation_Test_Movie2",
+                "titleId": "Tv3Tip_TIP-1019"
+            },
+            {
+                "title": "TIP_MediaFirst_Automation_Test_Movie3",
+                "titleId": "Tv3Tip_TIP-1020"
+            },
+            {
+                "title": "TIP_MediaFirst_Automation_Test_Movie4",
+                "titleId": "Tv3Tip_TIP-1021"
+            },
+            {
+                "titleId": "Tv3Tip_TIP-1022",
+                "title": "TIP_MediaFirst_Automation_Test_Movie5"
+            },
+            {
+                "title": "TIP_MediaFirst_Automation_Test_Movie6",
+                "titleId": "Tv3Tip_TIP-1023"
+            },
+            {
+                "titleId": "Tv3Tip_TIP-1024",
+                "title": "TIP_MediaFirst_Automation_Test_Movie7"
+            },
+            {
+                "title": "TIP_MediaFirst_Automation_Test_TVShow1",
+                "titleId": "Tv3Tip_TIP-1026"
+            },
+            {
+                "title": "TIP_MediaFirst_Automation_Test_TVShow2",
+                "titleId": "Tv3Tip_TIP-1027"
+            },
+            {
+                "titleId": "Tv3Tip_TIP-1028",
+                "title": "TIP_MediaFirst_Automation_Test_TVShow3"
+            },
+            {
+                "title": "TIP_MediaFirst_Automation_Test_TVShow4",
+                "titleId": "Tv3Tip_TIP-1029"
+            },
+            {
+                "title": "TIP_MediaFirst_Automation_Test_TVShow5",
+                "titleId": "Tv3Tip_TIP-1030"
+            },
+            {
+                "title": "TIP_MediaFirst_Automation_Test_TVShow6",
+                "titleId": "Tv3Tip_TIP-1031"
+            },
+            {
+                "titleId": "Tv3Tip_TIP-1032",
+                "title": "TIP_MediaFirst_Automation_Test_TVShow7"
+            },
+            {
+                "title": "TIP_MediaFirst_Automation_Test_TVShow8",
+                "titleId": "Tv3Tip_TIP-1033"
+            }
+        ]
+    },
+    "rentTVShowPackage": {
+        "title": "TIP_MediaFirst_Automation_Test_TVShowPackage",
+        "packageId": "60897257-bda9-4b65-8da7-5e5393b799cc",
+        "offerType": "Rent",
+        "offerid": "9678f9ac-f262-4754-afc0-00bdee872dc9",
+        "titles": [
+            {
+                "titleId": "Tv3Tip_TIP-1005",
+                "title": "TIP_MediaFirst_Automation_Test_RentableTVShow"
+            },
+            {
+                "title": "TIP_MediaFirst_Automation_Test_BuyableTVShow",
+                "titleId": "Tv3Tip_TIP-1013"
+            },
+            {
+                "title": "TIP_MediaFirst_Automation_Test_SearchableShow",
+                "titleId": "Tv3Tip_TIP-1007"
+            },
+            {
+                "title": "TIP_MediaFirst_Automation_Test_TVShow1",
+                "titleId": "Tv3Tip_TIP-1026"
+            },
+            {
+                "titleId": "Tv3Tip_TIP-1027",
+                "title": "TIP_MediaFirst_Automation_Test_TVShow2"
+            }
+        ]
+    },
+    "freePackage": {
+        "title": "TIP_MediaFirst_Automation_Test_FreePackage",
+        "packageId": "d913ec40-5f6d-49d0-9272-7beb00c7a70c",
+        "offerType": "Free",
+        "titles": [
+            {
+                "titleId": "Tv3Tip_TIP-1068",
+                "title": "TIP_MediaFirst_Automation_Test_MovieInFreePackage"
+            },
+            {
+                "title": "TIP_MediaFirst_Automation_Test_TVShowInFreePackage",
+                "titleId": "Tv3Tip_TIP-1069"
+            }
+        ]
+    },
+    "pbrPackage": {
+        "title": "TIP_MediaFirst_Automation_Test_PBRPackage",
+        "packageId": "3d2d305a-a575-47fd-a86a-02cd55d217de",
+        "offerType": "Rent",
+        "offerRestrictions": [
+            "deviceBrowser",
+            "devicePhone",
+            "outputHdmi",
+            "deviceTablet"
+        ],
+        "titles": [
+            {
+                "titleId": "Tv3Tip_TIP-1026",
+                "title": "TIP_MediaFirst_Automation_Test_TVShow1"
+            },
+            {
+                "title": "TIP_MediaFirst_Automation_Test_TVShow2",
+                "titleId": "Tv3Tip_TIP-1027"
+            },
+            {
+                "title": "TIP_MediaFirst_Automation_Test_OneMinuteRentableMovie",
+                "titleId": "Tv3Tip_TIP-1010"
+            },
+            {
+                "title": "TIP_MediaFirst_Automation_Test_OneMinuteRentableTVShow",
+                "titleId": "Tv3Tip_TIP-1011"
+            }
+        ],
+        "offers": [
+            {
+                "offerType": "Rent",
+                "QualitysLevel": [
+                    "SD",
+                    "HD",
+                    "ReachHD"
+                ]
+            }
+        ]
+    },
+    "rentAndFreeOfferPackage": {
+        "title": "TIP_MediaFirst_Automation_Test_RentAndFreeOfferPackage",
+        "packageId": "470ddaac-2a32-46e2-aae5-654fa6062ca6",
+        "offerType": "Free, Rent, Purchase",
+        "titles": [
+            {
+                "title": "TIP_MediaFirst_Automation_Test_MovieInFreeAndRentPackage",
+                "titleId": "Tv3Tip_TIP-1070"
+            },
+            {
+                "title": "TIP_MediaFirst_Automation_Test_TVShowInFreeAndRentPackage",
+                "titleId": "Tv3Tip_TIP-1071"
+            }
+        ],
+        "offers": [
+            {
+                "offerType": "Purchase",
+                "QualitysLevel": [
+                    "HD",
+                    "ReachHD"
+                ]
+            },
+            {
+                "offerType": "Rent",
+                "QualitysLevel": [
+                    "HD",
+                    "ReachHD"
+                ]
+            },
+            {
+                "offerType": "Free",
+                "QualitysLevel": [
+                    "HD",
+                    "SD",
+                    "ReachHD"
+                ]
+            }
+        ]
+    },
+    "pbrSvodPackage": {
+        "title": "TIP_MediaFirst_Automation_Test_PBRSvodPackage",
+        "packageId": "d181fa7b-aa82-49f6-ac39-11ab5280ac62",
+        "type": "SVodPackage",
+        "offerType": "Free",
+        "offerRestrictions": [
+            "deviceBrowser",
+            "devicePhone",
+            "outputHdmi",
+            "deviceTablet"
+        ],
+        "titles": [
+            {
+                "titleId": "Tv3Tip_TIP-1025",
+                "title": "TIP_MediaFirst_Automation_Test_Movie8"
+            }
+        ]
+    },
+    "svodPackage": {
+        "title": "TIP_MediaFirst_Automation_Test_SVODPackage",
+        "packageId": "86056443-ef88-4aa6-b095-be07fabd7060",
+        "type": "SVodPackage",
+        "offerType": "Subscription",
+        "includeMovie": "TIP_MediaFirst_Automation_Test_OneMinuteRentableMovie",
+        "includeTVShow": "TIP_MediaFirst_Automation_Test_OneMinuteRentableTVShow",
+        "titles": [
+            {
+                "title": "TIP_MediaFirst_Automation_Test_OneMinuteRentableMovie",
+                "titleId": "Tv3Tip_TIP-1010"
+            },
+            {
+                "title": "TIP_MediaFirst_Automation_Test_OneMinuteRentableTVShow",
+                "titleId": "Tv3Tip_TIP-1011"
+            },
+            {
+                "title": "TIP_MediaFirst_Automation_Test_FreeMovie",
+                "titleId": "Tv3Tip_TIP-1001"
+            },
+            {
+                "title": "TIP_MediaFirst_Automation_Test_MultiOfferMovie",
+                "titleId": "Tv3Tip_TIP-1042"
+            },
+            {
+                "title": "TIP_MediaFirst_Automation_Test_OnlySubscribeMovie",
+                "titleId": "Tv3Tip_TIP-1055"
+            },
+            {
+                "title": "TIP_MediaFirst_Automation_Test_OnlySubscribeTVShow",
+                "titleId": "Tv3Tip_TIP-1067"
+            }
+        ],
+        "offers": [
+            {
+                "offerType": "Subscription",
+                "QualitysLevel": [
+                    "UHD",
+                    "ReachUHD",
+                    "SD",
+                    "ReachSD",
+                    "HD",
+                    "ReachHD"
+                ]
+            }
+        ]
+    },
+    "SubscriptionApp": {
+        "Name": "Subscription App",
+        "id": "d67d04aa-f7a4-48e2-92a7-dcea22db513a",
+        "urlType": "HTML5",
+        "url": "apps/examples/components/example_browseview.html",
+        "usage": "Subscribe"
+    },
+    "networkSvodPackage": {
+        "title": "Test_MediaFirst_Automation_Test_NetworkSVODPackage",
+        "packageId": "cdeffb5d-00cf-4812-8a9e-cefbc89b1322",
+        "type": "SVodPackage",
+        "offerType": "Subscription",
+        "applications": [
+            "SubscriptionApp"
+        ],
+        "includeMovie": "TIP_MediaFirst_Automation_Test_OnlySubscribeMovie",
+        "includeTVShow": "TIP_MediaFirst_Automation_Test_TVShow1",
+        "includeMovieProgramId": "fake_TIP-1055_Tv3Tip",
+        "includeTVShowProgramId": "fake_TIP-1026_Tv3Tip",
+        "titles": [
+            {
+                "title": "TIP_MediaFirst_Automation_Test_OnlySubscribeMovie",
+                "titleId": "Tv3Tip_TIP-1055"
+            },
+            {
+                "title": "TIP_MediaFirst_Automation_Test_Movie2",
+                "titleId": "Tv3Tip_TIP-1019"
+            },
+            {
+                "title": "TIP_MediaFirst_Automation_Test_TVShow1",
+                "titleId": "Tv3Tip_TIP-1026"
+            },
+            {
+                "title": "TIP_MediaFirst_Automation_Test_OneMinuteRentableTVShow",
+                "titleId": "Tv3Tip_TIP-1011"
+            }
+        ],
+        "offers": [
+            {
+                "offerType": "Subscription",
+                "QualitysLevel": [
+                    "UHD",
+                    "ReachUHD",
+                    "SD",
+                    "ReachSD",
+                    "HD",
+                    "ReachHD"
+                ]
+            }
+        ]
+    },
+    "categoryPackage": {
+        "title": "Category View Package",
+        "packageId": "bc2e9c90-b904-4a69-8b01-02793f706cda",
+        "type": "SVodPackage",
+        "offerType": "Free",
+        "titles": [
+            {
+                "title": "TIP_MediaFirst_Automation_Test_FreeMovie",
+                "titleId": "Tv3Tip_TIP-1001"
+            },
+            {
+                "title": "TIP_MediaFirst_Automation_Test_FreeMoviePG13",
+                "titleId": "Tv3Tip_TIP-1052"
+            },
+            {
+                "title": "TIP_MediaFirst_Automation_Test_FreeMovieUnrated",
+                "titleId": "Tv3Tip_TIP-1051"
+            },
+            {
+                "title": "TIP_MediaFirst_Automation_Test_FreeTrailerTVShow",
+                "titleId": "Tv3Tip_TIP-1062"
+            },
+            {
+                "title": "TIP_MediaFirst_Automation_Test_FreeTVShow",
+                "titleId": "Tv3Tip_TIP-1006"
+            },
+            {
+                "title": "TIP_MediaFirst_Automation_Test_FreeTVShow_Comedy",
+                "titleId": "Tv3Tip_TIP-1049"
+            },
+            {
+                "title": "TIP_MediaFirst_Automation_Test_FreeTVShowTV14",
+                "titleId": "Tv3Tip_TIP-1054"
+            },
+            {
+                "title": "TIP_MediaFirst_Automation_Test_FreeTVShowUnrated",
+                "titleId": "Tv3Tip_TIP-1053"
+            },
+            {
+                "title": "TIP_MediaFirst_Automation_Test_TabletBlockedMovie",
+                "titleId": "Tv3Tip_TIP-1040"
+            },
+            {
+                "title": "TIP_MediaFirst_Automation_Test_BrowserBlockedMovie",
+                "titleId": "Tv3Tip_TIP-1036"
+            },
+            {
+                "title": "TIP_MediaFirst_Automation_Test_WifiBlockedMovie",
+                "titleId": "Tv3Tip_TIP-1041"
+            }
+        ]
+    },
+    "freeSvodPackage": {
+        "title": "TIP_MediaFirst_Automation_Test_FreeSVODPackage",
+        "packageId": "cd74f819-66cc-403a-bb77-7142fbe86715",
+        "type": "SVodPackage",
+        "includeMovie": "TIP_MediaFirst_Automation_Test_RentableMovieInFreeSVOD",
+        "includeTVShow": "TIP_MediaFirst_Automation_Test_RentableTVShowInFreeSVOD",
+        "offerType": "Free",
+        "titles": [
+            {
+                "title": "TIP_MediaFirst_Automation_Test_RentableMovieInFreeSVOD",
+                "titleId": "Tv3Tip_TIP-1034"
+            },
+            {
+                "title": "TIP_MediaFirst_Automation_Test_RentableTVShowInFreeSVOD",
+                "titleId": "Tv3Tip_TIP-1035"
+            }
+        ]
+    },
+    "searchString": {
+        "stringForSort": "story",
+        "dynamicPreSearchString": "tipmediafirstautomationtestfreem",
+        "dynamicAfterSearchString": "tipmediafirstautomationtest"
+    },
+    "proxyServerInfo": {
+        "ip": "10.82.69.67",
+        "port": "8009"
+    },
+    "subscriberContinueItem": {
+        "Id": "Tv3Tip_TIP-1013",
+        "ItemType": "Title",
+        "IsPinned": true,
+        "Bookmark": {
+            "TimeSeconds": 30
+        },
+        "PlayActions": [
+            {
+                "VideoProfile": {
+                    "PlaybackUri": "http://mringfunk.streaming.mediaservices.windows.net/67b53e2c-1603-46a7-b0dd-d22590b48707/hv5_MenInBlack3_trailer.ism/manifest",
+                    "PlaybackOrigin": "AZURE",
+                    "Id": "Tv3Tip_TIP-1013_SmoothStreaming_Stb_HD",
+                    "Encoding": "SmoothStreaming",
+                    "QualityLevel": "HD",
+                    "ClientType": "Stb"
+                },
+                "ExpirationUtc": "2021-01-31T00:00:00Z",
+                "TimeToExpiry": "1319.22:27:44.3861208",
+                "HoursToExpiry": 31678,
+                "StartUtc": "2017-05-31T12:11:02.802Z",
+                "TransactionType": "Purchase",
+                "Restrictions": [],
+                "Terms": "Standard offer T&Cs apply"
+            },
+            {
+                "VideoProfile": {
+                    "PlaybackUri": "http://mringfunk.streaming.mediaservices.windows.net/22e6a178-ca29-4252-a868-5e6e36d40af4/sv5_MenInBlack3_trailer.ism/manifest",
+                    "PlaybackOrigin": "AZURE",
+                    "Id": "Tv3Tip_TIP-1013_SmoothStreaming_Stb_SD",
+                    "Encoding": "SmoothStreaming",
+                    "QualityLevel": "SD",
+                    "ClientType": "Stb"
+                },
+                "ExpirationUtc": "2021-01-31T00:00:00Z",
+                "TimeToExpiry": "1319.22:27:44.3861208",
+                "HoursToExpiry": 31678,
+                "StartUtc": "2017-05-31T12:11:02.802Z",
+                "TransactionType": "Purchase",
+                "Restrictions": [],
+                "Terms": "Standard offer T&Cs apply"
+            },
+            {
+                "VideoProfile": {
+                    "PlaybackUri": "http://mringfunk.streaming.mediaservices.windows.net/bd718611-20b8-45cc-a8e2-596b4c10168e/",
+                    "PlaybackOrigin": "AZURE",
+                    "Id": "Tv3Tip_TIP-1013_Hls_Reach_HD",
+                    "Encoding": "Hls",
+                    "QualityLevel": "ReachHD",
+                    "ClientType": "Reach"
+                },
+                "ExpirationUtc": "2021-01-31T00:00:00Z",
+                "TimeToExpiry": "1319.22:27:44.3861208",
+                "HoursToExpiry": 31678,
+                "StartUtc": "2017-05-31T12:11:02.802Z",
+                "TransactionType": "Purchase",
+                "Restrictions": [],
+                "Terms": "Standard offer T&Cs apply"
+            }
+        ],
+        "IsGeoBlocked": false,
+        "CatalogInfo": {
+            "Name": "TIP_MediaFirst_Automation_Test_BuyableTVShow",
+            "ShowType": "TVShow",
+            "UniversalProgramId": "fake_TIP-1013_Tv3Tip",
+            "RuntimeSeconds": 150,
+            "Network": "",
+            "Zoetrope": "",
+            "Images": [
+                {
+                    "Size": "XSmall",
+                    "ImageType": "PosterLandscape",
+                    "Uri": "https://appgw-client-a.funk.mr.tv3cloud.com/images/images/series/fake-1013-tv3tip/posterlandscapexsmall.jpg",
+                    "Height": "",
+                    "Width": ""
+                },
+                {
+                    "Size": "Medium",
+                    "ImageType": "PosterLandscape",
+                    "Uri": "https://appgw-client-a.funk.mr.tv3cloud.com/images/images/series/fake-1013-tv3tip/posterlandscapemedium.jpg",
+                    "Height": "",
+                    "Width": ""
+                }
+            ],
+            "SupportedImages": [
+                "2x3/Poster",
+                "PosterLandscape"
+            ],
+            "Ratings": [
+                {
+                    "System": "Canada",
+                    "Value": "PG"
+                }
+            ],
+            "Tags": [
+                "Feature"
+            ],
+            "IsNew": false,
+            "IsAdult": false,
+            "ReleaseYear": 2016,
+            "SeriesId": "fake_1013_Tv3Tip",
+            "EpisodeName": "Test",
+            "SeasonNumber": 1,
+            "EpisodeNumber": "1",
+            "NewEpisodeCount": 0,
+            "Locale": "en-us"
+        }
+    },
+    "LiveTVPromotionHubFeed": {
+        "HubName": "Live TV",
+        "FeedName": "Live TV Promotion Test Feed"
+    },
+    "multiOfferMovie": {
+        "offers": [
+            {
+                "offerType": "Purchase",
+                "QualitysLevel": [
+                    "HD",
+                    "ReachHD"
+                ]
+            },
+            {
+                "offerType": "Rent",
+                "QualitysLevel": [
+                    "HD",
+                    "ReachHD"
+                ]
+            },
+            {
+                "offerType": "Purchase",
+                "QualitysLevel": [
+                    "SD"
+                ]
+            },
+            {
+                "offerType": "Rent",
+                "QualitysLevel": [
+                    "SD"
+                ]
+            }
+        ]
+    },
+    "multiOfferTVShow": {
+        "offers": [
+            {
+                "offerType": "Purchase",
+                "QualitysLevel": [
+                    "SD",
+                    "HD",
+                    "ReachHD"
+                ]
+            },
+            {
+                "offerType": "Rent",
+                "QualitysLevel": [
+                    "HD",
+                    "ReachHD"
+                ]
+            }
+        ]
+    },
+    "rentalbleTabletBlockedMovie": {
+        "offers": [
+            {
+                "offerType": "Rent",
+                "QualitysLevel": [
+                    "HD",
+                    "ReachHD"
+                ]
+            },
+            {
+                "offerType": "Rent",
+                "QualitysLevel": [
+                    "SD",
+                    "ReachHD"
+                ]
+            }
+        ]
+    },
+    "rentalbleBrowserPhoneBlockedMovie": {
+        "offers": [
+            {
+                "offerType": "Rent",
+                "QualitysLevel": [
+                    "HD",
+                    "ReachHD"
+                ]
+            },
+            {
+                "offerType": "Rent",
+                "QualitysLevel": [
+                    "SD",
+                    "ReachHD"
+                ]
+            }
+        ]
+    },
+    "featureGroups": {
+        "isTestEnv": false,
+        "playonButtonTest": {
+            "Name": "playonButtonTest",
+            "features": [
+                "comphost",
+                "identity",
+                "oneClickShowcards",
+                "playonButtonNew"
+            ]
+        },
+        "browseBarTest": {
+            "Name": "browseBar",
+            "features": [
+                "browseBar",
+                "catchup",
+                "recentlyAiredFullGuide"
+            ]
+        },
+        "CodeDeviceLinkingTest": {
+            "Name": "CodeDeviceLinking",
+            "features": [
+                "codeDeviceLinking"
+            ]
+        },
+        "CompanionTest": {
+            "Name": "CompanionTest",
+            "features": [
+                "comphost",
+                "identity"
+            ]
+        },
+        "canvasFilmstrip": {
+            "Name": "canvasFilmstrip",
+            "features": [
+                "1FTHubsFeeds",
+                "identity"
+            ]
+        },
+        "downloadAndGo": {
+            "Name": "DownloadAndGo",
+            "features": [
+                "DownloadAndGo",
+                "1FTHubsFeeds"
+            ]
+        },
+        "canvasFilmstripGroup": {
+            "Name": "canvasFilmstripGroup",
+            "features": [
+                "1FTHubsFeeds",
+                "catchup",
+                "catchupByPopularity",
+                "catchupEnvironment",
+                "oneClickShowcards"
+            ]
+        },
+        "guideExpandedRowTest": {
+            "Name": "ExpandedGuideRow",
+            "features": [
+                "guideExpandedRow"
+            ]
+        },
+        "guidePersistentFilters": {
+            "Name": "guidePersistentFilters",
+            "features": [
+                "guidePersistentFilters",
+                "browseBar"
+            ]
+        },
+        "canvasOneClickShowcards": {
+            "Name": "canvasOneClickShowcards",
+            "features": [
+                "oneClickShowcards",
+                "catchup",
+                "catchupByPopularity",
+                "catchupEnvironment"
+            ]
+        },
+        "onlyOneClickShowcards": {
+            "Name": "onlyOneClickShowcards",
+            "features": [
+                "oneClickShowcards"
+            ]
+        },
+        "recentlyAiredGuideTest": {
+            "Name": "RecentlyAiredGuide",
+            "features": [
+                "catchup",
+                "recentlyAiredFullGuide",
+                "catchupEnvironment"
+            ]
+        },
+        "requestAcceptanceForCatchUpTerms": {
+            "Name": "requestAcceptanceForCatchUpTerms",
+            "features": [
+                "RequestAcceptanceForCatchUpTerms"
+            ]
+        },
+        "onNowGuideDisabled": {
+            "Name": "onNowGuideDisabled",
+            "features": [
+                "onNowGuideDisabled"
+            ]
+        },
+        "onNowPeekWithOnNowGuideDisabled": {
+            "Name": "onNowPeekWithOnNowGuideDisabled",
+            "features": [
+                "onNowGuideDisabled",
+                "onNowPeek",
+                "guidePersistentFilters"
+            ]
+        },
+        "CatchupAndLiveTimeshift": {
+            "Name": "CatchupAndLiveTimeshift",
+            "features": [
+                "catchup",
+                "livetimeshift"
+            ]
+        },
+        "AdultMultiPINShieldTest": {
+            "Name": "AdultMultiPINShieldTest",
+            "features": [
+                "adultstoreenabled",
+                "MultiplePIN"
+            ]
+        },
+        "AdultShieldTest": {
+            "Name": "AdultShieldTest",
+            "features": [
+                "adultstoreenabled"
+            ]
+        },
+        "MultiplePIN": {
+            "Name": "MultiplePIN",
+            "features": [
+                "MultiplePIN"
+            ]
+        },
+        "profiles": {
+            "Name": "profiles",
+            "features": [
+                "identity"
+            ]
+        },
+        "profilesWithCustomization": {
+            "Name": "profilesWithCustomization",
+            "features": [
+                "identity",
+                "profileOptInOptOut"
+            ]
+        },
+        "profilePersonalization": {
+            "Name": "profilePersonalization",
+            "features": [
+                "profileOptInOptOut"
+            ]
+        },
+        "catchupProfile": {
+            "Name": "catchupProfile",
+            "features": [
+                "browseBar",
+                "catchup",
+                "catchupByPopularity",
+                "catchupEnvironment",
+                "identity",
+                "catchupTermsAcceptanceRequired"
+            ]
+        },
+        "bingeWatch": {
+            "Name": "bingeWatch",
+            "features": [
+                "bingeBar",
+                "catchup",
+                "catchupByPopularity",
+                "catchupEnvironment"
+            ]
+        },
+        "SwimlanesForSearch": {
+            "Name": "SwimlanesForSearch",
+            "features": [
+                "swimlanesSearch"
+            ]
+        },
+        "ShowKeyBoard": {
+            "Name": "ShowKeyBoard",
+            "features": [
+                "adultstoreenabled",
+                "ShowKeyBoard"
+            ]
+        },
+        "MultiPinWithKeyboard": {
+            "Name": "MultiPinWithKeyboard",
+            "features": [
+                "adultstoreenabled",
+                "MultiplePIN",
+                "ShowKeyBoard"
+            ]
+        },
+        "DeviceManagement": {
+            "Name": "DeviceManagement",
+            "features": [
+                "DeviceManagement"
+            ]
+        },
+        "ProgramReminders": {
+            "Name": "ProgramReminders",
+            "features": [
+                "ProgramReminders"
+            ]
+        },
+        "SocialSharingGroup": {
+            "Name": "SocialSharingGroup",
+            "features": [
+                "facebookShare",
+                "twitterShare"
+            ]
+        },
+        "ViewConcurrentUsers": {
+            "Name": "ViewConcurrentUsers",
+            "features": [
+                "ViewConcurrentUsers"
+            ]
+        },
+        "SendNativeNotification": {
+            "Name": "SendNativeNotification",
+            "features": [
+                "MessagingApp"
+            ]
+        },
+        "HideChannelNumbers": {
+            "Name": "HideChannelNumbers",
+            "features": [
+                "HideChannelNumbers"
+            ]
+        },
+        "RoviBanner": {
+            "Name": "RoviBanner",
+            "features": [
+                "RoviBanner"
+            ]
+        },
+        "RatingByAge": {
+            "Name": "RatingByAge",
+            "features": [
+                "RatingByAge",
+                "catchup",
+                "catchupEnvironment"
+            ]
+        },
+        "NewDvrManager": {
+            "Name": "New DVR Manager",
+            "features": [
+                "newDvrManager"
+            ]
+        },
+        "canvasOneClickShowcards": {
+            "Name": "canvasOneClickShowcards",
+            "features": [
+                "oneClickShowcards",
+                "catchup",
+                "catchupByPopularity",
+                "catchupEnvironment"
+            ]
+        },
+        "canvasGuideBrowserbar": {
+            "Name": "canvasGuideBrowserbar",
+            "features": [
+                "livetimeshift",
+                "browseBar"
+            ]
+        },
+        "canvasGuideMultiPin": {
+            "Name": "canvasGuideMultiPin",
+            "features": [
+                "catchup",
+                "catchupEnvironment",
+                "MultiplePIN",
+                "browseBar"
+            ]
+        },
+        "OTT_TELUS": {
+            "Name": "OTT_TELUS",
+            "features": [
+                "AutoFavorite",
+                "autoplay",
+                "comphost",
+                "DeviceManagement",
+                "DVR",
+                "liverights",
+                "MultiplePIN",
+                "oneClickShowcards",
+                "pinunpinnotification",
+                "recentlyAiredFullGuide",
+                "SingleTenantEnvironment",
+                "subscribedChannelsFilterEnabled",
+                "swimlanesSearch",
+                "SwipeGuide1hr",
+                "voice",
+                "adultstoreenabled",
+                "AudioChannel",
+                "browseBar",
+                "newDvrManager",
+                "skipNonSubscribedChannels"
+            ]
+        },
+        "TELUS": {
+            "Name": "TELUS",
+            "features": [
+                "AutoFavorite",
+                "autoplay",
+                "comphost",
+                "dvr",
+                "liverights",
+                "MultiplePIN",
+                "nocompanion",
+                "oneClickShowcards",
+                "pinunpinnotification",
+                "subscribedChannelsFilterEnabled",
+                "swipeChannelChange",
+                "SwipeGuide1hr",
+                "voice",
+                "AudioChannel",
+                "browseBar",
+                "newDvrManager",
+                "skipNonSubscribedChannels"
+            ]
+        },
+        "dvrConflictResolution": {
+            "Name": " NEW DVR and Conflict resolution",
+            "features": [
+                "newDvrManager"
+            ]
+        },
+        "DownloadAndGo": {
+            "Name": "DownloadAndGo",
+            "features": [
+                "DownloadAndGo",
+                "1FTHubsFeeds"
+            ]
+        },
+        "Reminders_RatingByAge": {
+            "Name": "Reminders_RatingByAge",
+            "features": [
+                "ProgramReminders",
+                "RatingByAge"
+            ]
+        },
+        "DVRManagerStickyExpandedCell": {
+            "Name": "DVRManagerStickyExpandedCell",
+            "features": [
+                "DVRManagerStickyExpandedCell"
+            ]
+        },
+        "LastWatched": {
+            "Name": "LastWatched",
+            "features": [
+                "lastWatched"
+            ]
+        },
+        "dvrPlayBack": {
+            "Name": "Enigma_HTML5_player",
+            "features": [
+                "Enigma_HTML5_player"
+            ]
+        },
+        "ManualRecordingForReachClient": {
+            "Name": "ManualRecordingForReachClient",
+            "features": [
+                "enableManualRecording"
+            ]
+        },
+        "channelSwipe": {
+            "Name": "Enable_Swipe",
+            "features": [
+                "identity",
+                "swipeChannelChange"
+            ]
+        }
+    }
+}

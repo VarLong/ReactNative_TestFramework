@@ -1,0 +1,2985 @@
+{
+    "dvrGoldenThreads": {
+        "tv2_enabled": true,
+        "tv3_enabled": true,
+        "dvr_channelmapgroup_id": "2000019",
+        "offer_id": "4000005",
+        "subscription_offer_id": "4000000",
+        "cloud_scheduler_feature_group": "Cloud_Scheduler",
+        "recorder_id": "ofunk01-recorder-scs",
+        "count": 3,
+        "tv2": {
+            "count": 3,
+            "dvr_channelmapgroup_id": "2000019",
+            "offer_id": "4000005",
+            "tv2AccountPool": [
+                {
+                    "accountId": "nightwatch1",
+                    "branchId": "9124ebe7-49c7-4964-ba27-94fc68890fdf"
+                },
+                {
+                    "accountId": "nightwatch2",
+                    "branchId": "9124ebe7-49c7-4964-ba27-94fc68890fdf"
+                },
+                {
+                    "accountId": "nightwatch3",
+                    "branchId": "9124ebe7-49c7-4964-ba27-94fc68890fdf"
+                },
+                {
+                    "accountId": "nightwatch4",
+                    "branchId": "9124ebe7-49c7-4964-ba27-94fc68890fdf"
+                },
+                {
+                    "accountId": "nightwatch5",
+                    "branchId": "9124ebe7-49c7-4964-ba27-94fc68890fdf"
+                },
+                {
+                    "accountId": "nightwatch6",
+                    "branchId": "9124ebe7-49c7-4964-ba27-94fc68890fdf"
+                },
+                {
+                    "accountId": "nightwatch7",
+                    "branchId": "9124ebe7-49c7-4964-ba27-94fc68890fdf"
+                },
+                {
+                    "accountId": "nightwatch8",
+                    "branchId": "9124ebe7-49c7-4964-ba27-94fc68890fdf"
+                },
+                {
+                    "accountId": "nightwatch9",
+                    "branchId": "9124ebe7-49c7-4964-ba27-94fc68890fdf"
+                },
+                {
+                    "accountId": "nightwatch10",
+                    "branchId": "9124ebe7-49c7-4964-ba27-94fc68890fdf"
+                }
+            ]
+        },
+        "dvrSubscriptions": {
+            "offerId": "e3199202-d2d5-4aac-90e4-cd1c6246d7b7"
+        }
+    },
+    "packageIncludes16Assets": {
+        "packageId": "5c91682c-22fa-40ff-85f4-0f1686ca5860",
+        "offerid": "040c674a-595a-4624-9ead-c31dbb96af89"
+    },
+    "packageIncludes15Assets": {
+        "packageId": "a83254a9-9f5f-47cb-906a-d55eef1cb792",
+        "offerid": "864cc4df-c9f5-4fda-bfbf-53103f7fef52"
+    },
+    "offerGroupConfig": {
+        "offer_group_id": "13"
+    },
+    "viewServiceConfig": {
+        "viewServiceHost": "requirementviewintmrusw.cloudapp.net",
+        "viewServicePort": "",
+        "offer_id": "2",
+        "actionMoviewithratingsandrelated": {
+            "titleid": "ironman"
+        },
+        "Moviewithrottentomato": {
+            "titleid": "manofsteel"
+        },
+        "Moviewithcastandcrew": {
+            "titleid": "bladerunner"
+        },
+        "Moviewithplayabletrailer": {
+            "titleid": "bladerunner"
+        }
+    },
+    "nDvrConfig": {
+        "cloud_scheduler_feature_group": "Cloud_Scheduler",
+        "recorder_id": "ofunk01-recorder-scs",
+        "dvr_channelmapgroup_id": "2000019",
+        "offer_id": "3",
+        "subscription_offer_id": "4000000",
+        "first_recording_duration_ms": 60000,
+        "second_recording_duration_ms": 90000,
+        "vspp_notification_delay_ms": 120000,
+        "shared_copy_channel_number": "403"
+    },
+    "freeBrowserBlockedMovie": {
+        "title": "TIP_MediaFirst_Automation_Test_BrowserBlockedMovie",
+        "programId": "fake_TIP-1036_Tv3Tip",
+        "titleId": "Tv3Tip_TIP-1036",
+        "offerType": "Free",
+        "titleRestrictions": [
+            "desktop_blocked"
+        ],
+        "offerRestrictions": [
+            "deviceBrowser"
+        ],
+        "genres": [
+            "2001"
+        ],
+        "playInfo": {
+            "id": "Tv3Tip_TIP-1036",
+            "programId": "fake_TIP-1036_Tv3Tip",
+            "uri": "http://mringofunk.streaming.mediaservices.windows.net/d7f0daa9-e58e-4cb6-aa0e-8450f90f0b66/",
+            "isLiveTv": false,
+            "dataSource": {
+                "mediaId": "Tv3Tip_TIP-1036_Hls_Reach_HD",
+                "hostName": "https://ottapp-appgw-amp-a.ofunk.mr.tv3cloud.com",
+                "ownerId": "azuki",
+                "isLive": false
+            },
+            "expires": "2020-04-09T22:39:44.000Z",
+            "tags": [
+                "Feature"
+            ],
+            "title": "TIP_MediaFirst_Automation_Test_BrowserBlockedMovie",
+            "entitlements": [
+                "desktop_blocked"
+            ]
+        }
+    },
+    "channelMaps": {
+        "Id": "10483",
+        "Name": "AVE-UniversalMap",
+        "RtpHash": "whkZOMre7PIRRDXjGVyfNbVjWKFPGZfpQqMzlJEkMtQ=",
+        "Channels": [
+            {
+                "StationId": "2926",
+                "ChannelNumber": 407,
+                "CallLetters": "KGOHD",
+                "Name": "KGO-HD-7 (ABC)",
+                "StationType": "Broadcast",
+                "Images": [],
+                "ServiceCollectionId": "12499",
+                "ApplicationId": "",
+                "Description": "This is a Test Channel",
+                "Ratings": [],
+                "LastCatchupEndUtc": "2018-06-22T19:00:00Z",
+                "FirstCatchupStartUtc": "2018-06-19T18:00:00Z",
+                "ConcurrentViewerDisabled": true,
+                "LocalizedStoresIds": [
+                    "HubsAndFeeds-Main Store-en-ca",
+                    "HubsAndFeeds-ja-jp",
+                    "PromotionsCategoryTree_main_en-us",
+                    "HubsAndFeeds-Main Store-en-us",
+                    "HubsAndFeeds-en-us",
+                    "HubsAndFeeds-en-ca",
+                    "HubsAndFeeds-JMeterDefaultMainStore1-en-us",
+                    "HubsAndFeeds-Main-en-ca",
+                    "HubsAndFeeds-Main-fr-ca",
+                    "HubsAndFeeds-Main-es-us",
+                    "HubsAndFeeds-Main-es-es",
+                    "HubsAndFeeds-Main-en-us",
+                    "HubsAndFeeds-Main-ja-jp",
+                    "HubsAndFeeds-JMeterDefaultMainStore-en-us",
+                    "HubsAndFeeds-JMeterDefaultMainStore2-en-us",
+                    "HubsAndFeeds-TestDefaultMainStore2-en-us",
+                    "HubsAndFeeds-TC StoreTests v1 DefA-en-us",
+                    "HubsAndFeeds-TC StoreTests v1 DefA-en-ca",
+                    "HubsAndFeeds-TestDefaultMainStore-en-us"
+                ],
+                "IsApplication": false,
+                "IsGenericApplicationService": false,
+                "ProviderId": "1002",
+                "OriginalStationId": 11944
+            },
+            {
+                "StationId": "1899",
+                "ChannelNumber": 1126,
+                "CallLetters": "KQEDSD",
+                "Name": "KQED-SD-9 (PBS)",
+                "StationType": "Broadcast",
+                "Images": [],
+                "ServiceCollectionId": "12499",
+                "ApplicationId": "",
+                "Description": "This is a Test Channel",
+                "Ratings": [],
+                "LastCatchupEndUtc": "2019-04-25T01:00:00Z",
+                "FirstCatchupStartUtc": "2019-04-25T17:30:00Z",
+                "ConcurrentViewerDisabled": true,
+                "LocalizedStoresIds": [
+                    "HubsAndFeeds-Main Store-en-ca",
+                    "HubsAndFeeds-ja-jp",
+                    "PromotionsCategoryTree_main_en-us",
+                    "HubsAndFeeds-Main Store-en-us",
+                    "HubsAndFeeds-en-us",
+                    "HubsAndFeeds-en-ca",
+                    "HubsAndFeeds-JMeterDefaultMainStore1-en-us",
+                    "HubsAndFeeds-Main-en-ca",
+                    "HubsAndFeeds-Main-fr-ca",
+                    "HubsAndFeeds-Main-es-us",
+                    "HubsAndFeeds-Main-es-es",
+                    "HubsAndFeeds-Main-en-us",
+                    "HubsAndFeeds-Main-ja-jp",
+                    "HubsAndFeeds-JMeterDefaultMainStore-en-us",
+                    "HubsAndFeeds-JMeterDefaultMainStore2-en-us",
+                    "HubsAndFeeds-TestDefaultMainStore2-en-us",
+                    "HubsAndFeeds-TC StoreTests v1 DefA-en-us",
+                    "HubsAndFeeds-TC StoreTests v1 DefA-en-ca",
+                    "HubsAndFeeds-TestDefaultMainStore-en-us"
+                ],
+                "IsApplication": false,
+                "IsGenericApplicationService": false,
+                "ProviderId": "1002",
+                "OriginalStationId": 12926
+            },
+            {
+                "StationId": "2895",
+                "ChannelNumber": 1120,
+                "CallLetters": "KFSFHD",
+                "Name": "KFSF-HD-66 (UniMas)",
+                "StationType": "Broadcast",
+                "Images": [],
+                "ServiceCollectionId": "10504",
+                "ApplicationId": "",
+                "Description": "This is a Test Channel",
+                "Ratings": [],
+                "LastCatchupEndUtc": "2018-06-16T01:00:00Z",
+                "FirstCatchupStartUtc": "2018-06-12T17:30:00Z",
+                "ConcurrentViewerDisabled": true,
+                "LocalizedStoresIds": [
+                    "HubsAndFeeds-Main Store-en-ca",
+                    "HubsAndFeeds-ja-jp",
+                    "PromotionsCategoryTree_main_en-us",
+                    "HubsAndFeeds-Main Store-en-us",
+                    "HubsAndFeeds-en-us",
+                    "HubsAndFeeds-en-ca",
+                    "HubsAndFeeds-JMeterDefaultMainStore1-en-us",
+                    "HubsAndFeeds-Main-en-ca",
+                    "HubsAndFeeds-Main-fr-ca",
+                    "HubsAndFeeds-Main-es-us",
+                    "HubsAndFeeds-Main-es-es",
+                    "HubsAndFeeds-Main-en-us",
+                    "HubsAndFeeds-Main-ja-jp",
+                    "HubsAndFeeds-JMeterDefaultMainStore-en-us",
+                    "HubsAndFeeds-JMeterDefaultMainStore2-en-us",
+                    "HubsAndFeeds-TestDefaultMainStore2-en-us",
+                    "HubsAndFeeds-TC StoreTests v1 DefA-en-us",
+                    "HubsAndFeeds-TC StoreTests v1 DefA-en-ca",
+                    "HubsAndFeeds-TestDefaultMainStore-en-us"
+                ],
+                "IsApplication": false,
+                "IsGenericApplicationService": false,
+                "ProviderId": "1002",
+                "OriginalStationId": 12926
+            }
+        ],
+        "ServiceCollections": [
+            {
+                "Id": "12499",
+                "StationId": "2926",
+                "Name": "AVE_KGOHD_LIVE$11944_SC",
+                "SortName": "AVE_KGOHD_LIVE$11944_SC",
+                "ServiceItems": [
+                    {
+                        "ServiceId": "10358",
+                        "ServiceGrouping": 0
+                    }
+                ],
+                "IsAdult": false,
+                "ServiceIds": [
+                    "10358"
+                ],
+                "Images": [],
+                "SortKey": 2
+            },
+            {
+                "Id": "10504",
+                "StationId": "2895",
+                "Name": "AVE_KFSFHD_LIVE$12926_SC",
+                "SortName": "AVE_KFSFHD_LIVE$12926_SC",
+                "ServiceItems": [
+                    {
+                        "ServiceId": "10492",
+                        "ServiceGrouping": 0
+                    }
+                ],
+                "IsAdult": false,
+                "ServiceIds": [
+                    "10492"
+                ],
+                "SortKey": 2
+            }
+        ],
+        "Services": [
+            {
+                "Id": "10342",
+                "IsValid": true,
+                "Name": "LIVE$11944",
+                "Type": "HlsPlayback",
+                "HostName": "",
+                "OwnerId": "azuki",
+                "MediaId": "LIVE$11944",
+                "Tv2Id": "00000000-0000-0000-0000-000000000000",
+                "QualityLevel": "ReachHD",
+                "ServiceIntent": "FullScreen",
+                "Macrovision": 0,
+                "CGMSA": 0,
+                "MulticastIPAndPort": "",
+                "SSRC": 0,
+                "Description": "KGOHD H264 @29.97 fps"
+            },
+            {
+                "Id": "10358",
+                "IsValid": true,
+                "Name": "LIVE$11944",
+                "Type": "HlsPlayback",
+                "HostName": "",
+                "OwnerId": "azuki",
+                "MediaId": "LIVE$11944",
+                "Tv2Id": "00000000-0000-0000-0000-000000000000",
+                "QualityLevel": "ReachSD",
+                "ServiceIntent": "FullScreen",
+                "Macrovision": 0,
+                "CGMSA": 0,
+                "MulticastIPAndPort": "",
+                "SSRC": 0,
+                "Description": "KGOHD H264 @29.97 fps"
+            },
+            {
+                "Id": "10492",
+                "IsValid": true,
+                "Type": "HlsPlayback",
+                "HostName": "",
+                "OwnerId": "azuki",
+                "MediaId": "LIVE$12926",
+                "Tv2Id": "00000000-0000-0000-0000-000000000000",
+                "QualityLevel": "ReachHD",
+                "ServiceIntent": "FullScreen",
+                "Macrovision": 0,
+                "CGMSA": 0,
+                "MulticastIPAndPort": "",
+                "SSRC": 0,
+                "Name": "LIVE$12926",
+                "Description": "KFSFHD H264 @29.97 fps"
+            }
+        ]
+    },
+    "schedules": {
+        "2895": [
+            {
+                "ChannelNumber": 1120,
+                "StationId": "2895",
+                "GlfStationId": "12926",
+                "ProgramId": "fake_2736995_1002",
+                "GlfProgramId": "2736995",
+                "StartUtc": "2018-06-27T02:00:00Z",
+                "EndUtc": "2018-06-27T03:00:00Z",
+                "CatchupStartUtc": "2018-06-27T02:00:00Z",
+                "CatchupEndUtc": "2018-06-27T03:00:00Z",
+                "Name": "El Chavo",
+                "Description": "El Chavo Test Description.",
+                "Genres": [],
+                "Ratings": [],
+                "QualityLevel": "HD",
+                "VideoProfile": {
+                    "PlaybackUri": "http://mringfunk.streaming.mediaservices.windows.net/8b4e64b8-5fc9-4171-8c30-07de43f931e0/hv5_MenInBlack3_trailer.ism/manifest",
+                    "PlaybackOrigin": "AZURE",
+                    "Id": "Tv3Tip_TIP-1020_SmoothStreaming_Stb_HD",
+                    "Encoding": "SmoothStreaming",
+                    "QualityLevel": "SD",
+                    "ClientType": "Stb"
+                },
+                "IsAdult": false,
+                "ShowType": "TVShow",
+                "Images": [],
+                "Entitlements": [],
+                "IsGeneric": true,
+                "AudioTags": {
+                    "ClosedCaptioned": ""
+                },
+                "Tags": []
+            }
+        ],
+        "1899": [
+            {
+                "ChannelNumber": 1126,
+                "StationId": "1899",
+                "GlfStationId": "12926",
+                "ProgramId": "fake_2733995_1002",
+                "GlfProgramId": "2736995",
+                "StartUtc": "2019-04-25T02:00:00Z",
+                "EndUtc": "2019-04-25T03:00:00Z",
+                "CatchupStartUtc": "2019-04-25T02:00:00Z",
+                "CatchupEndUtc": "2019-04-25T03:00:00Z",
+                "Name": "Tree of Live",
+                "Description": "A Concert for Peace and Unity.",
+                "Genres": [],
+                "Ratings": [],
+                "VideoProfile": {
+                    "PlaybackUri": "http://mringfunk.streaming.mediaservices.windows.net/8b4e64b8-5fc9-4171-8c30-07de43f931e0/hv5_MenInBlack3_trailer.ism/manifest",
+                    "PlaybackOrigin": "AZURE",
+                    "Id": "Tv3Tip_TIP-1001_SmoothStreaming_Stb_SD",
+                    "Encoding": "SmoothStreaming",
+                    "QualityLevel": "SD",
+                    "ClientType": "Stb"
+                },
+                "IsAdult": false,
+                "ShowType": "TVShow",
+                "Images": [],
+                "Entitlements": [],
+                "IsGeneric": true,
+                "AudioTags": {
+                    "ClosedCaptioned": ""
+                },
+                "Tags": []
+            }
+        ],
+        "2926": [
+            {
+                "ChannelNumber": 407,
+                "StationId": "2926",
+                "GlfStationId": "11944",
+                "ProgramId": "fake_296539047_1002",
+                "GlfProgramId": "296539047",
+                "SeriesId": "667969ThirdParty33303036",
+                "GlfSeriesId": "29650",
+                "SeasonId": "667969ThirdParty33303036_34",
+                "StartUtc": "2018-06-27T02:00:00Z",
+                "EndUtc": "2018-06-27T02:30:00Z",
+                "Name": "Jeopardy!",
+                "Description": "Jeopardy! Test Description.",
+                "SeasonNumber": 34,
+                "EpisodeNumber": "7792",
+                "Genres": [
+                    {
+                        "Id": "2913",
+                        "Name": "Game Show"
+                    }
+                ],
+                "Ratings": [],
+                "IsAdult": false,
+                "ShowType": "TVShow",
+                "Images": [
+                    {
+                        "Size": "Small",
+                        "ImageType": "PosterLandscape",
+                        "Uri": "https://appgw-client-A.ofunk.mr.tv3cloud.com/images/images/program/fake-296539047-1002/posterlandscapesmall.jpg"
+                    },
+                    {
+                        "Size": "Medium",
+                        "ImageType": "PosterLandscape",
+                        "Uri": "https://appgw-client-A.ofunk.mr.tv3cloud.com/images/images/program/fake-296539047-1002/posterlandscapemedium.jpg"
+                    }
+                ],
+                "SupportedImages": [
+                    "4x3/KeyArt",
+                    "4x3/Poster",
+                    "3x4/Poster",
+                    "2x3/Poster",
+                    "PosterLandscape"
+                ],
+                "Entitlements": [
+                    "ct"
+                ],
+                "CatchupStartUtc": "2018-06-27T02:30:00Z",
+                "CatchupEndUtc": "2018-06-28T08:30:00Z",
+                "IsGeneric": false,
+                "AudioTags": {
+                    "ClosedCaptioned": ""
+                },
+                "Tags": [
+                    "ClosedCaptioned",
+                    "HD"
+                ]
+            }
+        ]
+    },
+    "ppvChannels": {
+        "Channels": [
+            {
+                "ChannelNumber": 407,
+                "ServiceCollectionId": "12499",
+                "CallLetters": "PPV22",
+                "Images": [],
+                "StationType": "PPV",
+                "StationId": "2926",
+                "Name": "PPV22",
+                "Genres": [],
+                "FirstCatchupStartUtc": "2018-11-02T23:45:00Z",
+                "LastCatchupEndUtc": "2018-11-06T06:45:00Z",
+                "ConcurrentViewerDisabled": false,
+                "OriginalStationId": 2099990326,
+                "Description": "This is a Test Channel",
+                "LocalizedStoresIds": [
+                    "HubsAndFeeds-Kids-en-us",
+                    "HubsAndFeeds-Kids-en-ca",
+                    "HubsAndFeeds-Main-en-us",
+                    "HubsAndFeeds-Main-en-ca",
+                    "HubsAndFeeds-TestDefaultMainStore2-en-us",
+                    "HubsAndFeeds-TC StoreTests v1 DefA-en-us",
+                    "HubsAndFeeds-TC StoreTests v1 DefA-en-ca",
+                    "HubsAndFeeds-TestDefaultMainStore-en-us"
+                ],
+                "IsApplication": false,
+                "IsGenericApplicationService": false,
+                "ProviderId": "1002"
+            }
+        ],
+        "ServiceCollections": [
+            {
+                "Id": "12499",
+                "StationId": "2926",
+                "ApplicationId": "",
+                "Name": "AVE_PPVHD_LIVE$2099990326_SC",
+                "SortName": "AVE_PPVHD_LIVE$2099990326_SC",
+                "ServiceItems": [
+                    {
+                        "ServiceId": "834119",
+                        "ServiceGrouping": 1
+                    },
+                    {
+                        "ServiceId": "10342",
+                        "ServiceGrouping": 0
+                    }
+                ],
+                "ServiceIds": [
+                    "834119",
+                    "10342"
+                ],
+                "StartSoftPaddingSeconds": "",
+                "EndSoftPaddingSeconds": "",
+                "IsAdult": false,
+                "Images": [],
+                "SortKey": 2
+            }
+        ],
+        "Services": [
+            {
+                "Id": "834119",
+                "IsValid": true,
+                "Type": "HlsPlayback",
+                "IsEncrypted": false,
+                "HostName": "",
+                "OwnerId": "azuki",
+                "MediaId": "LIVE$PPVSD_01",
+                "QualityLevel": "ReachSD",
+                "ServiceIntent": "FullScreen",
+                "IsMusicChannel": false,
+                "Macrovision": 0,
+                "CGMSA": 0,
+                "DisableHDCP": false,
+                "SSRC": 0,
+                "Name": "LIVE$PPVSD_01",
+                "Description": "KDTV Dupe1 H264 @29.97 fps"
+            },
+            {
+                "Id": "10342",
+                "IsValid": true,
+                "Type": "HlsPlayback",
+                "HostName": "",
+                "OwnerId": "azuki",
+                "MediaId": "LIVE$PPV22_01",
+                "QualityLevel": "ReachHD",
+                "ServiceIntent": "FullScreen",
+                "IsMusicChannel": false,
+                "Macrovision": 0,
+                "CGMSA": 0,
+                "DisableHDCP": false,
+                "SSRC": 0,
+                "Name": "LIVE$PPV22_01",
+                "Description": "KDTVHD Dupe1 H264 @29.97fps"
+            }
+        ]
+    },
+    "PPVschedules": {
+        "2926": [
+            {
+                "ChannelNumber": 407,
+                "StationId": "2926",
+                "GlfStationId": "2099990326",
+                "ProgramId": "fake_2099992926_1063",
+                "GlfProgramId": "2099992926",
+                "StartUtc": "2018-11-05T05:45:00Z",
+                "EndUtc": "2018-11-05T06:15:00Z",
+                "Name": "PPV2 Near Free",
+                "Description": "PPV 2",
+                "Genres": [],
+                "Ratings": [
+                    {
+                        "System": "MPAA",
+                        "Value": "R"
+                    }
+                ],
+                "IsAdult": false,
+                "IsNew": false,
+                "ShowType": "TVShow",
+                "Images": [],
+                "Entitlements": [
+                    "ct"
+                ],
+                "CatchupStartUtc": "2018-11-05T06:15:00Z",
+                "CatchupEndUtc": "2018-11-06T12:15:00Z",
+                "IsGeneric": false,
+                "AudioTags": {
+                    "ClosedCaptioned": ""
+                },
+                "Tags": [
+                    "ClosedCaptioned"
+                ],
+                "PurchaseActions": [
+                    {
+                        "OfferId": "1706435-20181218-0845--3804929",
+                        "ExternalOfferId": "1706435-20181218-0845--3804929",
+                        "QualityLevels": [
+                            "ReachHD",
+                            "SD",
+                            "ReachSD"
+                        ],
+                        "Price": 0.01,
+                        "Currency": "PHP",
+                        "TransactionType": "Rent",
+                        "Terms": "Standard offer T&Cs apply",
+                        "ExpirationUtc": "2018-12-18T09:00:00Z",
+                        "TimeToExpiry": "00:17:58.0168383",
+                        "HoursToExpiry": 0,
+                        "RentalWindow": "00:30:00",
+                        "PackageId": "3804929",
+                        "ExternalPackageId": "3804929",
+                        "PackageName": "AVE_PPVHD_LIVE$2099990326_SC",
+                        "ResourceType": "ServiceCollection",
+                        "ResourceId": "3804929",
+                        "ExternalResourceId": "3804929",
+                        "ExternalName": "AVE_PPVHD_LIVE$2099990326_SC",
+                        "PackageTitleCount": 0,
+                        "Restrictions": [],
+                        "Discountable": false,
+                        "ScheduleStartUtc": "2018-12-18T08:45:00Z",
+                        "ProgramId": "fake_2099992926_1063",
+                        "GlfProgramId": "2099992926"
+                    }
+                ]
+            },
+            {
+                "ChannelNumber": 407,
+                "StationId": "2926",
+                "GlfStationId": "2099990326",
+                "ProgramId": "fake_2100011157_1063",
+                "GlfProgramId": "2100011157",
+                "StartUtc": "2018-11-05T06:15:00Z",
+                "EndUtc": "2018-11-05T06:45:00Z",
+                "Name": "PPV2 Zero Price",
+                "Description": "PPV 2",
+                "Genres": [],
+                "Ratings": [
+                    {
+                        "System": "MPAA",
+                        "Value": "R"
+                    }
+                ],
+                "IsAdult": false,
+                "IsNew": false,
+                "ShowType": "TVShow",
+                "Images": [],
+                "Entitlements": [
+                    "ct"
+                ],
+                "CatchupStartUtc": "2018-11-05T06:45:00Z",
+                "CatchupEndUtc": "2018-11-06T12:45:00Z",
+                "IsGeneric": false,
+                "Tags": [],
+                "PurchaseActions": [
+                    {
+                        "OfferId": "1706435-20181218-0745--3804929",
+                        "ExternalOfferId": "1706435-20181218-0745--3804929",
+                        "QualityLevels": [
+                            "ReachHD",
+                            "SD",
+                            "ReachSD"
+                        ],
+                        "Price": 0.0,
+                        "Currency": "PHP",
+                        "TransactionType": "Rent",
+                        "Terms": "Standard offer T&Cs apply",
+                        "ExpirationUtc": "2018-12-18T08:00:00Z",
+                        "TimeToExpiry": "00:30:16.7444461",
+                        "HoursToExpiry": 0,
+                        "RentalWindow": "00:30:00",
+                        "PackageId": "3804929",
+                        "ExternalPackageId": "3804929",
+                        "PackageName": "AVE_PPVHD_LIVE$2099990326_SC",
+                        "ResourceType": "ServiceCollection",
+                        "ResourceId": "3804929",
+                        "ExternalResourceId": "3804929",
+                        "ExternalName": "AVE_PPVHD_LIVE$2099990326_SC",
+                        "PackageTitleCount": 0,
+                        "Restrictions": [],
+                        "Discountable": false,
+                        "ScheduleStartUtc": "2018-12-18T07:45:00Z",
+                        "ProgramId": "fake_2100011157_1063",
+                        "GlfProgramId": "2100011157"
+                    }
+                ]
+            },
+            {
+                "ChannelNumber": 407,
+                "StationId": "2926",
+                "StationExtId": "FYI Television, Inc./2099990326",
+                "GlfStationId": "2099990326",
+                "ProgramId": "fake_2100011158_1063",
+                "GlfProgramId": "2100011158",
+                "StartUtc": "2018-11-05T06:45:00Z",
+                "EndUtc": "2018-11-05T07:15:00Z",
+                "Groups": [
+                    4000003
+                ],
+                "Name": "PPV2 Rentable",
+                "Description": "PPV 2",
+                "Genres": [],
+                "Ratings": [
+                    {
+                        "System": "MPAA",
+                        "Value": "R"
+                    }
+                ],
+                "IsAdult": false,
+                "IsNew": false,
+                "ShowType": "TVShow",
+                "Images": [],
+                "Entitlements": [
+                    "ct"
+                ],
+                "CatchupStartUtc": "2018-11-05T07:15:00Z",
+                "CatchupEndUtc": "2018-11-06T13:15:00Z",
+                "IsGeneric": false,
+                "Tags": [],
+                "PurchaseActions": [
+                    {
+                        "OfferId": "1706435-20181218-0515--3804929",
+                        "ExternalOfferId": "1706435-20181218-0515--3804929",
+                        "QualityLevels": [
+                            "ReachHD",
+                            "SD",
+                            "ReachSD"
+                        ],
+                        "Price": 1.99,
+                        "Currency": "PHP",
+                        "TransactionType": "Rent",
+                        "Terms": "Standard offer T&Cs apply",
+                        "ExpirationUtc": "2100-12-18T04:00:00Z",
+                        "TimeToExpiry": "00:13:31.9639467",
+                        "HoursToExpiry": 0,
+                        "RentalWindow": "00:30:00",
+                        "PackageId": "3804929",
+                        "ExternalPackageId": "3804929",
+                        "PackageName": "AVE_PPVHD_LIVE$2099990326_SC",
+                        "ResourceType": "ServiceCollection",
+                        "ResourceId": "3804929",
+                        "ExternalResourceId": "3804929",
+                        "ExternalName": "AVE_PPVHD_LIVE$2099990326_SC",
+                        "PackageTitleCount": 0,
+                        "Restrictions": [],
+                        "Discountable": false,
+                        "ScheduleStartUtc": "2018-12-18T03:45:00Z",
+                        "ProgramId": "fake_2100011158_1063",
+                        "GlfProgramId": "2100011158"
+                    }
+                ]
+            }
+        ]
+    },
+    "liveChannelActions": {
+        "IsGeoBlocked": false,
+        "IsPurchased": false,
+        "IsFree": true,
+        "QualityLevels": [],
+        "PurchaseActions": [
+            {
+                "OfferId": "6be0d0df-0342-4d0f-923d-d2399b18902f",
+                "ExternalOfferId": "6be0d0df-0342-4d0f-923d-d2399b18902f",
+                "QualityLevels": [
+                    "HD",
+                    "ReachHD",
+                    "SD",
+                    "ReachSD",
+                    "UHD",
+                    "ReachUHD"
+                ],
+                "Price": 1.99,
+                "Currency": "PHP",
+                "TransactionType": "Subscription",
+                "Terms": "Buy something nice",
+                "ExpirationUtc": "2020-01-01T23:00:00Z",
+                "TimeToExpiry": "553.20:29:12.3950294",
+                "HoursToExpiry": 13292,
+                "PackageId": "80ec483c-2769-4030-94e1-9cd3a3233ad7",
+                "ExternalPackageId": "TIP_MediaFirst_Automation_Test_SVODPackage",
+                "PackageName": "TIP_MediaFirst_Automation_Test_SVODPackage",
+                "ResourceType": "Subscription",
+                "ResourceId": "80ec483c-2769-4030-94e1-9cd3a3233ad7",
+                "ExternalResourceId": "80ec483c-2769-4030-94e1-9cd3a3233ad7",
+                "ExternalName": "TIP_MediaFirst_Automation_Test_SVODPackage",
+                "PackageTitleCount": 8,
+                "Restrictions": [],
+                "Discountable": false
+            }
+        ],
+        "IsPinned": false
+    },
+    "freewifiBlockedMovie": {
+        "title": "TIP_MediaFirst_Automation_Test_WifiBlockedMovie",
+        "programId": "fake_TIP-1041_Tv3Tip",
+        "titleId": "Tv3Tip_TIP-1041",
+        "offerType": "Free",
+        "titleRestrictions": [
+            "wifi_blocked"
+        ],
+        "genres": [
+            "2001"
+        ],
+        "playInfo": {
+            "id": "Tv3Tip_TIP-1041",
+            "programId": "fake_TIP-1041_Tv3Tip",
+            "uri": "http://mringofunk.streaming.mediaservices.windows.net/e60a3b80-1b1d-45dc-9717-b6de70ea641f/",
+            "isLiveTv": false,
+            "dataSource": {
+                "mediaId": "Tv3Tip_TIP-1041_Hls_Reach_HD",
+                "hostName": "https://ottapp-appgw-amp-a.ofunk.mr.tv3cloud.com",
+                "ownerId": "azuki",
+                "isLive": false
+            },
+            "expires": "2020-04-09T22:39:44.000Z",
+            "tags": [
+                "Feature"
+            ],
+            "title": "TIP_MediaFirst_Automation_Test_WifiBlockedMovie",
+            "entitlements": [
+                "wifi_blocked"
+            ]
+        }
+    },
+    "freeTabletBlockedMovie": {
+        "title": "TIP_MediaFirst_Automation_Test_TabletBlockedMovie",
+        "programId": "fake_TIP-1040_Tv3Tip",
+        "titleId": "Tv3Tip_TIP-1040",
+        "offerType": "Free",
+        "genres": [
+            "2001",
+            "2003"
+        ],
+        "playInfo": {
+            "id": "Tv3Tip_TIP-1040",
+            "programId": "fake_TIP-1040_Tv3Tip",
+            "uri": "http://mringofunk.streaming.mediaservices.windows.net/be6bea81-79a5-45a3-bb5d-7979bf61e7a6/",
+            "isLiveTv": false,
+            "dataSource": {
+                "mediaId": "Tv3Tip_TIP-1040_Hls_Reach_HD",
+                "hostName": "https://ottapp-appgw-amp-a.ofunk.mr.tv3cloud.com",
+                "ownerId": "azuki",
+                "isLive": false
+            },
+            "expires": "2020-04-09T22:39:44.000Z",
+            "tags": [
+                "Feature"
+            ],
+            "title": "TIP_MediaFirst_Automation_Test_TabletBlockedMovie",
+            "entitlements": [
+                "tablet_blocked"
+            ]
+        }
+    },
+    "freePhoneBlockedMovie": {
+        "title": "TIP_MediaFirst_Automation_Test_PhoneBlockedMovie",
+        "programId": "fake_TIP-1039_Tv3Tip",
+        "titleId": "Tv3Tip_TIP-1039",
+        "offerType": "Free",
+        "playInfo": {
+            "id": "Tv3Tip_TIP-1039",
+            "programId": "fake_TIP-1039_Tv3Tip",
+            "uri": "http://mringofunk.streaming.mediaservices.windows.net/87900aec-e2e5-4260-944c-2ff390eeada5/",
+            "isLiveTv": false,
+            "dataSource": {
+                "mediaId": "Tv3Tip_TIP-1039_Hls_Reach_HD",
+                "hostName": "https://ottapp-appgw-amp-a.ofunk.mr.tv3cloud.com",
+                "ownerId": "azuki",
+                "isLive": false
+            },
+            "expires": "2020-04-09T22:39:44.000Z",
+            "tags": [
+                "Feature"
+            ],
+            "title": "TIP_MediaFirst_Automation_Test_PhoneBlockedMovie",
+            "entitlements": [
+                "phone_blocked"
+            ]
+        }
+    },
+    "freeHdmiBlockedMovie": {
+        "title": "TIP_MediaFirst_Automation_Test_HdmiBlockedMovie",
+        "programId": "fake_TIP-1038_Tv3Tip",
+        "titleId": "Tv3Tip_TIP-1038",
+        "titleRestrictions": [
+            "hdmi_blocked"
+        ],
+        "offerRestrictions": [
+            "outputHdmi"
+        ],
+        "genres": [
+            "2003"
+        ],
+        "offerType": "Free",
+        "playInfo": {
+            "id": "Tv3Tip_TIP-1038",
+            "programId": "fake_TIP-1038_Tv3Tip",
+            "uri": "http://mringofunk.streaming.mediaservices.windows.net/bff64b48-c3bc-4872-98d9-94c583697b9c/",
+            "isLiveTv": false,
+            "dataSource": {
+                "mediaId": "Tv3Tip_TIP-1038_Hls_Reach_HD",
+                "hostName": "https://ottapp-appgw-amp-a.ofunk.mr.tv3cloud.com",
+                "ownerId": "azuki",
+                "isLive": false
+            },
+            "expires": "2020-04-09T22:39:44.000Z",
+            "tags": [
+                "Feature"
+            ],
+            "title": "TIP_MediaFirst_Automation_Test_HdmiBlockedMovie",
+            "entitlements": [
+                "hdmi_blocked"
+            ]
+        }
+    },
+    "freeFwdRwdBlockedMovie": {
+        "title": "TIP_MediaFirst_Automation_Test_FWDRWDBlockedMovie",
+        "programId": "fake_TIP-1037_Tv3Tip",
+        "titleId": "Tv3Tip_TIP-1037",
+        "offerType": "Free",
+        "genres": [
+            "2001"
+        ],
+        "playInfo": {
+            "id": "Tv3Tip_TIP-1037",
+            "programId": "fake_TIP-1037_Tv3Tip",
+            "uri": "http://mringofunk.streaming.mediaservices.windows.net/0972c3a5-75bb-4f36-b800-df4a11bad364/",
+            "isLiveTv": false,
+            "dataSource": {
+                "mediaId": "Tv3Tip_TIP-1037_Hls_Reach_HD",
+                "hostName": "https://ottapp-appgw-amp-a.ofunk.mr.tv3cloud.com",
+                "ownerId": "azuki",
+                "isLive": false
+            },
+            "expires": "2020-04-09T22:39:44.000Z",
+            "tags": [
+                "Feature"
+            ],
+            "title": "TIP_MediaFirst_Automation_Test_FWDRWDBlockedMovie",
+            "entitlements": [
+                "fwd_blocked",
+                "rwd_blocked"
+            ]
+        }
+    },
+    "searchString": {
+        "randomString": "tip_mediafirst",
+        "liveProgram": "New Day",
+        "moreThan50Results": "t",
+        "preSearchString": "TIP_MediaFirst_Automation_Test_",
+        "afterSearchString": "TIP_MediaFirst_Automation_Test_A",
+        "personName": "Chris Cuomo",
+        "uppercaseString": "TIP_MediaFirst_Automation_Test_SearchableMovie",
+        "prevSearchString": "tip_mediafirst",
+        "movieName": "TIP_MediaFirst_Automation_Test_BuyableMovie",
+        "ratingForMovie": "PG",
+        "tvShowName": "TIP_MediaFirst_Automation_Test_BuyableTVShow",
+        "ratingForTVShow": "PG",
+        "castAndCrewName": "Matt Damon",
+        "stringForSort": "story"
+    },
+    "rentMovie": {
+        "title": "TIP_MediaFirst_Automation_Test_RentableMovie",
+        "programId": "fake_TIP-1003_Tv3Tip",
+        "titleId": "Tv3Tip_TIP-1003",
+        "offerType": "Rent",
+        "genres": [
+            "2001"
+        ]
+    },
+    "rentTVShow": {
+        "title": "TIP_MediaFirst_Automation_Test_RentableTVShow",
+        "seriesId": "fake_1005_Tv3Tip",
+        "seasonId": "fake_1005_Tv3Tip_1",
+        "programId": "fake_TIP-1005_Tv3Tip",
+        "titleId": "Tv3Tip_TIP-1005",
+        "offerType": "Rent",
+        "genres": [
+            "2001"
+        ]
+    },
+    "searchMovie": {
+        "title": "TIP_MediaFirst_Automation_Test_SearchableMovie",
+        "titleId": "Tv3Tip_TIP-1004",
+        "offerType": "Rent",
+        "id": "fake_TIP-1004_Tv3Tip",
+        "rating": "PG",
+        "genres": [
+            "2001"
+        ],
+        "castcrew": [
+            {
+                "PersonName": "Big Ron\" Previte",
+                "RoleName": "Actor"
+            }
+        ]
+    },
+    "searchTVShow": {
+        "title": "TIP_MediaFirst_Automation_Test_SearchableShow",
+        "titleId": "Tv3Tip_TIP-1007",
+        "offerType": "Rent",
+        "seriesId": "fake_1007_Tv3Tip",
+        "rating": "PG",
+        "genres": [
+            "2001"
+        ],
+        "castcrew": [
+            {
+                "PersonName": "Big Ron\" Previte",
+                "RoleName": "Actor"
+            }
+        ]
+    },
+    "PBRTvShow": {
+        "titleId": "Tv3Tip_TIP-1033",
+        "title": "TIP_MediaFirst_Automation_Test_TVShow8",
+        "offerType": "Free",
+        "titleRestrictions": [
+            "desktop_blocked",
+            "phone_blocked",
+            "hdmi_blocked",
+            "wifi_blocked",
+            "tablet_blocked",
+            "fwd_blocked",
+            "rwd_blocked"
+        ],
+        "offerRestrictions": [
+            "deviceBrowser",
+            "devicePhone",
+            "outputHdmi",
+            "deviceTablet"
+        ],
+        "genres": [
+            "2001",
+            "2003"
+        ]
+    },
+    "searchCastCrew": {
+        "name": "Julian Casey",
+        "id": "153032"
+    },
+    "rentPackage": {
+        "packageId": "34e9786b-9176-4fb6-a229-52214ced222b"
+    },
+    "rentTVShowPackage": {
+        "packageId": "91bc3b86-ef8b-4959-9bfc-9b54821bef69"
+    },
+    "packageMovieOne": {
+        "title": "TIP_MediaFirst_Automation_Test_PackageMovieOne",
+        "titleId": "Tv3Tip_TIP-1008",
+        "genres": [
+            "2001"
+        ]
+    },
+    "packageMovieTwo": {
+        "title": "TIP_MediaFirst_Automation_Test_PackageMovieTwo",
+        "titleId": "Tv3Tip_TIP-1009",
+        "genres": [
+            "2001"
+        ]
+    },
+    "PBRChannel": {
+        "name": "404 KRONHD"
+    },
+    "pbrPackage": {
+        "packageId": "4385de89-4c23-4e42-8881-0d2ca360ba24"
+    },
+    "pbrSvodPackage": {
+        "packageId": "f4cff784-2128-42ef-853b-f737d2f8fd5e"
+    },
+    "subscribeMovie": {
+        "title": "TIP_MediaFirst_Automation_Test_OnlySubscribeMovie",
+        "programId": "fake_TIP-1055_Tv3Tip",
+        "titleId": "Tv3Tip_TIP-1055",
+        "genres": [
+            "2001"
+        ]
+    },
+    "freeMovie": {
+        "title": "TIP_MediaFirst_Automation_Test_FreeMovie",
+        "programId": "fake_TIP-1001",
+        "titleId": "Tv3Tip_TIP-1001",
+        "offerType": "Free, Rent, Purchase",
+        "genres": [
+            "2001",
+            "2003"
+        ],
+        "ratings": [
+            {
+                "System": "MPAA",
+                "Value": "PG"
+            }
+        ]
+    },
+    "freeTVShow": {
+        "title": "TIP_MediaFirst_Automation_Test_FreeTVShow",
+        "titleId": "Tv3Tip_TIP-1006",
+        "seriesId": "fake_1006_Tv3Tip",
+        "seasonId": "fake_1006_Tv3Tip_1",
+        "programId": "fake_TIP-1006_Tv3Tip",
+        "offerType": "Free",
+        "releaseYear": "2016",
+        "genres": [
+            "2001"
+        ],
+        "ratings": [
+            {
+                "System": "USTV",
+                "Value": "TV-PG"
+            }
+        ]
+    },
+    "freePG13Movie": {
+        "title": "TIP_MediaFirst_Automation_Test_FreeMoviePG13",
+        "programId": "fake_TIP-1052_Tv3Tip",
+        "titleId": "Tv3Tip_TIP-1052",
+        "offerType": "Free",
+        "genres": [
+            "2001"
+        ],
+        "ratings": [
+            {
+                "System": "MPAA",
+                "Value": "PG-13"
+            }
+        ]
+    },
+    "freeTV14TVShow": {
+        "title": "TIP_MediaFirst_Automation_Test_FreeTVShowTV14",
+        "titleId": "Tv3Tip_TIP-1054",
+        "seriesId": "fake_1054_Tv3Tip",
+        "offerType": "Free",
+        "genres": [
+            "2001"
+        ],
+        "ratings": [
+            {
+                "System": "USTV",
+                "Value": "TV-14"
+            }
+        ]
+    },
+    "freeUnratedMovie": {
+        "title": "TIP_MediaFirst_Automation_Test_FreeMovieUnrated",
+        "programId": "fake_TIP-1051_Tv3Tip",
+        "titleId": "Tv3Tip_TIP-1051",
+        "offerType": "Free",
+        "genres": [
+            "2001"
+        ],
+        "ratings": [
+            {
+                "System": "NR",
+                "Value": "NR"
+            }
+        ]
+    },
+    "freeUnratedTVShow": {
+        "title": "TIP_MediaFirst_Automation_Test_FreeTVShowUnrated",
+        "titleId": "Tv3Tip_TIP-1053",
+        "seriesId": "fake_1053_Tv3Tip",
+        "offerType": "Free",
+        "genres": [
+            "2001"
+        ],
+        "ratings": []
+    },
+    "englishLanguageMovie": {
+        "title": "TIP_MediaFirst_Automation_Test_EnglishLanguageMovie",
+        "programId": "fake_TIP-1002_Tv3Tip",
+        "titleId": "Tv3Tip_TIP-1002",
+        "offerType": "Rent",
+        "genres": [
+            "2001"
+        ]
+    },
+    "actionMovie": {
+        "title": "TIP_MediaFirst_Automation_Test_ActionMovie",
+        "programId": "fake_TIP-1000_Tv3Tip",
+        "titleId": "Tv3Tip_TIP-1000",
+        "offerType": "Rent",
+        "genres": [
+            "2001"
+        ],
+        "network": "CNN"
+    },
+    "multiOfferMovie": {
+        "title": "TIP_MediaFirst_Automation_Test_MultiOfferMovie",
+        "programId": "fake_TIP-1042_Tv3Tip",
+        "titleId": "Tv3Tip_TIP-1042",
+        "offerType": "Rent,Purchase",
+        "rentalWindow": 172800,
+        "genres": [
+            "2001"
+        ],
+        "offers": [
+            {
+                "offerType": "Purchase",
+                "QualitysLevel": [
+                    "HD",
+                    "ReachHD"
+                ]
+            },
+            {
+                "offerType": "Rent",
+                "QualitysLevel": [
+                    "HD",
+                    "ReachHD"
+                ]
+            },
+            {
+                "offerType": "Rent",
+                "QualitysLevel": [
+                    "SD"
+                ]
+            },
+            {
+                "offerType": "Purchase",
+                "QualitysLevel": [
+                    "SD"
+                ]
+            }
+        ]
+    },
+    "multiOfferTVShow": {
+        "title": "TIP_MediaFirst_Automation_Test_MultiOfferTVShow",
+        "seriesId": "fake_1044_Tv3Tip",
+        "titleId": "Tv3Tip_TIP-1044",
+        "offerType": "Rent,Purchase",
+        "rentalWindow": 172800,
+        "genres": [
+            "2001"
+        ]
+    },
+    "MovieWithFreeTrailer": {
+        "title": "TIP_MediaFirst_Automation_Test_TrailerMovie",
+        "programId": "fake_TIP-1014_Tv3Tip",
+        "titleId": "Tv3Tip_TIP-1014",
+        "trailerId": "Tv3Tip_TIP-1014preview",
+        "offerType": "Free",
+        "trailerofferType": "Free",
+        "genres": [
+            "2001"
+        ]
+    },
+    "MovieWithRentableTrailer": {
+        "title": "TIP_MediaFirst_Automation_Test_RentableTrailerMovie",
+        "programId": "fake_Tv3Tip_TIP-1015",
+        "titleId": "Tv3Tip_TIP-1015",
+        "offerType": "Free",
+        "trailerId": "Tv3Tip_TIP-1015preview",
+        "trailerofferType": "Rent",
+        "genres": [
+            "2001"
+        ]
+    },
+    "buyMovie": {
+        "title": "TIP_MediaFirst_Automation_Test_BuyableMovie",
+        "programId": "fake_TIP-1012_Tv3Tip",
+        "titleId": "Tv3Tip_TIP-1012",
+        "offerType": "Purchase",
+        "genres": [
+            "2001"
+        ]
+    },
+    "buyRentMovie": {
+        "title": "TIP_MediaFirst_Automation_Test_BuyableRentableMovie",
+        "programId": "fake_TIP-1047_Tv3Tip",
+        "titleId": "Tv3Tip_TIP-1047",
+        "offerType": "Rent,Purchase",
+        "genres": [
+            "2001"
+        ]
+    },
+    "buyTVShow": {
+        "title": "TIP_MediaFirst_Automation_Test_BuyableTVShow",
+        "seriesId": "fake_1013_Tv3Tip",
+        "programId": "fake_TIP-1013_Tv3Tip",
+        "titleId": "Tv3Tip_TIP-1013",
+        "offerType": "Purchase",
+        "genres": [
+            "2001"
+        ]
+    },
+    "shortRentalWindowMovie": {
+        "title": "TIP_MediaFirst_Automation_Test_OneMinuteRentableMovie",
+        "programId": "fake_TIP-1010_Tv3Tip",
+        "titleId": "Tv3Tip_TIP-1010",
+        "offerType": "Rent",
+        "rentalWindow": 60,
+        "genres": [
+            "2001"
+        ]
+    },
+    "shortRentalWindowTVShow": {
+        "title": "TIP_MediaFirst_Automation_Test_OneMinuteRentableTVShow",
+        "seriesId": "fake_1011_Tv3Tip",
+        "programId": "fake_TIP-1011_Tv3Tip",
+        "titleId": "Tv3Tip_TIP-1011",
+        "offerType": "Rent",
+        "rentalWindow": 60,
+        "genres": [
+            "2681",
+            "2001"
+        ]
+    },
+    "multiEpisodeTVShow": {
+        "title": "TIP_MediaFirst_Automation_Test_MultiEpisodeTVShow",
+        "seriesId": "fake_1045_Tv3Tip",
+        "genres": [
+            "2001"
+        ],
+        "titles": [
+            {
+                "title": "TIP_MediaFirst_Automation_Test_MultiEpisodeTVShowS1E1",
+                "titleId": "Tv3Tip_TIP-1045",
+                "offerType": "Free"
+            },
+            {
+                "title": "TIP_MediaFirst_Automation_Test_MultiEpisodeTVShowS1E2",
+                "titleId": "Tv3Tip_TIP-1046",
+                "offerType": "Free"
+            }
+        ]
+    },
+    "multiSeasonTVShow": {
+        "title": "TIP_MediaFirst_Automation_Test_MultiSeasonTVShow",
+        "seriesId": "fake_1057_Tv3Tip",
+        "genres": [
+            "2001"
+        ],
+        "titles": [
+            {
+                "title": "TIP_MediaFirst_Automation_Test_MultiSeasonTVShowS1E1",
+                "titleId": "Tv3Tip_TIP-1057",
+                "seasonId": "fake_1057_Tv3Tip_1",
+                "offerType": "Free"
+            },
+            {
+                "title": "TIP_MediaFirst_Automation_Test_MultiSeasonTVShowS1E2",
+                "titleId": "Tv3Tip_TIP-1058",
+                "seasonId": "fake_1057_Tv3Tip_1",
+                "offerType": "Free"
+            },
+            {
+                "title": "TIP_MediaFirst_Automation_Test_MultiSeasonTVShowS2E1",
+                "titleId": "Tv3Tip_TIP-1059",
+                "seasonId": "fake_1057_Tv3Tip_2",
+                "offerType": "Free"
+            },
+            {
+                "title": "TIP_MediaFirst_Automation_Test_MultiSeasonTVShowS2E2",
+                "titleId": "Tv3Tip_TIP-1060",
+                "seasonId": "fake_1057_Tv3Tip_2",
+                "offerType": "Free"
+            },
+            {
+                "title": "TIP_MediaFirst_Automation_Test_MultiSeasonTVShowS3E1",
+                "titleId": "Tv3Tip_TIP-1063",
+                "seasonId": "fake_1057_Tv3Tip_3",
+                "offerType": "Free"
+            },
+            {
+                "title": "TIP_MediaFirst_Automation_Test_MultiSeasonTVShowS3E2",
+                "titleId": "Tv3Tip_TIP-1064",
+                "seasonId": "fake_1057_Tv3Tip_3",
+                "offerType": "Free"
+            },
+            {
+                "title": "TIP_MediaFirst_Automation_Test_MultiSeasonTVShowS4E1",
+                "titleId": "Tv3Tip_TIP-1065",
+                "seasonId": "fake_1057_Tv3Tip_4",
+                "offerType": "Free"
+            },
+            {
+                "title": "TIP_MediaFirst_Automation_Test_MultiSeasonTVShowS4E2",
+                "titleId": "Tv3Tip_TIP-1066",
+                "seasonId": "fake_1057_Tv3Tip_4",
+                "offerType": "Free"
+            }
+        ]
+    },
+    "rentMovieFromGrid": {
+        "title": "Hugo",
+        "programId": "19553994"
+    },
+    "rentTVShowFromGrid": {
+        "title": "Dexter",
+        "programId": "TestData_471",
+        "seriesId": "5859085"
+    },
+    "contentRatingsMovie": {
+        "title": "2 Guns",
+        "programId": "667969ThirdParty31363435353833",
+        "offer_group_id": 4000003
+    },
+    "skipSeekRestartChannel": {
+        "name": "405 KPIXHD",
+        "channelNumber": 404
+    },
+    "moviePlayInfo": {
+        "id": "Tv3Tip_TIP-1000",
+        "programId": "fake_TIP-1000_TestData",
+        "uri": "http://mringofunk.streaming.mediaservices.windows.net/f1ad6244-ea2a-4dbe-b0c2-c52026139a4f/",
+        "isLiveTv": false,
+        "dataSource": {
+            "mediaId": "Tv3Tip_TIP-1000_Hls_Reach_HD",
+            "hostName": "https://ottapp-appgw-amp-a.ofunk.mr.tv3cloud.com",
+            "ownerId": "azuki",
+            "cdnURL": "",
+            "isLive": false
+        },
+        "expires": "2020-01-01T23:00:00.000Z",
+        "tags": [
+            "Feature"
+        ],
+        "title": "TIP_MediaFirst_Automation_Test_FreeMovie",
+        "ratings": [
+            {
+                "System": "MPAA",
+                "Value": "PG"
+            }
+        ],
+        "episodeId": "",
+        "episodeName": "",
+        "seasonId": "",
+        "networkId": "",
+        "networkName": "",
+        "smallNetworkLogoUrl": ""
+    },
+    "seriesPlayInfo": {
+        "id": "Tv3Tip_TIP-1006",
+        "programId": "fake_TIP-1006_TestData",
+        "seriesId": "fake_1006_TestData",
+        "smallNetworkLogoUrl": "",
+        "uri": "http://mringofunk.streaming.mediaservices.windows.net/aa54f852-4724-40d0-bb45-7683df47fdc7/",
+        "isLiveTv": false,
+        "dataSource": {
+            "mediaId": "Tv3Tip_TIP-1006_Hls_Reach_HD",
+            "hostName": "https://ottapp-appgw-amp-a.ofunk.mr.tv3cloud.com",
+            "ownerId": "azuki",
+            "cdnURL": "",
+            "isLive": false
+        },
+        "expires": "2020-01-01T23:00:00.000Z",
+        "tags": [
+            "Feature"
+        ],
+        "title": "TIP_MediaFirst_Automation_Test_FreeTVShow",
+        "ratings": [
+            {
+                "System": "MPAA",
+                "Value": "PG"
+            }
+        ],
+        "episodeId": "1",
+        "episodeName": "Test",
+        "seasonId": 1
+    },
+    "rentalbleWifiBlockedMovie": {
+        "title": "TIP_MediaFirst_Automation_Test_Movie1",
+        "programId": "fake_TIP-1018_Tv3Tip",
+        "titleId": "Tv3Tip_TIP-1018",
+        "offerType": "Rent",
+        "titleRestrictions": [
+            "wifi_blocked"
+        ],
+        "genres": [
+            "2729"
+        ]
+    },
+    "rentalbleTabletBlockedMovie": {
+        "title": "TIP_MediaFirst_Automation_Test_Movie2",
+        "programId": "fake_TIP-1019_Tv3Tip",
+        "titleId": "Tv3Tip_TIP-1019",
+        "offerType": "Rent",
+        "genres": [
+            "2729"
+        ],
+        "titleRestrictions": [
+            "tablet_blocked"
+        ],
+        "offerRestrictions": [
+            "deviceTablet"
+        ]
+    },
+    "rentalblePhoneBlockedMovie": {
+        "title": "TIP_MediaFirst_Automation_Test_Movie3",
+        "programId": "fake_TIP-1020_Tv3Tip",
+        "titleId": "Tv3Tip_TIP-1020",
+        "offerType": "Rent",
+        "titleRestrictions": [
+            "phone_blocked"
+        ],
+        "offerRestrictions": [
+            "devicePhone"
+        ],
+        "genres": [
+            "2729"
+        ]
+    },
+    "rentalbleHdmiBlockedMovie": {
+        "title": "TIP_MediaFirst_Automation_Test_Movie4",
+        "programId": "fake_TIP-1021_Tv3Tip",
+        "titleId": "Tv3Tip_TIP-1021",
+        "offerType": "Rent",
+        "genres": [
+            "2001"
+        ]
+    },
+    "rentalblefwdRwdBlockedMovie": {
+        "title": "TIP_MediaFirst_Automation_Test_Movie5",
+        "programId": "fake_TIP-1022_Tv3Tip",
+        "titleId": "Tv3Tip_TIP-1022",
+        "offerType": "Rent",
+        "genres": [
+            "2001"
+        ]
+    },
+    "rentalbleBrowserPhoneBlockedMovie": {
+        "title": "TIP_MediaFirst_Automation_Test_Movie6",
+        "programId": "fake_TIP-1023_Tv3Tip",
+        "titleId": "Tv3Tip_TIP-1023",
+        "offerType": "Rent",
+        "genres": [
+            "2001"
+        ],
+        "titleRestrictions": [
+            "phone_blocked"
+        ],
+        "offerRestrictions": [
+            "deviceBrowser",
+            "devicePhone"
+        ]
+    },
+    "rentalbleBrowserBlockedMovie": {
+        "title": "TIP_MediaFirst_Automation_Test_Movie7",
+        "programId": "fake_TIP-1024_Tv3Tip",
+        "titleId": "Tv3Tip_TIP-1024",
+        "offerType": "Rent",
+        "titleRestrictions": [
+            "desktop_blocked"
+        ],
+        "offerRestrictions": [
+            "deviceBrowser"
+        ],
+        "genres": [
+            "2001"
+        ]
+    },
+    "frenchLanguageRentableMovie": {
+        "programId": "fake_TIP-1043_Tv3Tip",
+        "titleId": "Tv3Tip_TIP-1043",
+        "offerType": "Rent",
+        "title": "TIP_MediaFirst_Automation_Test_FrenchLanguage_Rentable_Movie",
+        "genres": [
+            "2001"
+        ],
+        "offers": [
+            {
+                "offerType": "Rent",
+                "QualitysLevel": [
+                    "HD",
+                    "SD",
+                    "ReachHD"
+                ]
+            },
+            {
+                "offerType": "Rent",
+                "QualitysLevel": [
+                    "HD",
+                    "ReachHD"
+                ]
+            }
+        ]
+    },
+    "comedyTvShow": {
+        "titleId": "Tv3Tip_TIP-1049",
+        "seriesId": "fake_1049_Tv3Tip",
+        "offerType": "Free",
+        "title": "TIP_MediaFirst_Automation_Test_FreeTVShow_Comedy",
+        "genres": [
+            "2001",
+            "2681"
+        ]
+    },
+    "frenchLanguageRentableTvShow": {
+        "titleId": "Tv3Tip_TIP-1048",
+        "offerType": "Rent",
+        "seriesId": "fake_1048_Tv3Tip",
+        "title": "TIP_MediaFirst_Automation_Test_TVShowFrenchLanguage",
+        "genres": [
+            "2001"
+        ]
+    },
+    "englishLanguageRentableTvShow": {
+        "titleId": "Tv3Tip_TIP-1050",
+        "offerType": "Rent",
+        "seriesId": "fake_1050_Tv3Tip",
+        "title": "TIP_MediaFirst_Automation_Test_TVShowEnglishLanguage",
+        "genres": [
+            "2001"
+        ]
+    },
+    "subscriberLibraryItem": {
+        "Id": "Tv3Tip_TIP-1020",
+        "ItemType": "Title",
+        "IsPinned": false,
+        "IsGeoBlocked": false,
+        "PlayActions": [
+            {
+                "VideoProfile": {
+                    "PlaybackUri": "http://mringofunk.streaming.mediaservices.windows.net/9a2fe6b9-f9d3-40be-bf75-9fa5b00a2594/hv5_MenInBlack3_trailer.ism/manifest",
+                    "PlaybackOrigin": "AZURE",
+                    "Id": "Tv3Tip_TIP-1020_SmoothStreaming_Stb_HD",
+                    "Encoding": "SmoothStreaming",
+                    "QualityLevel": "HD",
+                    "ClientType": "Stb"
+                },
+                "ExpirationUtc": "2016-12-06T05:38:28.807Z",
+                "TimeToExpiry": "04:06:37.9705182",
+                "HoursToExpiry": 4,
+                "StartUtc": "2016-12-05T05:38:28.807Z",
+                "TransactionType": "Rent",
+                "Terms": "Buy something nice",
+                "Restrictions": []
+            },
+            {
+                "VideoProfile": {
+                    "PlaybackUri": "http://mringofunk.streaming.mediaservices.windows.net/8415dd15-d076-4989-b19f-4202ee674b69/",
+                    "PlaybackOrigin": "AZURE",
+                    "Id": "Tv3Tip_TIP-1020_Hls_Reach_HD",
+                    "Encoding": "Hls",
+                    "QualityLevel": "ReachHD",
+                    "ClientType": "Reach"
+                },
+                "ExpirationUtc": "2016-12-06T05:38:28.807Z",
+                "TimeToExpiry": "04:06:37.9705182",
+                "HoursToExpiry": 4,
+                "StartUtc": "2016-12-05T05:38:28.807Z",
+                "TransactionType": "Rent",
+                "Terms": "Buy something nice",
+                "Restrictions": []
+            }
+        ],
+        "PurchaseActions": [
+            {
+                "OfferId": "72bd631c-934c-4856-b3ae-279e2139ad65",
+                "VideoProfiles": [
+                    {
+                        "Id": "Tv3Tip_TIP-1020_SmoothStreaming_Stb_HD",
+                        "Encoding": "SmoothStreaming",
+                        "QualityLevel": "HD",
+                        "ClientType": "Stb"
+                    },
+                    {
+                        "Id": "Tv3Tip_TIP-1020_SmoothStreaming_Stb_SD",
+                        "Encoding": "SmoothStreaming",
+                        "QualityLevel": "SD",
+                        "ClientType": "Stb"
+                    },
+                    {
+                        "Id": "Tv3Tip_TIP-1020_Hls_Reach_HD",
+                        "Encoding": "Hls",
+                        "QualityLevel": "ReachHD",
+                        "ClientType": "Reach"
+                    }
+                ],
+                "QualityLevels": [
+                    "HD",
+                    "SD",
+                    "ReachHD"
+                ],
+                "Price": 1,
+                "Currency": "PHP",
+                "TransactionType": "Rent",
+                "Terms": "Standard offer T&Cs apply",
+                "ExpirationUtc": "2020-04-09T22:39:44Z",
+                "TimeToExpiry": "1220.21:07:53.1635182",
+                "HoursToExpiry": 29301,
+                "RentalWindow": "1.00:00:00",
+                "Restrictions": [
+                    "ph"
+                ],
+                "Discountable": true
+            },
+            {
+                "OfferId": "864cc4df-c9f5-4fda-bfbf-53103f7fef52",
+                "VideoProfiles": [
+                    {
+                        "Id": "Tv3Tip_TIP-1020_SmoothStreaming_Stb_HD",
+                        "Encoding": "SmoothStreaming",
+                        "QualityLevel": "HD",
+                        "ClientType": "Stb"
+                    },
+                    {
+                        "Id": "Tv3Tip_TIP-1020_SmoothStreaming_Stb_SD",
+                        "Encoding": "SmoothStreaming",
+                        "QualityLevel": "SD",
+                        "ClientType": "Stb"
+                    },
+                    {
+                        "Id": "Tv3Tip_TIP-1020_Hls_Reach_HD",
+                        "Encoding": "Hls",
+                        "QualityLevel": "ReachHD",
+                        "ClientType": "Reach"
+                    }
+                ],
+                "QualityLevels": [
+                    "HD",
+                    "SD",
+                    "ReachHD"
+                ],
+                "Price": 10,
+                "Currency": "PHP",
+                "TransactionType": "Purchase",
+                "Terms": "Standard offer T&Cs apply",
+                "ExpirationUtc": "2020-04-10T22:39:44Z",
+                "TimeToExpiry": "1221.21:07:53.1635182",
+                "HoursToExpiry": 29325,
+                "PackageId": "a83254a9-9f5f-47cb-906a-d55eef1cb792",
+                "PackageName": "TIP_MediaFirst_Automation_Test_PackageInclude15Assets",
+                "PackageTitleCount": 15,
+                "Discountable": false,
+                "Restrictions": []
+            }
+        ],
+        "CatalogInfo": {
+            "Name": "TIP_MediaFirst_Automation_Test_",
+            "ShowType": "Movie",
+            "UniversalProgramId": "fake_TIP-1020_Tv3Tip",
+            "RuntimeSeconds": 150,
+            "Images": [
+                {
+                    "Size": "XSmall",
+                    "ImageType": "PosterLandscape",
+                    "Uri": "https://appgw-client-a.ofunk.mr.tv3cloud.com/images/images/program/fake-tip-1020-tv3tip/posterlandscapexsmall.jpg"
+                },
+                {
+                    "Size": "Medium",
+                    "ImageType": "PosterLandscape",
+                    "Uri": "https://appgw-client-a.ofunk.mr.tv3cloud.com/images/images/program/fake-tip-1020-tv3tip/posterlandscapemedium.jpg"
+                }
+            ],
+            "SupportedImages": [
+                "2x3/Poster",
+                "PosterLandscape"
+            ],
+            "Ratings": [
+                {
+                    "System": "Canada",
+                    "Value": "PG"
+                }
+            ],
+            "Tags": [
+                "Feature"
+            ],
+            "Entitlements": [
+                "phone_blocked"
+            ],
+            "IsNew": false,
+            "IsAdult": false,
+            "ReleaseYear": 2016
+        }
+    },
+    "TestHubFeeds": {
+        "HubName": "TestHubFeeds",
+        "HubId": "discovery/feedsunderhub/6ab8d301-e4a7-4a83-b87a-dbf5806283f0",
+        "Mixed": "Layout2x3",
+        "Feeds": [
+            {
+                "Name": "Feed2x3",
+                "feedId": "udl://discovery/feeds/28233cd3-8d52-4566-a28f-44e839117f3f",
+                "Layout": "Layout2x3"
+            },
+            {
+                "Name": "Feed4x3",
+                "feedId": "udl://discovery/feeds/101da3fb-6d0a-4a42-b95c-d8be523b8e0a",
+                "Layout": "Layout4x3"
+            },
+            {
+                "Name": "Feed16x9",
+                "feedId": "udl://discovery/feeds/9f4bc2eb-8f3b-416e-aeab-a7b6f6608882",
+                "Layout": "Layout16x9"
+            }
+        ]
+    },
+    "HubForBrowseCategory": {
+        "HubName": "HubForBrowseCategory",
+        "Mixed": "Layout2x3",
+        "HubId": "discovery/hub/74c21b82-f988-4660-a10e-1b4f6761db5c"
+    },
+    "OnDemand": {
+        "HubName": "On Demand",
+        "Mixed": "Layout2x3"
+    },
+    "HubForMixedFeed": {
+        "Id": "discovery/hub/fafab799-1217-44e5-8eff-772e243069f6",
+        "Name": "HubForMixedFeed",
+        "feeds": [
+            {
+                "name": "MixedContinue",
+                "id": "udl: //discovery/feeds/4f7ed90c-bcbf-48f3-a248-1dd1c9595f60",
+                "assets": [
+                    {
+                        "title": "TIP_MediaFirst_Automation_Test_FreeTVShowTV14",
+                        "type": "TVSHOW"
+                    },
+                    {
+                        "title": "TIP_MediaFirst_Automation_Test_ActionMovie",
+                        "type": "TITLE"
+                    },
+                    {
+                        "title": "TIP_MediaFirst_Automation_Test_FreeTVShow",
+                        "type": "TITLE"
+                    }
+                ]
+            },
+            {
+                "name": "MixedFavorite",
+                "id": "udl: //discovery/feeds/1d01311f-3e76-478a-9cb7-350671fecab1",
+                "assets": [
+                    {
+                        "title": "TIP_MediaFirst_Automation_Test_FreeTVShow",
+                        "type": "TVSHOW"
+                    },
+                    {
+                        "title": "CMT (Country Music Television) - West",
+                        "type": "SERVICECOLLECTION"
+                    },
+                    {
+                        "title": "TIP_MediaFirst_Automation_Test_Package",
+                        "type": "PACKAGE"
+                    }
+                ]
+            },
+            {
+                "name": "MixedPurchase",
+                "id": "udl: //discovery/feeds/6d8c8a76-24cd-4fd9-808f-e9d640328748",
+                "assets": [
+                    {
+                        "title": "TIP_MediaFirst_Automation_Test_BuyableTVShow",
+                        "type": "TITLE"
+                    },
+                    {
+                        "title": "TIP_MediaFirst_Automation_Test_Package",
+                        "type": "PACKAGE"
+                    },
+                    {
+                        "title": "What Starts Here",
+                        "type": "PROGRAM"
+                    }
+                ]
+            },
+            {
+                "name": "MixedYouMightLike",
+                "id": "udl://subscriber/library/YouMightLike",
+                "assets": [
+                    {
+                        "title": "TIP_MediaFirst_Automation_Test_ActionMovie",
+                        "type": "TITLE"
+                    }
+                ]
+            }
+        ]
+    },
+    "promotionFeed": {
+        "feedId": "udl://discovery/feeds/30613b3e-1c6d-4c96-b83a-1b9c653408ec",
+        "movieCategoryId": "5476ae5a-9072-452e-a921-953b0a63e378",
+        "svodpackageCategoryId": "6fcc8421-63ab-4679-84c1-15a99b9264aa"
+    },
+    "LiveTVPromotionFeed": {
+        "feedId": "udl://discovery/feeds/c4dd8e08-c62e-44eb-9ffa-eded7ce7de2d"
+    },
+    "svodPackage": {
+        "packageId": "80ec483c-2769-4030-94e1-9cd3a3233ad7",
+        "includeChannel1": {
+            "NumberAndCallLetters": "1120 KFSFHD",
+            "Name": "KFSF-HD-66 (UniMas)",
+            "StationId": "2895"
+        },
+        "includeChannel2": {
+            "NumberAndCallLetters": "1282 ESS2_04",
+            "Name": "ESS2_04",
+            "StationId": "2846"
+        },
+        "serviceCollection": "AVE_ESS2_04_LIVE$2100010343_SC"
+    },
+    "freeSvodPackage": {
+        "packageId": "cc529063-cbe5-4d79-aa9d-6ef6449b9840",
+        "includeChannel": {
+            "NumberAndCallLetters": "385 KDTV",
+            "StationId": "2972"
+        },
+        "serviceCollection": "AVE_KDTV_LIVE$4334_SC"
+    },
+    "freeTrailerTVShow": {
+        "title": "TIP_MediaFirst_Automation_Test_FreeTrailerTVShow",
+        "titleId": "Tv3Tip_TIP-1062",
+        "seriesId": "fake_1062_Tv3Tip",
+        "offerType": "Free",
+        "trailerId": "Tv3Tip_TIP-1062preview",
+        "trailerofferType": "Free",
+        "genres": [
+            "2001"
+        ]
+    },
+    "rentableTrailerTVShow": {
+        "seiresTitle": "TIP_MediaFirst_Automation_Test_RentableTrailerTVShow",
+        "seriesId": "fake_1061_Tv3Tip",
+        "genres": [
+            "2001"
+        ],
+        "offerType": "Rent",
+        "trailerofferType": "Rent"
+    },
+    "liveTVGuideDateDropDown": {
+        "primeHours": 19
+    },
+    "onDemondHub": {
+        "hubId": "discovery/hub/145a2b15-5e3c-46f2-97e1-d7d42ba54552"
+    },
+    "adultChannel": {
+        "number": 6051
+    },
+    "ShieldTestSearchesincludeMainStore": {
+        "type": "STORE",
+        "IsAdult": false,
+        "SearchesincludeMain": true,
+        "IsDefault": false,
+        "storeName": "ShieldTestSearchesincludeMainStore",
+        "feeds": [
+            {
+                "name": "SearchIncludeMainFeed",
+                "id": "udl://discovery/feeds/c2dcd73b-ee09-46ee-bc0f-84190cd91483",
+                "assets": [
+                    {
+                        "title": "TIP_MediaFirst_Automation_Test_FreeTVShow",
+                        "type": "TVShow"
+                    },
+                    {
+                        "title": "TIP_MediaFirst_Automation_Test_MultiSeasonTVShow",
+                        "type": "TVShow",
+                        "ChannelNumber": "407"
+                    }
+                ]
+            },
+            {
+                "name": "SearchIncludeMainSubStore",
+                "id": "udl://discovery/feeds/d838c17f-3195-45d7-bdce-8a1b6b318d38",
+                "assets": [
+                    {
+                        "title": "TIP_MediaFirst_Automation_Test_FreeTVShow",
+                        "type": "TVShow"
+                    },
+                    {
+                        "title": "TIP_MediaFirst_Automation_Test_MultiSeasonTVShow",
+                        "type": "TVShow"
+                    }
+                ]
+            }
+        ]
+    },
+    "SearchIncludeMainStoreLevel2": {
+        "storeName": "SearchIncludeMainStoreLevel2",
+        "IsAdult": false,
+        "SearchIncludeMain": true,
+        "IsDefault": false
+    },
+    "NoAdultSearchDefaultStore": {
+        "storeName": "NoAdultSearchDefaultStore",
+        "IsAdult": false,
+        "SearchIncludeMain": false,
+        "IsDefault": false
+    },
+    "AdultAndSearchIncludeStore": {
+        "storeName": "AdultAndSearchIncludeStore",
+        "IsAdult": true,
+        "SearchIncludeMain": true,
+        "IsDefault": false
+    },
+    "Adult": {
+        "storeName": "Adult",
+        "IsAdult": true,
+        "SearchIncludeMain": true,
+        "IsDefault": true
+    },
+    "multiStoreHub": {
+        "hubId": "discovery/hub/678c12d5-7cb7-4dc4-bd8d-88e291ef414f",
+        "hubName": "MultiStoreHub",
+        "type": "STORE",
+        "feedNames": [
+            {
+                "name": "SearchIncludeFeed",
+                "id": "udl://discovery/feeds/f5157590-25b0-4ad8-a32b-4eb0b5dc5625",
+                "appName": "MultiStoreApp",
+                "appId": "discovery/feeditem/6ccf8ba8-94f1-4e40-989d-ad7a34f86eba"
+            },
+            {
+                "name": "AdultFeed",
+                "id": "udl://discovery/feeds/f3b172e9-4019-428f-828d-344f4cb3e619",
+                "appShowcard": [
+                    {
+                        "id": "discovery/feeditem/f7ef12bf-5598-49ba-ac31-bb4873b55c1c",
+                        "appName": "AdultAndSearchIncludeApp"
+                    },
+                    {
+                        "id": "discovery/feeditem/8a169afe-1ded-4337-8588-18dce8133431",
+                        "appName": "ShiledAdultStore "
+                    }
+                ]
+            },
+            {
+                "name": "AdultAndSearchIncludeFeed",
+                "id": "udl://discovery/feeds/1210afba-471e-4359-b314-8ecb9e895e32",
+                "appName": "Adult"
+            },
+            {
+                "name": "NoAdultSearchDefaultFeed",
+                "id": "udl://discovery/feeds/00f50b9b-6139-4167-bb20-29bfeac7d799",
+                "appName": "NoAdultSearchDefaultApp",
+                "appId": "discovery/feeditem/4ab2c6e7-e871-4f23-ae32-b9ca338a1bb6"
+            }
+        ]
+    },
+    "customStoreL1": {
+        "hubs": [
+            {
+                "hubId": "discovery/hub/70e90d70-ef12-4544-a8d0-dd4e2a95c129",
+                "hubName": "SearchIncludeMain",
+                "feedNames": [
+                    {
+                        "name": "SearchIncludeMainFeed",
+                        "id": "udl://discovery/feeds/c2dcd73b-ee09-46ee-bc0f-84190cd91483",
+                        "assets": [
+                            {
+                                "title": "TIP_MediaFirst_Automation_Test_MultiOfferMovie",
+                                "type": "TITLE"
+                            },
+                            {
+                                "title": "TIP_MediaFirst_Automation_Test_FreeTVShow",
+                                "type": "TITLE"
+                            },
+                            {
+                                "title": "TIP_MediaFirst_Automation_Test_PackageMovieOne",
+                                "type": "TITLE"
+                            }
+                        ]
+                    },
+                    {
+                        "name": "SearchIncludeMainSubStore",
+                        "id": "udl://discovery/feeds/d838c17f-3195-45d7-bdce-8a1b6b318d38",
+                        "appName": "SearchIncludeSubStoreApp"
+                    },
+                    {
+                        "name": "Favorite",
+                        "id": "udl://subscriber/library/Pins"
+                    },
+                    {
+                        "name": "Purchase",
+                        "id": "udl://subscriber/library/Library"
+                    },
+                    {
+                        "name": "Packeges",
+                        "id": "udl://discovery/feeds/packages"
+                    },
+                    {
+                        "name": "Continue",
+                        "id": "udl://subscriber/library/Continue"
+                    }
+                ]
+            },
+            {
+                "hubId": "discovery/hub/502865f2-1aa9-4263-933c-84e7955bc945",
+                "hubName": "YouHub",
+                "feedNames": [
+                    {
+                        "name": "Bookmarks",
+                        "id": "udl://subscriber/library/Continue"
+                    },
+                    {
+                        "name": "Recordings",
+                        "id": "udl://dvrproxy/viewable-subscription-items/"
+                    },
+                    {
+                        "name": "Channels",
+                        "id": "udl://live/myStations/"
+                    },
+                    {
+                        "name": "Pins",
+                        "id": "udl://subscriber/library/Pins"
+                    }
+                ]
+            },
+            {
+                "hubId": "discovery/hub/02a363bf-fb0d-4f76-91f7-4863e0e1b410",
+                "hubName": "LiveTVHub",
+                "feedNames": [
+                    {
+                        "name": "Programs Now",
+                        "id": "udl://live/feeds/playableChannels/"
+                    }
+                ]
+            },
+            {
+                "hubId": "discovery/hub/13b1d860-c028-44e6-9627-9003583bfd6f",
+                "hubName": "OnDemandHub",
+                "feedNames": [
+                    {
+                        "name": "Browse Movies",
+                        "id": "udl://discovery/feeds/movies"
+                    },
+                    {
+                        "name": "Browse TVShows",
+                        "id": "udl://discovery/feeds/d838c17f-3195-45d7-bdce-8a1b6b318d38",
+                        "appName": "udl://discovery/feeds/tvshows"
+                    },
+                    {
+                        "name": "TVOD Packages",
+                        "id": "udl://discovery/feeds/packages"
+                    },
+                    {
+                        "name": "Might Like",
+                        "id": "udl://subscriber/library/YouMightLike"
+                    }
+                ]
+            }
+        ]
+    },
+    "customStoreL2": {
+        "type": "STORE",
+        "hubId": "discovery/hub/d0de87ce-ebca-4cd2-8af0-3d79562fc2e5",
+        "hubName": "Level2StoreHub",
+        "feedNames": [
+            {
+                "name": "Level2StoreDeed2",
+                "id": "udl://discovery/feeds/451043e7-cd5e-4fdf-86bc-f491442a8245"
+            },
+            {
+                "name": "TVShow",
+                "id": "udl://discovery/feeds/1582cd3a-2c6b-4486-b781-7f1005fd733d",
+                "appName": "SearchIncludeSubStoreApp",
+                "appId": "discovery/feeditem/b3869ee7-d168-41a2-9346-5a8046df9eb7"
+            }
+        ]
+    },
+    "NoAdultSearchDefaultApp": {
+        "hubs": [
+            {
+                "hubId": "discovery/hub/5b3f543b-e4f0-4681-9ca9-9e012f8cd2ad",
+                "hubName": "NoAdultSearchDefaultHub",
+                "appName": "NoAdultSearchDefaultApp",
+                "channelNumber": 1652,
+                "feedNames": [
+                    {
+                        "name": "NoAdultSearchDefault1",
+                        "id": "udl://discovery/feeds/ae4a15ba-a586-46e1-a88f-f68a6574c8fe",
+                        "assets": [
+                            {
+                                "title": "TIP_MediaFirst_Automation_Test_RentableTVShow",
+                                "type": "TITLE"
+                            },
+                            {
+                                "title": "TIP_MediaFirst_Automation_Test_BuyableTVShow",
+                                "type": "TITLE"
+                            },
+                            {
+                                "title": "TIP_MediaFirst_Automation_Test_SearchableShow",
+                                "type": "TITLE"
+                            }
+                        ]
+                    },
+                    {
+                        "name": "NoAdultSearchDefaultsubStoreFeed",
+                        "id": "udl://discovery/feeds/bab5b15c-d441-4d96-8024-db3f81c6dd98",
+                        "appName": "NoAdultSearchDefaultApp"
+                    },
+                    {
+                        "name": "Favorite",
+                        "id": "udl://subscriber/library/Pins"
+                    },
+                    {
+                        "name": "Purchase",
+                        "id": "udl://subscriber/library/Library"
+                    },
+                    {
+                        "name": "Continue",
+                        "id": "udl://subscriber/library/Continue"
+                    },
+                    {
+                        "name": "TestPackages",
+                        "id": "udl://subscriber/library/TestPackages"
+                    }
+                ]
+            },
+            {
+                "hubId": "discovery/hub/502865f2-1aa9-4263-933c-84e7955bc945",
+                "hubName": "YouHub",
+                "feedNames": [
+                    {
+                        "name": "Bookmarks",
+                        "id": "udl://subscriber/library/Continue"
+                    },
+                    {
+                        "name": "Recordings",
+                        "id": "udl://dvrproxy/viewable-subscription-items/"
+                    },
+                    {
+                        "name": "Channels",
+                        "id": "udl://live/myStations/"
+                    },
+                    {
+                        "name": "Pins",
+                        "id": "udl://subscriber/library/Pins"
+                    }
+                ]
+            },
+            {
+                "hubId": "discovery/hub/02a363bf-fb0d-4f76-91f7-4863e0e1b410",
+                "hubName": "LiveTVHub",
+                "feedNames": [
+                    {
+                        "name": "Programs Now",
+                        "id": "udl://live/feeds/playableChannels/"
+                    }
+                ]
+            },
+            {
+                "hubId": "discovery/hub/13b1d860-c028-44e6-9627-9003583bfd6f",
+                "hubName": "OnDemandHub",
+                "feedNames": [
+                    {
+                        "name": "Browse Movies",
+                        "id": "udl://discovery/feeds/movies"
+                    },
+                    {
+                        "name": "Browse TVShows",
+                        "id": "udl://discovery/feeds/tvshows"
+                    },
+                    {
+                        "name": "TVOD Packages",
+                        "id": "udl://discovery/feeds/packages"
+                    },
+                    {
+                        "name": "Might Like",
+                        "id": "udl://subscriber/library/YouMightLike"
+                    }
+                ]
+            }
+        ]
+    },
+    "AdultStore": {
+        "channelNumber": 1653,
+        "hubs": [
+            {
+                "hubId": "discovery/hub/38ea286c-35a1-4735-920d-1b870b0ab927",
+                "hubName": "Your Adult",
+                "feedNames": [
+                    {
+                        "name": "Recent",
+                        "id": "udl://subscriber/library/Continue"
+                    },
+                    {
+                        "name": "Favorites",
+                        "id": "udl://subscriber/library/Pins"
+                    },
+                    {
+                        "name": "Purchases",
+                        "id": "udl://subscriber/library/Library"
+                    },
+                    {
+                        "name": "AdultLive",
+                        "id": "udl://discovery/feeds/95c198e2-f1b3-4e47-8b5d-208c388799ac",
+                        "assets": [
+                            {
+                                "title": "VSPP-Rating-01",
+                                "type": "TITLE"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "hubId": "discovery/hub/7e66aff8-6c2a-4d27-ab9f-06bf21aeff59",
+                "hubName": "AdultTV",
+                "feedNames": [
+                    {
+                        "name": "On Now",
+                        "id": "udl://live/feeds/playableChannels/",
+                        "assets": [
+                            {
+                                "title": "VSPP-Rating-01",
+                                "type": "TITLE"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "hubId": "discovery/hub/745e15b5-144b-4211-a0c9-cdd2db025dea",
+                "hubName": "Adult On Demand",
+                "feedNames": [
+                    {
+                        "name": "Movies",
+                        "id": "udl://discovery/feeds/movies",
+                        "assets": [
+                            {
+                                "title": "TIP_MediaFirst_Automation_Test_Adult_FreeMovie",
+                                "type": "TITLE"
+                            }
+                        ]
+                    },
+                    {
+                        "name": "TV Shows",
+                        "id": "udl://discovery/feeds/tvshows",
+                        "assets": [
+                            {
+                                "title": "TC-2-AdultStoreTest-Adult-0",
+                                "type": "TITLE"
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Collections",
+                        "id": "udl://discovery/feeds/packages",
+                        "assets": [
+                            {
+                                "title": "AdultTests-4734746-0",
+                                "type": "TITLE"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    "adultStoreWithSearchInMain": {
+        "hubs": [
+            {
+                "hubId": "discovery/hub/26dd8f44-3896-4201-9cd9-00e76783184f",
+                "hubName": "OnDemand",
+                "feedNames": [
+                    {
+                        "id": "udl://discovery/feeds/movies",
+                        "label": "Browse Movies"
+                    },
+                    {
+                        "label": "Movies",
+                        "id": "udl://discovery/feeds/e95b4f88-becc-463b-bd65-23c791cb814e",
+                        "Movies": [
+                            {
+                                "Name": "TC-2-AdultStoreTest-Adult-0"
+                            },
+                            {
+                                "Name": "TC-2-AdultStoreTest-Adult-1"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    "adultStoreNoSearchInMain": {
+        "hubs": [
+            {
+                "hubId": "discovery/hub/26dd8f44-3896-4201-9cd9-00e76783184f",
+                "hubName": "OnDemand",
+                "feedNames": [
+                    {
+                        "label": "Browse Movies",
+                        "id": "udl://discovery/feeds/movies"
+                    },
+                    {
+                        "label": "Movies",
+                        "id": "udl://discovery/feeds/e95b4f88-becc-463b-bd65-23c791cb814e",
+                        "Movies": [
+                            {
+                                "Name": "TIP_MediaFirst_Automation_Test_Adult_FreeMovie"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    "MultiStoreApp": {
+        "appName": "MultiStoreApp",
+        "appId": "discovery/feeditem/6ccf8ba8-94f1-4e40-989d-ad7a34f86eba"
+    },
+    "NoAdultSearchAdultApp": {
+        "appName": "NoAdultSearchAdultApp",
+        "appId": "discovery/feeditem/4ab2c6e7-e871-4f23-ae32-b9ca338a1bb6"
+    },
+    "featureGroups": {
+        "isTestEnv": true
+    },
+    "setExpectedPCONRatings": {
+        "contentRatings": [
+            {
+                "System": "MPAA",
+                "Value": "PG-13"
+            },
+            {
+                "System": "USTV",
+                "Value": "TV-PG"
+            },
+            {
+                "System": "EIRIN",
+                "Value": "PG-12"
+            }
+        ]
+    },
+    "pCon": {
+        "failedPinAttemptsLimit": 5
+    },
+    "DvrMockSeriesId": {
+        "seriesId": "667969ThirdParty31313734383837"
+    },
+    "PBRLiveChannelMapGroup": "2366003",
+    "dvrSubscriptions": {
+        "offerId": "e3199202-d2d5-4aac-90e4-cd1c6246d7b7"
+    },
+    "DownloadsInfo": {
+        "downloadInfo": [
+            {
+                "assetId": "siId",
+                "mediaId": "mediaId",
+                "status": 0,
+                "extraStatus": 0,
+                "mediaInfo": {
+                    "id": "details/detailspage/programshowcardmetadata/programId",
+                    "$type": "PROGRAM-DVR",
+                    "Id": "siId",
+                    "SubscriptionId": "0bcea53f-cd62-4a3e-bc4c-2e2b9ffe3d70",
+                    "StationId": "3292",
+                    "ProgramId": "programId",
+                    "PlayInfo": [
+                        {
+                            "MediaId": "mediaId",
+                            "OwnerId": "ownerId",
+                            "RecordingToken": "recordingToken",
+                            "StartTime": "2018-10-22T10:44:00.000Z",
+                            "EndTime": "2018-10-22T12:11:52.000Z"
+                        }
+                    ],
+                    "ItemState": "Recorded",
+                    "ProgramDetails": {
+                        "UniversalProgramId": "programId",
+                        "Title": "Test Program Title",
+                        "Description": "Mark Renton returns to Scotland from Amsterdam and meets back up with Spud, Sick Boy and Begbie after 20 years of estrangement due to a previous betrayal, but the old friends each have their own personal demons to fight against.",
+                        "ShowType": "Movie",
+                        "ReleaseYear": 2017,
+                        "Images": [
+                            {
+                                "Size": "Small",
+                                "ImageType": "PosterLandscape",
+                                "Uri": "https://appgw-client-a.ofunk.mr.tv3cloud.com/images/images/series/fake-1013-tv3tip/posterlandscapexsmall.jpg"
+                            },
+                            {
+                                "Size": "Medium",
+                                "ImageType": "PosterLandscape",
+                                "Uri": "https://appgw-client-a.ofunk.mr.tv3cloud.com/images/images/series/fake-1013-tv3tip/posterlandscapemedium.jpg"
+                            }
+                        ],
+                        "SupportedImages": [
+                            "4x3/KeyArt",
+                            "3x4/KeyArt",
+                            "3x4/Poster",
+                            "2x3/KeyArt",
+                            "2x3/Poster",
+                            "16x9/KeyArt",
+                            "3x2/KeyArt",
+                            "KeyArtLandscape",
+                            "PosterLandscape"
+                        ],
+                        "Genres": [
+                            {
+                                "Id": "2715",
+                                "Name": "Drama"
+                            }
+                        ],
+                        "Ratings": [
+                            {
+                                "System": "MPAA",
+                                "Value": "R"
+                            }
+                        ],
+                        "IsAdult": false
+                    },
+                    "Settings": {
+                        "RecyclingDisabled": false,
+                        "EndLateSeconds": 0,
+                        "StartEarlySeconds": 0,
+                        "ChannelNumber": 1005,
+                        "SoftPrePaddingSeconds": 0,
+                        "SoftPostPaddingSeconds": 0
+                    },
+                    "ScheduledAvailabilityStartUtc": "2024-03-20T19:50:00Z",
+                    "ScheduledRuntimeSeconds": 1800,
+                    "ActualAvailabilityStartUtc": "2024-03-20T19:50:00Z",
+                    "ActualAvailabilityEndUtc": "2024-03-20T19:55:00Z",
+                    "ExceedsQuota": false,
+                    "ScheduleVersion": 0,
+                    "IsGeneric": true,
+                    "IsAdult": false,
+                    "IsDownloadable": true,
+                    "ContentExpiryUtc": "2024-03-20T19:50:00Z",
+                    "RecordingSearchIndexState": "Recorded",
+                    "Tags": [
+                        "ClosedCaptioned",
+                        "Sap"
+                    ],
+                    "AudioTags": {
+                        "ClosedCaptioned": "",
+                        "Sap": ""
+                    },
+                    "MfRecordingId": "20181022T101100Z_1705295_3493848_shared01-recorder-scs",
+                    "CallLetters": "STARZW",
+                    "ChannelName": "Starz - West",
+                    "ChannelLogo": "",
+                    "ItemType": "Recording",
+                    "RuntimeMinutes": 89,
+                    "Definition": "SingleProgram",
+                    "ActualStartUtc": "2024-03-20T19:50:00Z",
+                    "ActualEndUtc": "2024-03-20T19:55:00Z",
+                    "ScheduledStartUtc": "2024-03-20T19:50:00Z",
+                    "ScheduledEndUtc": "2024-03-20T19:55:00Z",
+                    "Name": "T2: Trainspotting",
+                    "ShowType": "Movie",
+                    "DvrPlayInfo": {
+                        "Id": "siId",
+                        "ChannelNumber": 1005,
+                        "ProgramId": "programId",
+                        "Title": "Test Program Title",
+                        "StationId": "3292",
+                        "PlayInfo": {
+                            "MediaId": "mediaId",
+                            "OwnerId": "ownerId",
+                            "RecordingToken": "recordingToken",
+                            "StartTime": "2018-10-22T10:44:00.000Z",
+                            "EndTime": "2018-10-22T12:11:52.000Z"
+                        },
+                        "RecordingDurationSeconds": 5332,
+                        "Ratings": [
+                            {
+                                "System": "MPAA",
+                                "Value": "R"
+                            }
+                        ]
+                    },
+                    "ChannelNumber": 1005,
+                    "DvrSchedule": {
+                        "StartUtc": "2018-10-22T10:43:00Z",
+                        "ProgramId": "programId",
+                        "StationId": "3292",
+                        "EndUtc": "2018-10-22T12:11:52Z",
+                        "Name": "Program Name"
+                    },
+                    "SubscriptionExternalId": "",
+                    "UniversalProgramId": "programId",
+                    "Title": "Test Program Title",
+                    "Description": "Mark Renton returns to Scotland from Amsterdam and meets back up with Spud, Sick Boy and Begbie after 20 years of estrangement due to a previous betrayal, but the old friends each have their own personal demons to fight against.",
+                    "ReleaseYear": 2017,
+                    "Images": [
+                        {
+                            "Size": "Small",
+                            "ImageType": "PosterLandscape",
+                            "Uri": "https://appgw-client-a.ofunk.mr.tv3cloud.com/images/images/series/fake-1013-tv3tip/posterlandscapexsmall.jpg"
+                        },
+                        {
+                            "Size": "Medium",
+                            "ImageType": "PosterLandscape",
+                            "Uri": "https://appgw-client-a.ofunk.mr.tv3cloud.com/images/images/series/fake-1013-tv3tip/posterlandscapemedium.jpg"
+                        }
+                    ],
+                    "SupportedImages": [
+                        "4x3/KeyArt",
+                        "3x4/KeyArt",
+                        "3x4/Poster",
+                        "2x3/KeyArt",
+                        "2x3/Poster",
+                        "16x9/KeyArt",
+                        "3x2/KeyArt",
+                        "KeyArtLandscape",
+                        "PosterLandscape"
+                    ],
+                    "Genres": [
+                        {
+                            "Id": "2715",
+                            "Name": "Drama"
+                        }
+                    ],
+                    "Ratings": [
+                        {
+                            "System": "MPAA",
+                            "Value": "R"
+                        }
+                    ],
+                    "RecordingDurationSeconds": 5332,
+                    "StartUtc": "2018-10-22T10:43:00Z",
+                    "EndUtc": "2018-10-22T12:11:52Z",
+                    "startTime": "2018-10-22T10:11:00.000Z",
+                    "endTime": "2018-10-22T12:10:00.000Z",
+                    "channelNumber": 1005,
+                    "channelCallLetters": "STARZW",
+                    "RuntimeSeconds": 5332,
+                    "ImageBucketId": "images",
+                    "Roles": [
+                        {
+                            "RoleName": "Actor",
+                            "PersonId": "3102",
+                            "PersonName": "Ewan McGregor",
+                            "Images": [
+                                {
+                                    "Size": "XSmall",
+                                    "ImageType": "PosterPortrait",
+                                    "Uri": "https://ottapp-appgw-client-a.ofunk.mr.tv3cloud.com/images/images/person/3102/keyartlandscapexsmall.jpg"
+                                },
+                                {
+                                    "Size": "Small",
+                                    "ImageType": "PosterPortrait",
+                                    "Uri": "https://ottapp-appgw-client-a.ofunk.mr.tv3cloud.com/images/images/person/3102/keyartlandscapesmall.jpg"
+                                }
+                            ],
+                            "SupportedImages": [
+                                "4x3/KeyArt",
+                                "3x4/KeyArt",
+                                "2x3/KeyArt",
+                                "16x9/KeyArt",
+                                "3x2/KeyArt",
+                                "KeyArtLandscape"
+                            ],
+                            "ImageBucketId": "images"
+                        },
+                        {
+                            "RoleName": "Actor",
+                            "PersonId": "16542",
+                            "PersonName": "Ewen Bremner",
+                            "Images": [
+                                {
+                                    "Size": "XSmall",
+                                    "ImageType": "PosterPortrait",
+                                    "Uri": "https://ottapp-appgw-client-a.ofunk.mr.tv3cloud.com/images/images/person/16542/keyartlandscapexsmall.jpg"
+                                },
+                                {
+                                    "Size": "Small",
+                                    "ImageType": "PosterPortrait",
+                                    "Uri": "https://ottapp-appgw-client-a.ofunk.mr.tv3cloud.com/images/images/person/16542/keyartlandscapesmall.jpg"
+                                }
+                            ],
+                            "SupportedImages": [
+                                "3x4/KeyArt",
+                                "2x3/KeyArt",
+                                "3x2/KeyArt",
+                                "KeyArtLandscape"
+                            ],
+                            "ImageBucketId": "images"
+                        },
+                        {
+                            "RoleName": "Actor",
+                            "PersonId": "2466",
+                            "PersonName": "Jonny Lee Miller",
+                            "Images": [
+                                {
+                                    "Size": "XSmall",
+                                    "ImageType": "PosterPortrait",
+                                    "Uri": "https://ottapp-appgw-client-a.ofunk.mr.tv3cloud.com/images/images/person/2466/keyartlandscapexsmall.jpg"
+                                },
+                                {
+                                    "Size": "Small",
+                                    "ImageType": "PosterPortrait",
+                                    "Uri": "https://ottapp-appgw-client-a.ofunk.mr.tv3cloud.com/images/images/person/2466/keyartlandscapesmall.jpg"
+                                }
+                            ],
+                            "SupportedImages": [
+                                "3x4/KeyArt",
+                                "2x3/KeyArt",
+                                "KeyArtLandscape"
+                            ],
+                            "ImageBucketId": "images"
+                        },
+                        {
+                            "RoleName": "Actor",
+                            "PersonId": "2331",
+                            "PersonName": "Robert Carlyle",
+                            "Images": [
+                                {
+                                    "Size": "XSmall",
+                                    "ImageType": "PosterPortrait",
+                                    "Uri": "https://ottapp-appgw-client-a.ofunk.mr.tv3cloud.com/images/images/person/2331/keyartlandscapexsmall.jpg"
+                                },
+                                {
+                                    "Size": "Small",
+                                    "ImageType": "PosterPortrait",
+                                    "Uri": "https://ottapp-appgw-client-a.ofunk.mr.tv3cloud.com/images/images/person/2331/keyartlandscapesmall.jpg"
+                                }
+                            ],
+                            "SupportedImages": [
+                                "4x3/KeyArt",
+                                "3x4/KeyArt",
+                                "2x3/KeyArt",
+                                "16x9/KeyArt",
+                                "KeyArtLandscape"
+                            ],
+                            "ImageBucketId": "images"
+                        },
+                        {
+                            "RoleName": "Actor",
+                            "PersonId": "5285",
+                            "PersonName": "Kelly Macdonald",
+                            "Images": [
+                                {
+                                    "Size": "XSmall",
+                                    "ImageType": "PosterPortrait",
+                                    "Uri": "https://ottapp-appgw-client-a.ofunk.mr.tv3cloud.com/images/images/person/5285/keyartlandscapexsmall.jpg"
+                                },
+                                {
+                                    "Size": "Small",
+                                    "ImageType": "PosterPortrait",
+                                    "Uri": "https://ottapp-appgw-client-a.ofunk.mr.tv3cloud.com/images/images/person/5285/keyartlandscapesmall.jpg"
+                                }
+                            ],
+                            "SupportedImages": [
+                                "4x3/KeyArt",
+                                "3x4/KeyArt",
+                                "2x3/KeyArt",
+                                "16x9/KeyArt",
+                                "KeyArtLandscape"
+                            ],
+                            "ImageBucketId": "images"
+                        },
+                        {
+                            "RoleName": "Actor",
+                            "PersonId": "2035",
+                            "PersonName": "Shirley Henderson",
+                            "Images": [
+                                {
+                                    "Size": "XSmall",
+                                    "ImageType": "PosterPortrait",
+                                    "Uri": "https://ottapp-appgw-client-a.ofunk.mr.tv3cloud.com/images/images/person/2035/keyartlandscapexsmall.jpg"
+                                },
+                                {
+                                    "Size": "Small",
+                                    "ImageType": "PosterPortrait",
+                                    "Uri": "https://ottapp-appgw-client-a.ofunk.mr.tv3cloud.com/images/images/person/2035/keyartlandscapesmall.jpg"
+                                }
+                            ],
+                            "SupportedImages": [
+                                "4x3/KeyArt",
+                                "3x4/KeyArt",
+                                "2x3/KeyArt",
+                                "16x9/KeyArt",
+                                "KeyArtLandscape"
+                            ],
+                            "ImageBucketId": "images"
+                        },
+                        {
+                            "RoleName": "Director",
+                            "PersonId": "7042",
+                            "PersonName": "Danny Boyle",
+                            "Images": [
+                                {
+                                    "Size": "XSmall",
+                                    "ImageType": "PosterPortrait",
+                                    "Uri": "https://ottapp-appgw-client-a.ofunk.mr.tv3cloud.com/images/images/person/7042/keyartlandscapexsmall.jpg"
+                                },
+                                {
+                                    "Size": "Small",
+                                    "ImageType": "PosterPortrait",
+                                    "Uri": "https://ottapp-appgw-client-a.ofunk.mr.tv3cloud.com/images/images/person/7042/keyartlandscapesmall.jpg"
+                                }
+                            ],
+                            "SupportedImages": [
+                                "3x4/KeyArt",
+                                "2x3/KeyArt",
+                                "KeyArtLandscape"
+                            ],
+                            "ImageBucketId": "images"
+                        },
+                        {
+                            "RoleName": "Writer",
+                            "PersonId": "66512",
+                            "PersonName": "John Hodge"
+                        }
+                    ],
+                    "Entitlements": [],
+                    "ContentRatings": [
+                        {
+                            "ProviderId": "RottenTomatoes",
+                            "ProgramId": "programId",
+                            "RatingValues": [
+                                {
+                                    "RatingScheme": "Critics_Score",
+                                    "Score": "79",
+                                    "Image": "https://appgw-client-a.ofunk.mr.tv3cloud.com/images/images/ContentRating/CertifiedFreshTomato.png"
+                                },
+                                {
+                                    "RatingScheme": "Audience_Score",
+                                    "Score": "78",
+                                    "Image": "https://appgw-client-a.ofunk.mr.tv3cloud.com/images/images/ContentRating/FreshPopcorn.png"
+                                }
+                            ]
+                        }
+                    ],
+                    "IsLive": true,
+                    "Locale": "en",
+                    "UpdatedUtc": "2018-10-24T15:11:39.69Z",
+                    "HasContentAdvisory": false,
+                    "ContentRatingValue_RT_Critic": "79%",
+                    "ContentRatingImageHtml_RT_Critic": "<img class=\"single-content-rating-image\" src=\"https://ottapp-appgw-client-a.ofunk.mr.tv3cloud.com/images/images/ContentRating/CertifiedFreshTomato.png\">",
+                    "ContentRatingValue_RT_Audience": "78%",
+                    "ContentRatingImageHtml_RT_Audience": "<img class=\"single-content-rating-image\" src=\"https://ottapp-appgw-client-a.ofunk.mr.tv3cloud.com/images/images/ContentRating/FreshPopcorn.png\">",
+                    "ContentRatingValue_RT": "79%",
+                    "ContentRatingImageHtml_RT": "<img class=\"single-content-rating-image\" src=\"https://ottapp-appgw-client-a.ofunk.mr.tv3cloud.com/images/images/ContentRating/CertifiedFreshTomato.png\">",
+                    "ContentRatingTitle_RT": "Rotten Tomatoes™ Scores",
+                    "ContentRatingValue": "79%",
+                    "ContentRatingImageHtml": "<img class=\"single-content-rating-image\" src=\"https://ottapp-appgw-client-a.ofunk.mr.tv3cloud.com/images/images/ContentRating/CertifiedFreshTomato.png\">",
+                    "IsSubscription": false,
+                    "Channel": {
+                        "ApplicationData": "",
+                        "Number": 1005,
+                        "CallLetters": "STARZW",
+                        "LastCatchupEndUtc": "2024-03-20T19:55:00Z",
+                        "FirstCatchupStartUtc": "2024-03-20T19:50:00Z",
+                        "Name": "Starz - West",
+                        "StationId": "3292",
+                        "LogoUri": "",
+                        "LiveRights": [
+                            {
+                                "q": "ReachSD"
+                            }
+                        ],
+                        "AppService": [],
+                        "ServiceCollectionId": "3493848",
+                        "ProviderId": "1702069",
+                        "isSubscribed": true,
+                        "isPermitted": true,
+                        "hasPPV": false,
+                        "recordOnSTB": false,
+                        "playOnSTB": true,
+                        "hasMulticastRTPServiceType": false,
+                        "hasHLSServiceType": true,
+                        "Genres": [],
+                        "StationType": "Premium",
+                        "LocalizedStoresIds": [
+                            "HubsAndFeeds-yinlongStore4-en-bj",
+                            "HubsAndFeeds-storeA-en-us",
+                            "HubsAndFeeds-NewTestStore-en-us",
+                            "HubsAndFeeds-U.S. Open-en-us",
+                            "HubsAndFeeds-US Open App-en-us",
+                            "HubsAndFeeds-TIP001-en-us",
+                            "HubsAndFeeds-Main-en-us",
+                            "HubsAndFeeds-Main-en-ca",
+                            "HubsAndFeeds-Main-fr-ca",
+                            "HubsAndFeeds-Main-es-us",
+                            "HubsAndFeeds-Main-es-es",
+                            "HubsAndFeeds-Main-ja-jp",
+                            "HubsAndFeeds-Main-pt-pt",
+                            "HubsAndFeeds-Main-zh-cn",
+                            "HubsAndFeeds-Main-en-jp",
+                            "HubsAndFeeds-TestDefaultMainStore2-en-us",
+                            "HubsAndFeeds-TC StoreTests v1 DefA-en-us",
+                            "HubsAndFeeds-TC StoreTests v1 DefA-en-ca",
+                            "HubsAndFeeds-TestDefaultMainStore-en-us"
+                        ],
+                        "ConcurrentViewerDisabled": false,
+                        "IsApplication": false,
+                        "IsGenericApplicationService": false
+                    },
+                    "ContentRatingsTitle": "Rotten Tomatoes™ Scores",
+                    "ContentRatingsSimple": "<img class=\"single-content-rating-image\" src=\"https://ottapp-appgw-client-a.ofunk.mr.tv3cloud.com/images/images/ContentRating/CertifiedFreshTomato.png\">79%<img class=\"single-content-rating-image\" src=\"https://ottapp-appgw-client-a.ofunk.mr.tv3cloud.com/images/images/ContentRating/FreshPopcorn.png\">78%",
+                    "PlayActions": [],
+                    "PurchaseActions": [],
+                    "CatalogInfo": {
+                        "Name": "T2: Trainspotting",
+                        "ShowType": "Movie",
+                        "Description": "Mark Renton returns to Scotland from Amsterdam and meets back up with Spud, Sick Boy and Begbie after 20 years of estrangement due to a previous betrayal, but the old friends each have their own personal demons to fight against.",
+                        "UniversalProgramId": "programId",
+                        "RuntimeSeconds": 0,
+                        "Network": "",
+                        "Zoetrope": "",
+                        "Ratings": [
+                            {
+                                "System": "MPAA",
+                                "Value": "R"
+                            }
+                        ],
+                        "Tags": [
+                            "Feature"
+                        ],
+                        "IsNew": false,
+                        "IsAdult": false,
+                        "ReleaseYear": 2017,
+                        "Images": [
+                            {
+                                "Size": "Small",
+                                "ImageType": "PosterLandscape",
+                                "Uri": "https://appgw-client-a.ofunk.mr.tv3cloud.com/images/images/series/fake-1013-tv3tip/posterlandscapexsmall.jpg",
+                                "Height": "",
+                                "Width": ""
+                            },
+                            {
+                                "Size": "Medium",
+                                "ImageType": "PosterLandscape",
+                                "Uri": "https://appgw-client-a.ofunk.mr.tv3cloud.com/images/images/series/fake-1013-tv3tip/posterlandscapemedium.jpg",
+                                "Height": "",
+                                "Width": ""
+                            }
+                        ],
+                        "ImageBucketId": "images",
+                        "SupportedImages": [
+                            "4x3/KeyArt",
+                            "3x4/KeyArt",
+                            "3x4/Poster",
+                            "2x3/KeyArt",
+                            "2x3/Poster",
+                            "16x9/KeyArt",
+                            "3x2/KeyArt",
+                            "KeyArtLandscape",
+                            "PosterLandscape"
+                        ]
+                    },
+                    "QualityLevels": [
+                        "ReachSD"
+                    ],
+                    "RecordingIndicatorState": 1,
+                    "IsDvrPlayable": true,
+                    "IsOnNow": false,
+                    "SourceIndicators": {
+                        "IsLive": false,
+                        "IsDVR": true,
+                        "IsRestart": false,
+                        "IsVOD": false,
+                        "IsUpcoming": false,
+                        "IsPPV": false
+                    }
+                }
+            }
+        ]
+    },
+    "ChannelsWithSpecQualities": {
+        "HD": {
+            "ChannelName": 402,
+            "StationId": "1531"
+        },
+        "SD": {
+            "ChannelName": 219,
+            "StationId": "1349"
+        },
+        "4K": {
+            "ChannelName": 2501,
+            "StationId": "4376"
+        }
+    },
+    "catchupAssetName": {
+        "name": "KRON 4 NEWS at 7am"
+    },
+    "html5livechannels": [
+        404,
+        407,
+        385,
+        405
+    ]
+}

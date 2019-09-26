@@ -1,126 +1,219 @@
 {
-    "chrome-mac": {
-        "services": ['sauce'],
-        "capabilities": [{
-            browserName: 'chrome',
-            platform: 'OS X 10.13',
-            version: 'latest'
-        }]
-    },
-
-    "chrome-windows": {
-        "services": ['sauce'],
-        "capabilities": [{
-            browserName: 'chrome',
-            platform: 'Windows 10',
-            version: 'latest'
-        }]
-    },
-
-    "firefox-windows": {
-        "services": ['sauce'],
-        "capabilities": [{
-            browserName: 'firefox',
-            platformName: 'Windows 10',
-            browserVersion: 'latest',
-            'sauce:options': {
-                'seleniumVersion': '3.14.0'
-            }
-        }]
-    },
-
-    "ie-windows": {
-        "services": ['sauce'],
-        "capabilities": [{
-            browserName: 'internet explorer',
-            platform: 'Windows 10',
-            version: '11.0'
-        }]
-    },
-
-    "local-chrome-windows": {
-        "capabilities": [{
-            "browserName": "chrome",
-            "goog:chromeOptions": {
-                "excludeSwitches": ["disable-component-update"],
-                "prefs": {
-                    "credentials_enable_service": false,
-                    "profile.password_manager_enabled": false,
-                    "profile.default_content_setting_values.plugins": 1,
-                    "profile.content_settings.plugin_whitelist.adobe-flash-player": 1,
-                    "profile.content_settings.exceptions.plugins.*,*.per_resource.adobe-flash-player": 1,
-                    "profile.default_content_setting_values.notifications": 2
-                },
-                "args": [
-                    "start-maximized",
-                    "disable-webgl",
-                    "blacklist-webgl",
-                    "blacklist-accelerated-compositing",
-                    "disable-accelerated-2d-canvas",
-                    "disable-accelerated-compositing",
-                    "disable-accelerated-layers",
-                    "disable-accelerated-plugins",
-                    "disable-accelerated-video",
-                    "disable-accelerated-video-decode",
-                    "disable-gpu",
-                    "disable-infobars",
-                    "test-type",
-                    "disable-extensions"
-                ]
-            }
-        }]
-    },
-
-    "android-emu": {
-        "services": ["sauce"],
-        "capabilities": [{
-            "browserName": '',
-            "appiumVersion": '1.13.0',
-            "deviceName": 'Google Pixel GoogleAPI Emulator',
-            "deviceOrientation": 'portrait',
-            "platformVersion": '8.1',
-            "platformName": 'Android',
-            "name": 'Sample Test',
-            "app": 'http://appium.s3.amazonaws.com/ContactManager.apk'
-        }]
-    },
-
-    "ios-emu": {
-        "services": ["sauce"],
-        "capabilities": [{
-            "browserName": '',
-            "appiumVersion": '1.13.0',
-            "deviceName": 'iPhone X Simulator',
-            "deviceOrientation": 'portrait',
-            "platformVersion": '12.2',
-            "platformName": 'iOS',
-            "name": 'Sample Test',
-            "app": 'http://appium.s3.amazonaws.com/ContactManager.apk'
-        }]
-    },
-
-    "local-android-emu": {
-        "services": ["appium"],
-        "appium": {
-            // https://github.com/webdriverio/webdriverio/tree/master/packages/wdio-appium-service
-            "args": {
-                // https://github.com/webdriverio/webdriverio/tree/master/packages/wdio-appium-service
+    "channelMaps": {
+        "Id": "10483",
+        "Name": "AVE-UniversalMap",
+        "RtpHash": "whkZOMre7PIRRDXjGVyfNbVjWKFPGZfpQqMzlJEkMtQ=",
+        "Channels": [
+            {
+                "StationId": "2926",
+                "ChannelNumber": 407,
+                "CallLetters": "KGOHD",
+                "Name": "KGO-HD-7 (ABC)",
+                "StationType": "Broadcast",
+                "Images": [],
+                "ServiceCollectionId": "12499",
+                "ApplicationId": "",
+                "Description": "This is a Test Channel",
+                "Ratings": [],
+                "LastCatchupEndUtc": "2018-06-22T19:00:00Z",
+                "FirstCatchupStartUtc": "2018-06-19T18:00:00Z",
+                "ConcurrentViewerDisabled": true,
+                "LocalizedStoresIds": [
+                    "HubsAndFeeds-Main Store-en-ca",
+                    "HubsAndFeeds-ja-jp",
+                    "PromotionsCategoryTree_main_en-us",
+                    "HubsAndFeeds-Main Store-en-us",
+                    "HubsAndFeeds-en-us",
+                    "HubsAndFeeds-en-ca",
+                    "HubsAndFeeds-JMeterDefaultMainStore1-en-us",
+                    "HubsAndFeeds-Main-en-ca",
+                    "HubsAndFeeds-Main-fr-ca",
+                    "HubsAndFeeds-Main-es-us",
+                    "HubsAndFeeds-Main-es-es",
+                    "HubsAndFeeds-Main-en-us",
+                    "HubsAndFeeds-Main-ja-jp",
+                    "HubsAndFeeds-JMeterDefaultMainStore-en-us",
+                    "HubsAndFeeds-JMeterDefaultMainStore2-en-us",
+                    "HubsAndFeeds-TestDefaultMainStore2-en-us",
+                    "HubsAndFeeds-TC StoreTests v1 DefA-en-us",
+                    "HubsAndFeeds-TC StoreTests v1 DefA-en-ca",
+                    "HubsAndFeeds-TestDefaultMainStore-en-us"
+                ],
+                "IsApplication": false,
+                "IsGenericApplicationService": false,
+                "ProviderId": "1002",
+                "OriginalStationId": 11944
             },
-            "command": "appium.cmd"
-        },
-        "port": 4723,
-        "capabilities": [{
-            "platformName": "Android",
-            "maxInstances": 1,
-            // http://appium.io/docs/en/writing-running-appium/caps/
-            "appium:deviceName": "Pixel2",
-            // 'appium:platformVersion': '8.1',
-            "appium:orientation": "PORTRAIT",
-            // 'appium:automationName': 'UiAutomator2',
-            "appium:app": 'C:\\Users\\EHOEZHU\\Desktop\\ReachReactNative_TestFramework\\apps\\Android-NativeDemoApp-0.2.1.apk',
-            "appium:noReset": true,
-            "appium:avd": "Pixel2",
-            // 'appium:udid': 'emulator-5554'
-        }]
+            {
+                "StationId": "1899",
+                "ChannelNumber": 1126,
+                "CallLetters": "KQEDSD",
+                "Name": "KQED-SD-9 (PBS)",
+                "StationType": "Broadcast",
+                "Images": [],
+                "ServiceCollectionId": "12499",
+                "ApplicationId": "",
+                "Description": "This is a Test Channel",
+                "Ratings": [],
+                "LastCatchupEndUtc": "2019-04-25T01:00:00Z",
+                "FirstCatchupStartUtc": "2019-04-25T17:30:00Z",
+                "ConcurrentViewerDisabled": true,
+                "LocalizedStoresIds": [
+                    "HubsAndFeeds-Main Store-en-ca",
+                    "HubsAndFeeds-ja-jp",
+                    "PromotionsCategoryTree_main_en-us",
+                    "HubsAndFeeds-Main Store-en-us",
+                    "HubsAndFeeds-en-us",
+                    "HubsAndFeeds-en-ca",
+                    "HubsAndFeeds-JMeterDefaultMainStore1-en-us",
+                    "HubsAndFeeds-Main-en-ca",
+                    "HubsAndFeeds-Main-fr-ca",
+                    "HubsAndFeeds-Main-es-us",
+                    "HubsAndFeeds-Main-es-es",
+                    "HubsAndFeeds-Main-en-us",
+                    "HubsAndFeeds-Main-ja-jp",
+                    "HubsAndFeeds-JMeterDefaultMainStore-en-us",
+                    "HubsAndFeeds-JMeterDefaultMainStore2-en-us",
+                    "HubsAndFeeds-TestDefaultMainStore2-en-us",
+                    "HubsAndFeeds-TC StoreTests v1 DefA-en-us",
+                    "HubsAndFeeds-TC StoreTests v1 DefA-en-ca",
+                    "HubsAndFeeds-TestDefaultMainStore-en-us"
+                ],
+                "IsApplication": false,
+                "IsGenericApplicationService": false,
+                "ProviderId": "1002",
+                "OriginalStationId": 12926
+            },
+            {
+                "StationId": "2895",
+                "ChannelNumber": 1120,
+                "CallLetters": "KFSFHD",
+                "Name": "KFSF-HD-66 (UniMas)",
+                "StationType": "Broadcast",
+                "Images": [],
+                "ServiceCollectionId": "10504",
+                "ApplicationId": "",
+                "Description": "This is a Test Channel",
+                "Ratings": [],
+                "LastCatchupEndUtc": "2018-06-16T01:00:00Z",
+                "FirstCatchupStartUtc": "2018-06-12T17:30:00Z",
+                "ConcurrentViewerDisabled": true,
+                "LocalizedStoresIds": [
+                    "HubsAndFeeds-Main Store-en-ca",
+                    "HubsAndFeeds-ja-jp",
+                    "PromotionsCategoryTree_main_en-us",
+                    "HubsAndFeeds-Main Store-en-us",
+                    "HubsAndFeeds-en-us",
+                    "HubsAndFeeds-en-ca",
+                    "HubsAndFeeds-JMeterDefaultMainStore1-en-us",
+                    "HubsAndFeeds-Main-en-ca",
+                    "HubsAndFeeds-Main-fr-ca",
+                    "HubsAndFeeds-Main-es-us",
+                    "HubsAndFeeds-Main-es-es",
+                    "HubsAndFeeds-Main-en-us",
+                    "HubsAndFeeds-Main-ja-jp",
+                    "HubsAndFeeds-JMeterDefaultMainStore-en-us",
+                    "HubsAndFeeds-JMeterDefaultMainStore2-en-us",
+                    "HubsAndFeeds-TestDefaultMainStore2-en-us",
+                    "HubsAndFeeds-TC StoreTests v1 DefA-en-us",
+                    "HubsAndFeeds-TC StoreTests v1 DefA-en-ca",
+                    "HubsAndFeeds-TestDefaultMainStore-en-us"
+                ],
+                "IsApplication": false,
+                "IsGenericApplicationService": false,
+                "ProviderId": "1002",
+                "OriginalStationId": 12926
+            }
+        ],
+        "ServiceCollections": [
+            {
+                "Id": "12499",
+                "StationId": "2926",
+                "Name": "AVE_KGOHD_LIVE$11944_SC",
+                "SortName": "AVE_KGOHD_LIVE$11944_SC",
+                "ServiceItems": [
+                    {
+                        "ServiceId": "10358",
+                        "ServiceGrouping": 0
+                    }
+                ],
+                "IsAdult": false,
+                "ServiceIds": [
+                    "10358"
+                ],
+                "Images": [],
+                "SortKey": 2
+            },
+            {
+                "Id": "10504",
+                "StationId": "2895",
+                "Name": "AVE_KFSFHD_LIVE$12926_SC",
+                "SortName": "AVE_KFSFHD_LIVE$12926_SC",
+                "ServiceItems": [
+                    {
+                        "ServiceId": "10492",
+                        "ServiceGrouping": 0
+                    }
+                ],
+                "IsAdult": false,
+                "ServiceIds": [
+                    "10492"
+                ],
+                "SortKey": 2
+            }
+        ],
+        "Services": [
+            {
+                "Id": "10342",
+                "IsValid": true,
+                "Name": "LIVE$11944",
+                "Type": "HlsPlayback",
+                "HostName": "",
+                "OwnerId": "azuki",
+                "MediaId": "LIVE$11944",
+                "Tv2Id": "00000000-0000-0000-0000-000000000000",
+                "QualityLevel": "ReachHD",
+                "ServiceIntent": "FullScreen",
+                "Macrovision": 0,
+                "CGMSA": 0,
+                "MulticastIPAndPort": "",
+                "SSRC": 0,
+                "Description": "KGOHD H264 @29.97 fps"
+            },
+            {
+                "Id": "10358",
+                "IsValid": true,
+                "Name": "LIVE$11944",
+                "Type": "HlsPlayback",
+                "HostName": "",
+                "OwnerId": "azuki",
+                "MediaId": "LIVE$11944",
+                "Tv2Id": "00000000-0000-0000-0000-000000000000",
+                "QualityLevel": "ReachSD",
+                "ServiceIntent": "FullScreen",
+                "Macrovision": 0,
+                "CGMSA": 0,
+                "MulticastIPAndPort": "",
+                "SSRC": 0,
+                "Description": "KGOHD H264 @29.97 fps"
+            },
+            {
+                "Id": "10492",
+                "IsValid": true,
+                "Type": "HlsPlayback",
+                "HostName": "",
+                "OwnerId": "azuki",
+                "MediaId": "LIVE$12926",
+                "Tv2Id": "00000000-0000-0000-0000-000000000000",
+                "QualityLevel": "ReachHD",
+                "ServiceIntent": "FullScreen",
+                "Macrovision": 0,
+                "CGMSA": 0,
+                "MulticastIPAndPort": "",
+                "SSRC": 0,
+                "Name": "LIVE$12926",
+                "Description": "KFSFHD H264 @29.97 fps"
+            }
+        ]
     }
 }

@@ -119,3 +119,6 @@ See [FAQ](./docs/FAQ.md)
 
 ## Tips and Tricks
 See [Tips and Tricks](./docs/TIPS_TRICKS.md)
+
+
+.\node_modules\.bin\wdio .\config\wdio.conf.js --spec .\tests\Authentication\LogInLogOut.js --env ofunk-localchrome

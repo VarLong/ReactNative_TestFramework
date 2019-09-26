@@ -10,6 +10,11 @@
     // user: "yudeng",
     // key: "79a359cf-71e6-4b8e-b56d-f262d50b025a",
 
+    // reach Client test settings
+    test_settings: {
+        cert_passphrase: "MyPassword!"
+    },
+
     // ==================
     // Specify Test Files
     // ==================
@@ -79,7 +84,10 @@
     baseUrl: 'https://www.saucedemo.com',
 
     // Default timeout for all waitFor* commands.
-    waitforTimeout: 10000,
+    waitforTimeout: 60000,
+
+    // Default interval for all waitForXXX commands to check if an expected state (e.g. visibility) has been changed.
+    waitforInterval: 2000,
 
     // Default timeout in milliseconds for request if Selenium Grid doesn't send response
     connectionRetryTimeout: 90000,
@@ -101,7 +109,14 @@
     },
 
     // Test reporter for stdout. see also: https://webdriver.io/docs/dot-reporter.html
-    reporters: ['spec']
+    reporters: [
+        'spec'
+        // ['allure', {
+        //    outputDir: 'allure-results',
+        //    disableWebdriverStepsReporting: true,
+        //    disableWebdriverScreenshotsReporting: true,
+        //    }]
+        ]
 
     // =====
     // Hooks
