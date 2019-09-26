@@ -10,11 +10,6 @@
     // user: "yudeng",
     // key: "79a359cf-71e6-4b8e-b56d-f262d50b025a",
 
-    // reach Client test settings
-    test_settings: {
-        cert_passphrase: "MyPassword!"
-    },
-
     // ==================
     // Specify Test Files
     // ==================
@@ -84,10 +79,7 @@
     baseUrl: 'https://www.saucedemo.com',
 
     // Default timeout for all waitFor* commands.
-    waitforTimeout: 60000,
-
-    // Default interval for all waitForXXX commands to check if an expected state (e.g. visibility) has been changed.
-    waitforInterval: 2000,
+    waitforTimeout: 10000,
 
     // Default timeout in milliseconds for request if Selenium Grid doesn't send response
     connectionRetryTimeout: 90000,
@@ -101,23 +93,18 @@
 
     // Framework you want to run your specs with. The following are supported: Mocha, Jasmine, and Cucumber see also: https://webdriver.io/docs/frameworks.html
     // Make sure you have the wdio adapter package for the specific framework installed before running any tests.
-    framework: 'jasmine',
-    jasmineNodeOpts: {
-        // Updated the timeout to 30 seconds due to possible longer appium calls
-        // When using XPATH
-        defaultTimeoutInterval: 90000,
-    },
+    framework: 'mocha',
 
     // Test reporter for stdout. see also: https://webdriver.io/docs/dot-reporter.html
-    reporters: [
-        'spec'
-        // ['allure', {
-        //    outputDir: 'allure-results',
-        //    disableWebdriverStepsReporting: true,
-        //    disableWebdriverScreenshotsReporting: true,
-        //    }]
-        ]
+    reporters: ['spec'],
 
+    mochaOpts: {
+      compilers: [
+        'tsconfig-paths/register'
+      ],
+        ui: 'bdd',
+        timeout: 90000
+    },
     // =====
     // Hooks
     // =====

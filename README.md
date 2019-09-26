@@ -121,4 +121,60 @@ See [FAQ](./docs/FAQ.md)
 See [Tips and Tricks](./docs/TIPS_TRICKS.md)
 
 
-.\node_modules\.bin\wdio .\config\wdio.conf.js --spec .\tests\Authentication\LogInLogOut.js --env ofunk-localchrome
+Reach React Client:
+http://tfssb.mr.ericsson.se:8080/tfs/IEB/MRGIT/_git/ReactNativeClient?version=GBmaster
+
+How to run React Native app?
+
+How to config Local android Emu?
+Android Studio. A IDE for Android.
+https://developer.android.google.cn/studio
+https://developer.android.google.cn/studio/intro/
+
+
+
+Test Frame work:
+http://tfssb.mr.ericsson.se:8080/tfs/IEB/MRGIT/_git/ReactNativeClient?version=GBusers%2Fehoezhu%2Fmf151652
+
+
+SauceLab Config:
+https://wiki.saucelabs.com/display/DOCS/Test+Configuration+Options#webdriver-api
+SauceLab Appium Config:
+https://wiki.saucelabs.com/display/DOCS/Platform+Configurator#/
+
+
+What’s WebDriverIO? 
+Next-gen WebDriver test framework for Node.js
+Require: Node.js at least Node.js v8.11.2 or higher installed. 
+https://webdriver.io/docs/gettingstarted.html
+
+
+WebDriverIO selector: 
+https://webdriver.io/docs/selectors.html
+
+What ‘s Appium?
+Appium is an open source test automation framework for use with native, hybrid and mobile web apps. 
+It drives iOS, Android, and Windows apps using the WebDriver protocol.
+Requirement:
+iOS: Mac OSX    XCode w/ Command Line Tools
+Android: Mac OSX or Windows or Linux: Android SDK ≥ 16
+http://appium.io/docs/en/about-appium/getting-started/index.html
+
+C:\Users\EHOEZHU\AppData\Local\Android\Sdk\tools\bin
+
+Native App:
+https://developer.android.com/training/testing/ui-automator
+https://developer.android.com/training/testing/ui-automator#ui-automator-apis
+C:\Users\EHOEZHU\AppData\Local\Android\Sdk\tools\bin\uiautomatorviewer.bat
+In Appium you send the Java code, as a string, to the server, which executes it in the application’s environment, returning the element or elements.
+React Selectors
+
+
+[“chrome-mac”, “chrome-windows”, “firefox-windows”, “ie-windows”, “local-chrome-windows”, “android-emu”, “ios-emu”, “local-android-emu"]
+APP Start: 
+ ./node_modules/.bin/wdio ./config/wdio.conf.js --spec ./tests/specs/app.forms.spec.js --device android-emu
+
+Browser Start:
+ ./node_modules/.bin/wdio ./config/wdio.conf.js --spec ./tests/specs/add_to_cart.js --device chrome-windows
+Story Link:
+https://jira-fe-p01.mr.ericsson.se:8443/browse/MF-151652

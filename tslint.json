@@ -1,0 +1,55 @@
+{
+    "triple-equals": true,
+    "use-isnan": true,
+    "align": true,
+    "import-spacing": true,
+    "no-duplicate-variable": true,
+    "switch-default": true,
+    "new-parens": true,
+    "arrow-return-shorthand": true,
+    "no-unused-variable": [
+        true
+    ],
+    "comment-format": [
+        true,
+        "check-space"
+    ],
+    "quotemark": [
+        true,
+        "double"
+    ],
+    "whitespace": [
+        true,
+        "check-branch",
+        "check-decl",
+        "check-operator",
+        "check-separator",
+        "check-type"
+    ],
+    "prefer-const": true,
+    "no-null-keyword": true,
+    "no-use-before-declare": true,
+    "semicolon": [
+        true,
+        "always"
+    ],
+    "no-consecutive-blank-lines": true,
+    "no-trailing-whitespace": true,
+    "jsdoc-format": true,
+    "no-var-keyword": true,
+
+
+    "no-default-export": true,
+    "rules": {
+        "quotemark": [
+            true,
+            "single",
+            "avoid-escape",
+            "jsx-double"
+        ],
+        "trailing-comma": false,
+        "eofline": false,
+        "member-access": false
+    },
+    "rulesDirectory": []
+}
