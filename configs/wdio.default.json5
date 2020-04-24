@@ -1,0 +1,201 @@
+{
+    runner: 'local',
+
+    path: '/wd/hub',
+
+    test_settings: {
+        cert_passphrase: 'MyPassword!',
+        launch_url_testSSO: 'https://sts.dev.mr.tv3cloud.com/v1/oauth/signin/test?response_type=token&redirect_uri=http%3a%2f%2freachclient.dev.mr.tv3cloud.com/?oauth%3Dtest',
+        loginType: 'TestSSO', // Values can be "TestSSO", "LiveID", "certificate", "TLSsso". Default/fallback is TestSSO
+        routingGroup: 'BG-Site${SITE}-Slot-${SLOT}', // We need to read this from RCS, this is a temporary solution bypassing RCS
+        tlsSSOAccountId: '${tlsSSOAccountId}',
+        sktSSOAccountId: '${sktSSOAccountId}',
+        cert_path: 'configs/certificates/OperatorTestApp.pfx',
+        subscriber_cert_path: 'configs/certificates/SubscriberCert.pfx',
+    },
+
+    // install selenium and the drivers at the first time run if there is not selenium.
+    skipSeleniumInstall: false,
+
+    seleniumInstallArgs: {
+        baseURL: 'https://selenium-release.storage.googleapis.com',
+        drivers: {
+            chrome: { version: '76.0.3809.68' },
+            firefox: { version: '0.25.0' },
+            ie: { version: '3.14.0' },
+            edge: {},
+        },
+    },
+    rimraf: '^3.0.0',
+    seleniumArgs: {
+        baseURL: 'https://selenium-release.storage.googleapis.com',
+        version: '3.141.5',
+        drivers: {
+            chrome: {
+                version: '76.0.3809.68',
+                baseURL: 'https://chromedriver.storage.googleapis.com',
+            },
+            ie: {
+                version: '3.14.0',
+                baseURL: 'https://selenium-release.storage.googleapis.com',
+            },
+            firefox: {
+                version: '0.25.0',
+                baseURL: 'https://github.com/mozilla/geckodriver/releases/download',
+            },
+            edge: {
+                version: '17134',
+            },
+        },
+    },
+
+    specs: [],
+
+    exclude: [],
+
+    capabilities: [
+        {
+            browserName: '',
+        },
+    ],
+
+    sync: true,
+    // Level of logging verbosity: trace | debug | info | warn | error | silent
+    logLevel: 'debug',
+    // If you only want to run your tests until a specific amount of tests have failed use bail (default is 0 - don't bail, run all tests).
+    bail: 1,
+    //baseUrl: '',
+    // Default timeout for all waitFor* commands.
+    waitforTimeout: 90000,
+    // Default interval for all waitForXXX commands to check if an expected state (e.g. visibility) has been changed.
+    waitforInterval: 1000,
+    // Default timeout in milliseconds for request if Selenium Grid doesn't send response
+    connectionRetryTimeout: 90000,
+    // Default request retries count
+    connectionRetryCount: 0,
+    // Framework you want to run your specs with. The following are supported: Mocha, Jasmine, and Cucumber see also: https://webdriver.io/docs/frameworks.html
+    // Make sure you have the wdio adapter package for the specific framework installed before running any tests.
+    framework: 'mocha',
+    mochaOpts: {
+        ui: 'bdd',
+        timeout: 60000,
+    },
+
+    reporters: ['spec'],
+    // =====
+    // Hooks
+    // =====
+    // WebdriverIO provides several hooks you can use to interfere with the test process in order to enhance
+    // it and to build services around it. You can either apply a single function or an array of
+    // methods to it. If one of them returns with a promise, WebdriverIO will wait until that promise got
+    // resolved to continue.
+    /**
+     * Gets executed once before all workers get launched.
+     * @param {Object} config wdio configuration object
+     * @param {Array.<Object>} capabilities list of capabilities details
+     */
+    // onPrepare: function (config, capabilities) {
+    // },
+    /**
+     * Gets executed just before initialising the webdriver session and test framework. It allows you
+     * to manipulate configurations depending on the capability or spec.
+     * @param {Object} config wdio configuration object
+     * @param {Array.<Object>} capabilities list of capabilities details
+     * @param {Array.<String>} specs List of spec file paths that are to be run
+     */
+    // beforeSession: function (config, capabilities, specs) {
+    // },
+    /**
+     * Gets executed before test execution begins. At this point you can access to all global
+     * variables like `browser`. It is the perfect place to define custom commands.
+     * @param {Array.<Object>} capabilities list of capabilities details
+     * @param {Array.<String>} specs List of spec file paths that are to be run
+     */
+    // before: function (capabilities, specs) {
+    // },
+    /**
+     * Runs before a WebdriverIO command gets executed.
+     * @param {String} commandName hook command name
+     * @param {Array} args arguments that command would receive
+     */
+    // beforeCommand: function (commandName, args) {
+    // },
+    /**
+     * Hook that gets executed before the suite starts
+     * @param {Object} suite suite details
+     */
+    // beforeSuite: function (suite) {
+    // },
+    /**
+     * Function to be executed before a test (in Mocha/Jasmine) or a step (in Cucumber) starts.
+     * @param {Object} test test details
+     */
+    // beforeTest: function (test) {
+    // },
+    /**
+     * Hook that gets executed _before_ a hook within the suite starts (e.g. runs before calling
+     * beforeEach in Mocha)
+     */
+    // beforeHook: function () {
+    // },
+    /**
+     * Hook that gets executed _after_ a hook within the suite starts (e.g. runs after calling
+     * afterEach in Mocha)
+     */
+    // afterHook: function () {
+    // },
+    /**
+     * Function to be executed after a test (in Mocha/Jasmine) or a step (in Cucumber) starts.
+     * @param {Object} test test details
+     */
+    // afterTest: function (test) {
+    // },
+    /**
+     * Hook that gets executed after the suite has ended
+     * @param {Object} suite suite details
+     */
+    // afterSuite: function (suite) {
+    // },
+    /**
+     * Runs after a WebdriverIO command gets executed
+     * @param {String} commandName hook command name
+     * @param {Array} args arguments that command would receive
+     * @param {Number} result 0 - command success, 1 - command error
+     * @param {Object} error error object if any
+     */
+    // afterCommand: function (commandName, args, result, error) {
+    // },
+    /**
+     * Gets executed after all tests are done. You still have access to all global variables from
+     * the test.
+     * @param {Number} result 0 - test pass, 1 - test fail
+     * @param {Array.<Object>} capabilities list of capabilities details
+     * @param {Array.<String>} specs List of spec file paths that ran
+     */
+    // after: function (result, capabilities, specs) {
+    // },
+    /**
+     * Gets executed right after terminating the webdriver session.
+     * @param {Object} config wdio configuration object
+     * @param {Array.<Object>} capabilities list of capabilities details
+     * @param {Array.<String>} specs List of spec file paths that ran
+     */
+    // afterSession: function (config, capabilities, specs) {
+    // },
+    /**
+     * Gets executed after all workers got shut down and the process is about to exit.
+     * @param {Object} exitCode 0 - success, 1 - fail
+     * @param {Object} config wdio configuration object
+     * @param {Array.<Object>} capabilities list of capabilities details
+     * @param {<Object>} results object containing test results
+     */
+    // onComplete: function(exitCode, config, capabilities, results) {
+    // },
+    /**
+     * Gets executed when a refresh happens.
+     * @param {String} oldSessionId session ID of the old session
+     * @param {String} newSessionId session ID of the new session
+     */
+    //onReload: function(oldSessionId, newSessionId) {
+    //}
+}

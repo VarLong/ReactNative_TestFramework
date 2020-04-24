@@ -1,124 +1,295 @@
-# appium-boilerplate
+# React Reach Shield
 
-> **NOTE:**
-> This boilerplate is for Webdriver V5, if you need a boilerplate for V4 please click [here](https://github.com/webdriverio/appium-boilerplate/tree/v4)
+Shield is the test tool suite for [Selenium2](http://www.seleniumhq.org/)&& [Appium](http://appium.io/) testing of the MediaKind MediaFirst ReachClient with [WebdriverIO](https://webdriver.io)(wdio.js).
 
-Boilerplate project to run Appium tests together with WebdriverIO for:
+Shield is for Webdriver V5, Shield run Appium||Selenium tests together with WebdriverIO for:
 
-- iOS/Android Native Apps
-- iOS/Android Hybrid Apps
-- Android Chrome and iOS Safari browser ([check here](./README.md#automating-chrome-or-safari))
+-   iOS/Android Native Apps
+-   iOS/Android Hybrid Apps
+-   Android Chrome and iOS Safari browser ([check here](./README.md#automating-chrome-or-safari))
+-   Chrome Safari FireFox IE Edge
+-   (Browser Lab not done yet, Currently run for local chrome.)
 
-> This boilerplate uses the WebdriverIO native demo app which can be found [here](https://github.com/webdriverio/native-demo-app).
-> The releases can be found and downloaded [here](https://github.com/webdriverio/native-demo-app/releases).
-> Before running tests, please create a `./apps` directory, download the app and move the zip files into that directory
+Shield executes browser tests on [Browser Labs](https://conf-fe-p01.mr.ericsson.se:8443/pages/viewpage.action?pageId=30187101) and devices tests on internal device lab.
 
-> **Note:**
-> This boilerplate only handles local execution on 1 em/simulator at a time, not parallel execution. For more info about that Google on setting up a grid with Appium.
+Although `wdio` by itself can execute all tests in parallel by environment, `wdio` runs tests in parallel by triggering multiple `wdio` processes that executes 1 test per process. `wdio` thus is used mainly for sending tests to browserLabs or device lab.
 
-![webdriverio-demo-app-ios.ios](./docs/assets/appium-tests.gif)
+## Prerequisites
 
-## Based on
-This boilerplate is currently based on:
-- **WebdriverIO:** `5.7.#`  https://webdriver.io/
-- **Appium:** `1.12.0`
+To proceed you need a Mac, Windows, or Linux machine, and:
 
-WebDriverIo options:
-https://webdriver.io/docs/options.html
+1. Access to the React Reach Client git repository.
+2. [node](https://nodejs.org/) installed. (version: at least v10.12.0 or higher, this is needed in webdriverio).
+3. [npm](https://www.npmjs.com/) installed. (version: 6.\*, usually installed along with `node` by using `npm install npm -g`, check the version, upgraded it if it's very old).
+4. [appium](http://appium.io/) installed global if you need run locally. (version: 1.14.\*).
+5. Java Development Kit (JDK version: Java 8, required for Selenium Standalone Server) and ensure Java binaries are added to your path.
+6. install gulp-cli package globally by `npm install --global gulp-cli`, this is needed in gulp version 4.\*.
 
+### Prerequisites for Android
 
-https://w3c.github.io/webdriver/#capabilities
+1. Install the [Android SDK](http://developer.android.com/sdk). The supported way of doing this nowadays is to use Android Studio. Use the provided GUI to install the Android SDK to a path of your choosing.
+2. **JAVA_HOME** and **ANDROID_HOME** environment variable is also set to the path.
+3. The emulator which can be created by AVD Manager.
+4. The test APK downloaded and available on your local filesystem.
+5. [More Info...](http://appium.io/docs/en/drivers/android-uiautomator2/)
 
-To run web or native tests on mobile devices capabilities differ from the WebDriver protocol. Have a look into the [Appium Docs](http://appium.io/docs/en/writing-running-appium/caps/) for more details.
+### Prerequisites for IOS
 
+1. [Requirements and Support](http://appium.io/docs/en/drivers/ios-xcuitest/index.html)
 
+## Integrated Development Environment
 
+### Visual Studio Code
 
+Visual Studio Code is a source code editor for Windows, Linux and OS X. It includes support for debugging, and embedded Git control, syntax highlighting. It is free open-source, and much faster than Visual Studio 2013.
 
-## Installing Appium on a local machine
-See [Installing Appium on a local machine](./docs/APPIUM.md)
+1. Build Manualy: `npm run build` or `gulp`
+2. Auto Build: Press Ctrl+Shift+B/⇧⌘B to define a new task runner, press on "Configure Task Runner" option. This will present you with the `tasks.json` file.
 
-## Setting up Android and iOS on a local machine
-To setup your local machine to use an Android emulator and an iOS simulator see [Setting up Android and iOS on a local machine](./docs/ANDROID_IOS_SETUP.md)
-
-## Quick start
-Choose one of the following options:
-
-1. Clone the git repo — `git clone https://github.com/webdriverio/appium-boilerplate.git`
-
-2. Then copy the files to your project directory (all files in `/tests` and the `wdio.conf`-files in the `config`-folder)
-
-3. Merge project dev dependencies with your projects dev dependencies in your `package.json`
-
-4. merge the scripts to your `package.json` scripts
-
-5. Run the tests for iOS with `npm run ios.app` and for Android with `npm run android.app`
-
-## Config
-This boilerplate uses a specific config for iOS and Android, see [configs](./config/) and are based on `wdio.shared.conf.js`.
-This shared config holds all the defaults so the iOS and Android configs only need to hold the capabilities and specs that are needed for running on iOS and or Android (app or browser).
-
-> **NEW:** The new `@wdio/appium-service` is now also integrated in this boilerplate so you don't need to start an Appium server yourself, WebdriverIO will do that for you.
-
-Since we do not have Appium installed as part of this package, this has been configured to use the global Appium installation. This is configured in wdio.shared.conf.js
 ```
-appium: {
-    command : 'appium'
-},
-```
-
-## Locator strategy for native apps
-The locator strategy for this boilerplate is to use `accessibilityID`'s, see also the [WebdriverIO docs](http://webdriver.io/guide/usage/selectors.html#Accessibility-ID) or this newsletter on [AppiumPro](https://appiumpro.com/editions/20).
-`accessibilityID`'s make it easy to script once and run on iOS and Android because most of the apps already have some `accessibilityID`'s.
-
-If `accessibilityID`'s can't be used and for example only XPATH is only available then the following setup could be used to make cross-platform selectors
-
-```js
-const SELECTORS = {
-    WEB_VIEW_SCREEN: browser.isAndroid
-        ? '*//android.webkit.WebView'
-        : '*//XCUIElementTypeWebView',
-};
+{
+    "version": "0.1.0",
+    "command": "gulp",
+    "isShellCommand": true,
+    "args": [
+        "--no-color"
+    ],
+    "tasks": [
+        {
+            "taskName": "default",
+            "args": [],
+            "isBuildCommand": true,
+            "isWatching": true,
+            "problemMatcher": [
+                "$lessCompile",
+                "$tsc",
+                "$jshint"
+            ]
+        }
+    ]
+}
 ```
 
-## Automating Chrome or Safari
-Mobile web automation is almost the same as writing tests for desktop browsers. The only difference can be found in the configuration that needs to be used.
-Click [here](./config/wdio.ios.browser.conf.js) to find the config for iOS Safari and [here](./config/wdio.android.browser.conf.js) for Android Chrome.
-For Android be sure that the lastest version of Chrome is installed, see also [here](./docs/FAQ.md#i-get-the-error-no-chromedriver-found-that-can-automate-chrome-).
+Then type Ctrl+Shift+P/⇧⌘P and then type Run Task, you'll be presented with a drop-down with watch option. Select the watch task and let it run. You'll notice that the Output Window is brought to focus with build information and Every time you do a change to a _.js or _.ts file and you save the file, the change will trigger the corresponding task to execute.
 
-For this boilerplate the testcases from the [jasmine-boilerplte](https://github.com/webdriverio/jasmine-boilerplate), created by [Christian Bromann](https://github.com/christian-bromann), are used.
+3. Debug: Press on Debug menu, update the `launch.json`
 
-## Cloud vendors
-
-### Sauce Labs Real Device Cloud
-This boilerplate now also provides a setup for testing with the Real Device Cloud (RDC) of Sauce Labs. Please check the [SauceLabs](./config/saucelabs)-folder to see the setup for iOS and Android.
-
-> With the latest version of WebdriverIO (`5.4.13` and higher) the iOS and Android config holds: 
-> - automatic US or EU RDC cloud selection by providing a `region` in the config, see the [iOS](./config/saucelabs/wdio.ios.rdc.app.conf.js) and the [Android](./config/saucelabs/wdio.ios.rdc.app.conf.js) configs 
-> - automatic update of the teststatus in the RDC cloud without using a customer script
-
-Make sure you install the latest version of the `@wdio/sauce-service` with
-
-```shell
-$ npm install --save-dev @wdio/sauce-service
+```
+{
+    "version": "0.2.0",
+	"configurations": [
+		{
+			"name": "Launch",
+			"type": "node",
+			"request": "launch",
+			"program": "${workspaceRoot}/node_modules/@wdio/cli/bin/wdio.js",
+			"stopOnEntry": false,
+			"args": [
+				"./configs/wdio.conf.js", "--spec",
+				"artifacts/build/tests/LoginLogout.js", "--dep", "ofunk-local-chrome-windows"
+            ],
+			"cwd": "${workspaceRoot}",
+			"runtimeExecutable": null,
+			"runtimeArgs": [
+			],
+			"env": {
+				"NODE_ENV": "development"
+			},
+			"externalConsole": false,
+			"sourceMaps": false,
+			"outDir": null
+		},
+		{
+			"name": "Attach",
+			"type": "node",
+			"request": "attach",
+			"port": 5858
+		}
+	]
+}
 ```
 
-and add `services: ['sauce'],` to the config. If no `region` is provided it will automatically default to the US-RDC cloud.
-If you provide `region: 'us'` or `region: 'eu'` it will connect to the US or the EU RDC cloud
+4. Shortcuts: VS Code lets you perform most tasks directly from the keyboard. This [Link](https://code.visualstudio.com/docs/customization/keybindings#_customizing-shortcuts) is for the default bindings and describes how you can update them.
+5. [typescript](http://www.typescriptlang.org)installed. (minimum version is 3.5.1, this is ndded in webdriverio).
 
-There are 2 scripts that can be used, see the [`package.json`](./package.json), to execute the tests in the cloud:
+## Install
 
-    // For iOS
-    $ npm run ios.sauce.rdc.app
-    
-    // For Android
-    $ npm run android.sauce.rdc.app
+Get Shield and its dependencies:
 
-## FAQ
-See [FAQ](./docs/FAQ.md)
+    git clone http://tfsmr:8080/tfs/IEB/MRGIT/_git/ReachClient
+    cd ReachClient/Shield
+    npm i && npm install --global gulp-cli
 
-## Tips and Tricks
-See [Tips and Tricks](./docs/TIPS_TRICKS.md)
+(note 'npm i' does a node package manager install of all the packages as defined in the packages.json file.
+Once executed, it only need's to be re-executed if there is a change in packages.json file, or node_modules folder is deleted)
+
+Set up your individual Browser Labs credentials (Not needed if you use 'npm run test' commands with local platforms) :
+
+    cd configs
+    cp credentials.template.json5 credentials.json5
+
+Now edit `credentials.json5` with your browser Labs credentials. This file should be ignored by `git`, remain local to your set up, and should not be committed.
+
+If you don't have your own labs credentials, you can use Jared's account. Just don't touch any settings because this is the official automation account.
+LABS_USER: jaredjordan
+LABS_KEY: c4472bc7-16ad-4def-ab88-8143e6c82c82
+
+## Shield File system
+
+    ├── artifacts                       Reports, logs, screenshots, transpiled js
+    ├── configs                         See configs/README.md
+    ├── docs                            Keep the auto-generated documentations
+    │   ├── sdk                         Configs and scripts for generating Shield Docs
+    │   └── tests                       Reachclient Shield Document
+    ├── lib                             Libraries
+    │   ├── cli                         Shield code, wrappers of wdio
+    │   ├── common
+    │   ├── custom-assertions
+    │   ├── custom-commands             custom commands used in tests
+    │   ├── custom-reporters            test result reporter
+    │   ├── data-generation
+    │   ├── endpoint-mocking
+    │   └── page-objects                Reachclient pages objects
+    ├── mockData                        Mock data configuration files
+    ├── node_modules
+    ├── Performance                     Reachclient performance tests using WebPageTest
+    ├── ShieldLog                       Tests local run Logs, organized by run id
+    ├── tests
+    │   ├── testsuite-1
+    │   │   └── VerifyThisThenThat.js
+    │   ├── testsuite-2                 Camel case test files so that they
+    │   │   └── VerifySomething.js      Show up as "Verify Something" etc.
+    │   └── testsuite-n
+    │       └── GoNuts.js
+    ├── TIP                             Test-In-Production related code
+    └── typings                         typescript definitions
+
+Keep all filenames, except test files, in lowercase.
+
+## WebdriverIO Usage (npm run test)
+
+TO BE CONTINUE...
+
+.\node_modules\.bin\wdio .\configs\wdio.conf.js --spec .\artifacts\build\tests\Browser\LogInBrowser.js --env ofunk-local-chrome-windows
+
+.\node_modules\.bin\wdio .\configs\wdio.conf.js --spec .\artifacts\build\tests\DemoTestAPP.js --env ofunk-local-android-emu
+
+.\node_modules\.bin\wdio .\configs\wdio.conf.js --spec .\artifacts\build\tests\Login.js --env ofunk-local-android-selenium
+
+# Guideline to write shield tests:
+
+## Platform specific supports
+
+1. React Native App:
+    - browser.react$(), browser.react$\$() not support on react native app, we can't use react selectors in this kind of app. refer to https://github.com/appium/appium/issues/12600
+
+# References
+
+-   [Selenium PageObjects wiki](https://code.google.com/p/selenium/wiki/PageObjects)
+-   [Selenium DesiredCapabilities](https://code.google.com/p/selenium/wiki/DesiredCapabilities)
+-   [Gulp](https://gulpjs.com/)
+-   [TypeScript Website](http://www.typescriptlang.org/docs/handbook/tsconfig-json.html).
+-   [EsLint Rules Website](https://eslint.org/docs/rules/).
+-   [Adding Custom Commands](https://webdriver.io/docs/typescript.html).
 
 
-.\node_modules\.bin\wdio .\config\wdio.conf.js --spec .\tests\Authentication\LogInLogOut.js --env ofunk-localchrome
+# Setup Issues
+
+## Somethings you need to know
+1. please make the local selenium-standalone version same with browserLab selenium-standalone. selenium-standalone,will be auto setup by  @wdio\selenium-standalone-service, you can check the version in .\shield\node_modules\@wdio\selenium-standalone-service\package.json
+
+TO BE CONTINUE...
+
+# Todo
+
+1. TO BE CONTINUE...
+2.
+
+# debug config
+
+```
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+			"type": "node",
+			"request": "launch",
+            "name": "Launch Program",
+            "program": "${workspaceRoot}/node_modules/@wdio/cli/bin/wdio.js",
+            "stopOnEntry": false,
+			"args": [
+				"./configs/wdio.conf.js", "--spec", 
+				"artifacts/build/tests/LogIn.js", "--env", "ofunk-local-android-selenium", "DEBUG=true"
+            ],
+            "cwd": "${workspaceRoot}",
+            "console": "integratedTerminal"
+        }
+    ]
+}
+
+// run shield 
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "node",
+            "request": "launch",
+            "name": "Launch Program",
+            "program": "${workspaceRoot}//artifacts//build/lib//cli//index.js",
+            "stopOnEntry": false,
+            "args": ["--env", "ofunk-local-chrome-windows", "--tag", "CI"],
+            "cwd": "${workspaceRoot}",
+            "console": "integratedTerminal"
+        }
+    ]
+}
+
+```
+# How to run local android emu by using selenium server
+1. Start selenium hub by command.
+```
+java -jar selenium-server-standalone-3.0.1.jar  -role hub
+``` 
+2. Regist android divice on selenium hub server by using appium command.
+```
+appium --nodeconfig .\emu_4723.json --port 4723
+
+
+// emu_4724.json
+
+{
+    "capabilities": [
+        {
+            "deviceName": "Pixel3",
+            "maxInstances": 1,
+            "platformName": "Android"
+        }
+    ],
+    "configuration": {
+        "cleanUpCycle": 2000,
+        "timeout": 30000,
+        "proxy": "org.openqa.grid.selenium.proxy.DefaultRemoteProxy",
+        "url": "wd/hub",
+        "host": "0.0.0.0",
+        "port": 4724,
+        "maxSession": 1,
+        "register": true,
+        "registerCycle": 5000,
+        "hubPort": 4444,
+        "hubHost": "0.0.0.0"
+    }
+}
+
+```
+
+after registe, you will see the config device in selenium server: http://10.164.102.137:4444/grid/console
+3. Start wdio by using command: 
+```
+.\node_modules\.bin\wdio .\configs\wdio.conf.js --spec .\artifacts\build\tests\LogInAPP.js --env ofunk-local-android-selenium
+```

@@ -1,0 +1,222 @@
+{
+    'local-chrome-windows': {
+        hostname: '127.0.0.1',
+        port: 4444,
+        services: ['selenium-standalone'],
+        capabilities: [
+            {
+                'browserName': 'chrome',
+                'goog:chromeOptions': {
+                    excludeSwitches: ['disable-component-update'],
+                    prefs: {
+                        'credentials_enable_service': false,
+                        'profile.password_manager_enabled': false,
+                        'profile.default_content_setting_values.plugins': 1,
+                        'profile.content_settings.plugin_whitelist.adobe-flash-player': 1,
+                        'profile.content_settings.exceptions.plugins.*,*.per_resource.adobe-flash-player': 1,
+                        'profile.default_content_setting_values.notifications': 2,
+                    },
+                    args: [
+                        'start-maximized',
+                        'disable-webgl',
+                        'blacklist-webgl',
+                        'blacklist-accelerated-compositing',
+                        'disable-accelerated-2d-canvas',
+                        'disable-accelerated-compositing',
+                        'disable-accelerated-layers',
+                        'disable-accelerated-plugins',
+                        'disable-accelerated-video',
+                        'disable-accelerated-video-decode',
+                        'disable-gpu',
+                        'disable-infobars',
+                        'test-type',
+                        'disable-extensions',
+                    ],
+                },
+            },
+        ],
+    },
+    'local-android-emu': {
+        services: ['appium'],
+        appium: {
+            // https://github.com/webdriverio/webdriverio/tree/master/packages/wdio-appium-service
+            args: {
+                '-port': 4723,
+                // https://github.com/webdriverio/webdriverio/tree/master/packages/wdio-appium-service
+            },
+        },
+        port: 4723,
+        host: '0.0.0.0',
+        capabilities: [
+            {
+                'platformName': 'Android',
+                'maxInstances': 1,
+                // http://appium.io/docs/en/writing-running-appium/caps/
+                'appium:deviceName': 'Pixel2',
+                // 'appium:platformVersion': '8.1',
+                'appium:orientation': 'PORTRAIT',
+                // 'appium:automationName': 'UiAutomator2',
+                // "appium:app": './apps/Android-NativeDemoApp-0.2.1.apk',
+                'appium:app': './apps/Android-debug.apk',
+                'appium:noReset': true,
+                // "appium:avd": "Pixel2",
+                'appium:chromedriverExecutableDir': './configs/chromedriver',
+                'appium:udid': 'emulator-5554',
+            },
+        ],
+    },
+    'local-android-selenium': {
+        port: 4444,
+        host: '127.0.0.1',
+        capabilities: [
+            {
+                'platformName': 'Android',
+                'maxInstances': 10,
+                // http://appium.io/docs/en/writing-running-appium/caps/
+                'appium:deviceName': 'Pixel2',
+                // 'appium:platformVersion': '8.1',
+                'appium:orientation': 'PORTRAIT',
+                // 'appium:automationName': 'UiAutomator2',
+                // "appium:app": './apps/Android-NativeDemoApp-0.2.1.apk',
+                'appium:app': 'E:/ReactNativeClientApp/shield/apps/Android-debug.apk',
+                'appium:noReset': true,
+                'appium:avd': 'Pixel2',
+                'appium:chromedriverExecutableDir': './configs/chromedriver',
+                'appium:udid': 'emulator-5554',
+            },
+        ],
+    },
+    'local-android-selenium2': {
+        port: 4444,
+        host: '127.0.0.1',
+        capabilities: [
+            {
+                'platformName': 'Android',
+                'maxInstances': 10,
+                // http://appium.io/docs/en/writing-running-appium/caps/
+                'appium:deviceName': 'Pixel3',
+                // 'appium:platformVersion': '8.1',
+                'appium:orientation': 'PORTRAIT',
+                // 'appium:automationName': 'UiAutomator2',
+                // "appium:app": './apps/Android-NativeDemoApp-0.2.1.apk',
+                'appium:app': 'E:/ReactNativeClientApp/shield/apps/Android-debug.apk',
+                'appium:noReset': true,
+                'appium:avd': 'Pixel3',
+                'appium:chromedriverExecutableDir': './configs/chromedriver',
+                'appium:udid': 'emulator-5556',
+            },
+        ],
+    },
+    'local-ios-iPad': {
+        services: ['appium'],
+        appium: {
+            args: {
+                // https://github.com/webdriverio/webdriverio/tree/master/packages/wdio-appium-service
+            },
+            command: 'appium',
+        },
+        port: 4723,
+        host: '127.0.0.1',
+        capabilities: [
+            {
+                'platformName': 'iOS',
+                'maxInstances': 1,
+                'appium:deviceName': 'iPad (6th generation)',
+                'appium:orientation': 'PORTRAIT',
+                'appium:automationName': 'XCUITest',
+                'appium:app': '/Users/ankithk/Desktop/Projects/ReactNativeClientApp/⁨ios⁩/⁨build⁩/ReactNativeClient⁩/⁨Build⁩/Products⁩/Debug-iphonesimulator/ReactNativeClient.app',
+                'appium:noReset': true,
+                //"appium:avd": "iPad",
+                'appium:chromedriverExecutableDir': '/Users/ankithk/Desktop/Projects/ReactNativeClientApp/shield/configs/chromedriver/',
+            },
+        ],
+    },
+    'local-IOS-emu': {
+        port: 4723,
+        host: '0.0.0.0',
+        capabilities: [
+            {
+                // The defaults you need to have in your config
+                'platformName': 'iOS',
+                'maxInstances': 1,
+                // For W3C the appium capabilities need to have an extension prefix
+                // This is `appium:` for all Appium Capabilities which can be found here
+                // http://appium.io/docs/en/writing-running-appium/caps/
+                'appium:deviceName': 'iPad Pro (11-inch)',
+                'appium:platformVersion': '13.3',
+                'appium:orientation': 'PORTRAIT',
+                // `automationName` will be mandatory, see
+                // https://github.com/appium/appium/releases/tag/v1.13.0
+                'appium:automationName': 'XCUITest',
+                // The path to the app
+                //'appium:app': "/Users/ankithk/Desktop/Projects/ReactNativeClientApp/shield/apps/ReactNativeClient.app",
+                'appium:bundleId': 'org.reactjs.native.example.ReactNativeClient',
+                // Read the reset strategies very well, they differ per platform, see
+                // http://appium.io/docs/en/writing-running-appium/other/reset-strategies/
+                'appium:noReset': true,
+                'appium:newCommandTimeout': 240,
+                'bundleId': 'org.reactjs.native.example.ReactNativeClient',
+            },
+        ],
+    },
+    'ipad-India': {
+        selenium_host: '127.0.0.1',
+        selenium_port: 4273,
+        selenium: {
+            start_process: false,
+        },
+        desiredCapabilities: {
+            platform: 'MAC',
+            platformName: 'iOS',
+            deviceName: 'ipad',
+            deviceType: 'tablet',
+            browserName: '',
+            autoWebview: true,
+            deviceReadyTimeout: '15',
+            deviceOrientation: 'landscape',
+            platformVersion: '10.3.3',
+            //bundleId : "com.ericsson.mediafirst",
+            nativeWebTap: true,
+            autoAcceptAlerts: true,
+            loggingPrefs: {
+                syslog: 'ALL',
+                crashlog: 'ALL',
+            },
+        },
+    },
+    'chrome-docker-blr-grid': {
+        services: ['selenium-standalone'],
+        hostname: '10.160.195.243',
+        port: 4455,
+        desiredCapabilities: {
+            platform: 'linux',
+            platformName: 'linux',
+            deviceType: 'browser',
+            browserName: 'chrome',
+            version: '76.0',
+            chromeOptions: {
+                useAutomationExtension: false,
+                prefs: {
+                    'credentials_enable_service': false,
+                    'profile.password_manager_enabled': false,
+                    'profile.default_content_setting_values.plugins': 1,
+                    'profile.content_settings.plugin_whitelist.adobe-flash-player': 1,
+                    'profile.content_settings.exceptions.plugins.*,*.per_resource.adobe-flash-player': 1,
+                    'profile.default_content_setting_values.notifications': 2,
+                },
+                args: [
+                    'disable-infobars',
+                    'disable-features=EnableEphemeralFlashPermission',
+                    'ppapi-flash-version=32.0.0.223',
+                    'no-sandbox',
+                    'ppapi-flash-path=/usr/lib/pepperflashplugin-nonfree/libpepflashplayer.so',
+                ],
+                excludeSwitches: ['enable-automation'],
+            },
+            screenResolution: '1920x1080',
+            enableVNC: true,
+            enableVideo: true,
+            enableLog: true,
+        },
+    },
+}

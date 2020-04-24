@@ -1,15 +1,7 @@
-# OSX
-.DS_Store
-
-# IntelliJ
-.idea
-
-# node.js
+# Things that should be installed locally
 node_modules/
-npm-debug.log
 
-# custom
-apps/
-*.log
-
-package-lock.json
+# IDE related files
+.vscode
+ShieldLog/
+artifacts/

@@ -1,0 +1,22 @@
+{
+  oci: {
+    appgw_host: 'appgw-client-a.oint.mr.tv3cloud.com',
+    cert_url: 'appgw-operatorstsssl-a.oint.mr.tv3cloud.com',
+    channel_map_id: 2000319,
+    launch_url: 'http://reachclient.oint.mr.tv3cloud.com/',
+    offer_id: 4000001,
+    useStubPlayer: true,
+    subscriber_cert_url: 'appgw-stsssl-a.oint.mr.tv3cloud.com',
+    loginType: 'LiveID',
+    testAccountID: 'tv3pf_jiashuan@outlook.com',
+    testAccountPassword: 'Tv3PF.Test'
+  },
+  ofunk: {
+    appgw_host: 'appgw-client-a.ofunk.mr.tv3cloud.com',
+    cert_url: 'appgw-operatorstsssl-a.ofunk.mr.tv3cloud.com',
+    channel_map_id: 2000019,
+    launch_url: 'http://reachclient.ofunk.mr.tv3cloud.com/',
+    offer_id: 4000003,
+    subscriber_cert_url: 'appgw-stsssl-a.ofunk.mr.tv3cloud.com'
+  }
+}

@@ -1,0 +1,45 @@
+[
+    {
+        "version": "0.2.0",
+        "configurations": [
+            {
+                "type": "node",
+                "request": "launch",
+                "name": "Launch Program",
+                "program": "${workspaceRoot}//artifacts//build/lib//cli//index.js",
+                "stopOnEntry": false,
+                "args": [
+                    "--env",
+                    "ofunk-local-chrome-windows",
+                    "--tag",
+                    "CI"
+                ],
+                "cwd": "${workspaceRoot}",
+                "autoAttachChildProcesses": true,
+                "console": "integratedTerminal"
+            }
+        ]
+    },
+    {
+        "version": "0.2.0",
+        "configurations": [
+            {
+                "type": "node",
+                "request": "launch",
+                "name": "Launch Program",
+                "program": "${workspaceRoot}/node_modules/@wdio/cli/bin/wdio.js",
+                "stopOnEntry": false,
+                "args": [
+                    "./configs/wdio.conf.js",
+                    "--spec",
+                    "artifacts/build/tests/Browser/LogInBrowser.js",
+                    "--env",
+                    "ofunk-local-chrome-windows"
+                ],
+                "autoAttachChildProcesses": true,
+                "cwd": "${workspaceRoot}",
+                "console": "integratedTerminal"
+            }
+        ]
+    }
+]

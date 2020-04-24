@@ -1,68 +1,55 @@
 {
-  "name": "Shield",
-  "version": "1.0.0",
-  "description": "A test tool suite for Selenium||appium testing of the MediaKind MediaFirst ReachClient.",
-  "scripts": {
-    "build": "gulp",
-    "test": "wdio",
-    "shield": "node lib/cli",
-    "lint": "eslint config tests"
-  },
-  "repository": {
-    "type": "git",
-    "url": ""
-  },
-  "engines": {
-    "npm": ">=6.9.0",
-    "node": ">=8.0.0 <10.0"
-  },
-  "keywords": [
-    "WebdriverIO",
-    "WebDriver",
-    "appium",
-    "native app",
-    "hybrid",
-    "android",
-    "ios"
-  ],
-  "bugs": {
-    "url": ""
-  },
-  "dependencies": {
-    "@wdio/selenium-standalone-service": "^5.12.1",
-    "chai": "^4.2.0",
-    "jasmine": "^3.4.0",
-    "json5": "^2.1.0",
-    "lodash": "^3.10.1"
-  },
-  "devDependencies": {
-    "@babel/cli": "^7.4.3",
-    "@babel/core": "^7.4.3",
-    "@babel/plugin-proposal-class-properties": "^7.5.5",
-    "@babel/polyfill": "^7.4.4",
-    "@babel/preset-env": "^7.4.3",
-    "@babel/register": "^7.4.0",
-    "@babel/traverse": "^7.4.3",
-    "@babel/types": "^7.4.0",
-    "@wdio/allure-reporter": "^5.12.1",
-    "@wdio/appium-service": "^5.7.9",
-    "@wdio/cli": "^5.7.12",
-    "@wdio/jasmine-framework": "^5.12.1",
-    "@wdio/local-runner": "^5.7.12",
-    "@wdio/sauce-service": "^5.7.8",
-    "@wdio/spec-reporter": "^5.7.9",
-    "@wdio/sync": "^5.7.9",
-    "babel-eslint": "^10.0.3",
-    "eslint": "^6.2.2",
-    "eslint-config-airbnb-base": "^14.0.0",
-    "eslint-config-standard": "^12.0.0",
-    "eslint-plugin-import": "^2.18.2",
-    "eslint-plugin-node": "^7.0.1",
-    "eslint-plugin-promise": "^4.1.1",
-    "eslint-plugin-standard": "^4.0.0",
-    "eslint-plugin-wdio": "^5.12.1",
-    "log4js": "^5.1.0",
-    "node-fetch": "^2.3.0",
-    "webdriverio": "^5.7.12"
-  }
+    "name": "shield",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+        "build": "gulp",
+        "preshield": "npm i && npm install --global gulp-cli && gulp",
+        "shield": "node artifacts/build/lib/cli",
+        "pretest": "npm i && npm install --global gulp-cli && gulp",
+        "test": "node_modules/@wdio/cli/bin/wdio.js ./configs/wdio.conf.js"
+    },
+    "author": "",
+    "license": "ISC",
+    "devDependencies": {
+        "@types/mocha": "^5.2.7",
+        "@wdio/appium-service": "^5.13.2",
+        "@wdio/cli": "^5.15.0",
+        "@wdio/local-runner": "^5.15.1",
+        "@wdio/mocha-framework": "^5.15.1",
+        "@wdio/reporter": "^5.14.5",
+        "@wdio/selenium-standalone-service": "^5.16.10",
+        "@wdio/spec-reporter": "^5.15.1",
+        "@wdio/sync": "^5.15.1",
+        "chai": "^4.2.0",
+        "chromedriver": "^76.0.0",
+        "del": "^5.1.0",
+        "fs-extra": "^8.1.0",
+        "gulp": "^4.0.2",
+        "gulp-cli": "^2.2.0",
+        "gulp-install": "^1.1.0",
+        "gulp-sourcemaps": "^2.6.5",
+        "gulp-tslint": "^8.1.4",
+        "gulp-typescript": "^5.0.1",
+        "json5": "^2.1.1",
+        "lodash": "^4.17.15",
+        "minimist": "^1.2.0",
+        "ts-node": "^8.4.1",
+        "tsconfig-paths": "^3.9.0",
+        "tslint": "^5.20.0",
+        "typescript": "^3.6.4",
+        "webdriverio": "^5.15.1"
+    },
+    "dependencies": {
+        "adm-zip": "^0.4.11",
+        "appium": "^1.16.0",
+        "create-output-stream": "0.0.1",
+        "klaw-sync": "^3.0.2",
+        "log4js": "^6.1.2"
+    },
+    "engines": {
+        "appium": "1.16.0",
+        "node": "10.12.0"
+    }
 }
