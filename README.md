@@ -123,17 +123,6 @@ Get Shield and its dependencies:
 (note 'npm i' does a node package manager install of all the packages as defined in the packages.json file.
 Once executed, it only need's to be re-executed if there is a change in packages.json file, or node_modules folder is deleted)
 
-Set up your individual Browser Labs credentials (Not needed if you use 'npm run test' commands with local platforms) :
-
-    cd configs
-    cp credentials.template.json5 credentials.json5
-
-Now edit `credentials.json5` with your browser Labs credentials. This file should be ignored by `git`, remain local to your set up, and should not be committed.
-
-If you don't have your own labs credentials, you can use Jared's account. Just don't touch any settings because this is the official automation account.
-LABS_USER: jaredjordan
-LABS_KEY: c4472bc7-16ad-4def-ab88-8143e6c82c82
-
 ## Shield File system
 
     ├── artifacts                       Reports, logs, screenshots, transpiled js

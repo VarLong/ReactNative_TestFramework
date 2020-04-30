@@ -19,7 +19,6 @@ File system
     ├── certificates                            Certificates of Operator,ohter certificates
     ├── chromedriver                            Chromedriver
     ├── capabilities.json5                      W3C webdriver Desired Capabilities. https://github.com/SeleniumHQ/selenium/wiki/DesiredCapabilities
-    ├── credentials.json5                       Browser Lab credential
     ├── deployments.json5                       
     ├── wdio.conf.js                            WebDriverIO MAIN config.
     └── wdio.default.json5                      WebDriverIO DEFAULT config.

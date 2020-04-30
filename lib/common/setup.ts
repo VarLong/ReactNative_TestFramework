@@ -5,10 +5,11 @@
 const querystring = require("querystring");
 
 export function begin(browser: any) {
-
+    console.log(`Setup begin pass.`);
 }
 
 export function end(browser: any, callback: Function) {
+    console.log(`Setup end pass.`);
     console.log("Get the sessionId: " + browser.sessionId);
     const sendLogs = (callback: Function) => {
         callback && typeof callback === "function" && callback();

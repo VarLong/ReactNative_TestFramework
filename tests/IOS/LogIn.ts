@@ -1,6 +1,6 @@
 import LandingPage from "../../lib/pages/LandingPage";
 
-describe("Login Reach Client on Chrome browser", () => {
+describe("Login on IOS", () => {
     const Tags = ["CI"];
     before(() => {
         console.log("-------------suite before");
@@ -10,7 +10,7 @@ describe("Login Reach Client on Chrome browser", () => {
         console.log("-------------suite after");
     });
 
-    it("should be able login successfully", () => {
+    it("Login successfully", () => {
         LandingPage.login();
     });
 

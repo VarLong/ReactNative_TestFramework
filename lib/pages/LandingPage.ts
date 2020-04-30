@@ -1,5 +1,4 @@
-import MenuBarComponent from "./Browser/MenuBarComponent";
-import YourPage2ft from "./Browser/YourPage2ft";
+
 const userAccountManager = require("../common/userAccountManager");
 const url = require("url");
 const querystring = require("querystring");
@@ -8,7 +7,8 @@ enum URLParameter {
     TLS = "?oauth=endusers",
     SKT = "?oauth=saml",
     CCX = "?oauth=genericendusers",
-    LIVE = "?oauth=liveid"
+    LIVE = "?oauth=liveid",
+    EMPTY = "",
 }
 class LandingPage {
     config = browser.config;
@@ -70,36 +70,10 @@ class LandingPage {
     }
 
     public setExtraUrlParams(url: string) {
-        // if (extraUrlParams.length > 0) {
-        //     const andStr = url.lastIndexOf("redirect_uri") > -1 ? "%26" : "&";
-
-        //     // Use "%3D" in 'redirect_uri'; or replace with "=" in url params
-        //     const extraUrlParamsString = url.lastIndexOf("redirect_uri") > -1 ? extraUrlParams.join(andStr) : extraUrlParams.join(andStr).replace(new RegExp("%3D", "gm"), "=");
-
-        //     // tlssso login url has no '?', while testsso and liveid login has '?'
-        //     url = url.lastIndexOf("?") > -1 ? (url + andStr + extraUrlParamsString) : (url + "?" + extraUrlParamsString);
-        // }
-
-        // if (extraUrlParamsPassedToSTS.length > 0) {
-        //     url += (url.lastIndexOf("?") > -1 ? "&" : "?") + extraUrlParamsPassedToSTS.join("&");
-        // }
         return url;
     }
 
     public verifyLogin() {
-        // if certificate based login - no additional credentials are required.
-        // browser.execute(() => {
-        //     return (<any>window).mstv.authentication.accountId;
-        // }, [], function (res: any) {
-        //     if (res.status === 0 && !!res.value) {
-        //         browser.assert.ok(res.value && res.value.length > 0, "User is logged in with account: " + res.value);
-        //     }
-        //     else {
-        //         console.log("User is not authenticated yet.");
-        //         this.certificateBasedLogin();
-        //     }
-        // });
-
         return this;
     }
 
@@ -155,8 +129,10 @@ class LandingPage {
             if (loginType === "TestSSO") {
                 const testssologin = userAccountManager.getTestAccount();
                 this.goToURLTestSSO().LoginWithAccount(this.testssoUserNameXpath, this.testssoPasswordXpath, this.testssoLoginXpath, testssologin.login, testssologin.password);
-            } else {
+            } else if (loginType === "LiveID") {
                 this.goToURL(URLParameter.LIVE).LoginWithLiveAccount(this.config.test_settings.testAccountID, this.config.test_settings.testAccountPassword);
+            } else {
+                this.goToURL(URLParameter.EMPTY);
             }
         } else {
             this.switchToWebContext();
@@ -167,8 +143,7 @@ class LandingPage {
         if (browser.isAndroid || browser.isIOS) {
             browser.switchContext("NATIVE_APP");
         }
-        MenuBarComponent.verifyMain();
-        YourPage2ft.verifyMain();
+
     }
 
     public login() {

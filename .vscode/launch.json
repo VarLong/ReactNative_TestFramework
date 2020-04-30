@@ -12,7 +12,7 @@
                 "--spec",
                 "artifacts/build/tests/Browser/LogInBrowser.js",
                 "--env",
-                "ofunk-local-chrome-windows"
+                "bilibili-local-chrome-windows"
             ],
             "autoAttachChildProcesses": true,
             "cwd": "${workspaceRoot}",
